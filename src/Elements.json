@@ -76,7 +76,7 @@
 	},
 	"Sulfur": {
 		"symbol": "S",
-		"atomicNumber": "16"
+		"atomicNumber": "16",
 		"atomicWeight": "32.060"
 	},
 	"Chlorine": {
@@ -88,7 +88,7 @@
 		"symbol": "Ar",
 		"atomicNumber": "18",
 		"atomicWeight": "39.948"
-	}
+	},
 	"Potassium": {
 		"symbol": "K",
 		"atomicNumber": "19",
