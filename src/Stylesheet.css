@@ -1,0 +1,19 @@
+.bordered {
+	border: 1px solid black;
+}
+
+.emptyBox {
+	background-color: white;
+}
+
+.asterisk {
+	font-size: 12px;
+}
+
+.lessDetailedAtomicNumber {
+	font-size: 20px;
+}
+
+.lessDetailedSymbol {
+	font-size: 15px;
+}
