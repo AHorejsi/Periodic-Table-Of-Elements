@@ -2,47 +2,6 @@
 
 import React from "react";
 
-
-class EmptyBox {
-	constructor(props) {
-		super(props);
-	}
-	
-	render() {
-		return (
-			<div className="emptyBox" />
-		);
-	}
-}
-
-class SingleAsteriskBox {
-	constructor(props) {
-		super(props);
-	}
-	
-	render() {
-		return (
-			<div className="emptyBox asterisk">
-				*
-			</div>
-		);
-	}
-}
-
-class DoubleAsteriskBox {
-	constructor(props) {
-		super(props);
-	}
-	
-	render() {
-		return (
-			<div className="emptyBox asterisk">
-				**
-			</div>
-		);
-	}
-}
-
 class LessDetailedAtomicElement {
 	constructor(props) {
 		super(props);
