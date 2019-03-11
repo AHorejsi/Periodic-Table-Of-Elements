@@ -2,10 +2,16 @@
 	border: 1px solid black;
 }
 
-.lessDetailedAtomicNumber {
-	font-size: 20px;
+.lessDetailed {
+	font-size: 10px;
+	text-align: center;
 }
 
-.lessDetailedSymbol {
+.moreDetailed {
 	font-size: 15px;
+	text-align: center;
+}
+
+.symbol {
+	font-weight: bold;
 }

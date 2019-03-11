@@ -2,6 +2,7 @@
 
 import React from "react";
 
+
 class LessDetailedAtomicElement {
 	constructor(props) {
 		super(props);
@@ -10,11 +11,11 @@ class LessDetailedAtomicElement {
 	render() {
 		return (
 			<div className="bordered">
-				<div className="lessDetailedAtomicNumber">
+				<div className="lessDetailed">
 					{this.props.atomicNumber}
 				</div>
 				
-				<div className="lessDetailedSymbol">
+				<div className="lessDetailed symbol">
 					{this.props.symbol}
 				</div>
 			</div>
@@ -28,7 +29,23 @@ class MoreDetailedAtomicElement {
 	}
 	
 	render() {
-		
+		<div className="bordered">
+			<div className="moreDetailed">
+				{this.props.atomicNumber}
+			</div>
+			
+			<div className="moreDetailed symbol">
+				{this.props.symbol}
+			</div>
+			
+			<div className="moreDetailed">
+				{this.props.elementName}
+			</div>
+			
+			<div className="moreDetailed">
+				{this.props.atomicWeight}
+			</div>
+		</div>
 	}
 }
 
@@ -38,8 +55,6 @@ class PeriodicTable {
 	}
 	
 	render() {
-		return (
-			
-		);
+		
 	}
 }
