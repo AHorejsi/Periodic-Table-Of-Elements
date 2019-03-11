@@ -2,21 +2,23 @@
 	border: 1px solid black;
 }
 
+.centered {
+	text-align: center;
+}
+
 .lessDetailed {
 	font-size: 10px;
-	text-align: center;
 }
 
 .moreDetailed {
 	font-size: 15px;
-	text-align: center;
 }
 
-.symbol {
+.bolded {
 	font-weight: bold;
 }
 
-/* Beginning of Colors for different kinds of elements */
+/* Begin of Colors for different kinds of elements */
 .alkali {
 	background-color: rgb(255, 213, 100); 
 }
@@ -34,7 +36,7 @@
 }
 
 .transition-metal {
-	background-color: rgb(238, 204, 204);
+	background-color: rgb(243, 116, 228);
 }
 
 .post-transition-metal {
@@ -50,7 +52,7 @@
 }
 
 .noble-gas {
-	background-color: rgb(100, 218, 247);
+	background-color: rgb(137, 144, 246);
 }
 
 .no-kind {
@@ -58,10 +60,24 @@
 }
 /* End of Colors for different kinds of elements */
 
+/* Begin of classes for element legend */
 .legendTop {
-	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .legendSide {
 	border-right: 1px solid black;
 }
+
+.legendBox {
+	padding: 0.1em 0.5em 0.1em 0.5em;
+}
+
+.columnPadding {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.boxPadding {
+	padding-right: 0.5em;
+}
+/* End of class for element legend */

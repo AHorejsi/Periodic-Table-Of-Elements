@@ -12,11 +12,94 @@ class ElementLegend extends React.Component {
 		return (
 			<table className="bordered">
 				<tr className="legendTop">
-					<td>"Metals"</td>
-					<td>"Nonmetals"</td>
-					<td>"Other"</td>
+					<td className="legendSide centered columnPadding bolded">Metals</td>
+					<td className="legendSide centered columnPadding bolded">Nonmetals</td>
+					<td className="centered columnPadding bolded">Other</td>
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered alkali legendBox" />
+						</span>
+						Alkali metals
+					</td>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered noble-gas legendBox" />
+						</span>
+						Noble gases
+					</td>
+					<td className="columnPadding">
+						<span className="boxPadding">
+							<span className="bordered metalloid legendBox" />
+						</span>
+						Metalloids
+					</td>
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered alkaline legendBox" />
+						</span>
+						Alkaline metals
+					</td>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered nonmetal legendBox" />
+						</span>
+						Other nonmetals
+					</td>
+					<td />
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered lanthanoid legendBox" />
+						</span>
+						Lanthanoid
+					</td>
+					<td className="legendSide" />
+					<td />
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered actinoid legendBox" />
+						</span>
+						Actinoid
+					</td>
+					<td className="legendSide" />
+					<td />
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered transition-metal legendBox" />
+						</span>
+						Transition metals
+					</td>
+					<td className="legendSide" />
+					<td />
+				</tr>
+				
+				<tr>
+					<td className="legendSide columnPadding">
+						<span className="boxPadding">
+							<span className="bordered post-transition-metal legendBox" />
+						</span>
+						Post-transition metals
+					</td>
+					<td className="legendSide" />
+					<td />
 				</tr>
 			</table>
 		);
 	}
 }
+
+export default ElementLegend;
