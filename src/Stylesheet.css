@@ -15,3 +15,39 @@
 .symbol {
 	font-weight: bold;
 }
+
+.alkali {
+	background-color: rgb(255, 213, 100); 
+}
+
+.alkaline {
+	background-color: rgb(255, 253, 130);
+}
+
+.lanthanoid {
+	background-color: rgb(255, 204, 154);
+}
+
+.actinoid {
+	background-color: rgb(249, 191, 255);
+}
+
+.transition-metal {
+	background-color: rgb(238, 204, 204);
+}
+
+.post-transition-metal {
+	background-color: rgb(136, 238, 221);
+}
+
+.metalloid {
+	background-color: rgb(53, 191, 28);
+}
+
+.nonmetal {
+	background-color: rgb(122, 247, 100);
+}
+
+.noble-gas {
+	background-color: rgb(100, 218, 247);
+}

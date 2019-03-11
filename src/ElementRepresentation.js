@@ -2,15 +2,14 @@
 
 import React from "react";
 
-
-class LessDetailedAtomicElement {
+class LessDetailedAtomicElement extends React.Component {
 	constructor(props) {
 		super(props);
 	}
 	
-	render() {
+	render() {		
 		return (
-			<div className="bordered">
+			<div className={"bordered " + this.props.type}>
 				<div className="lessDetailed">
 					{this.props.atomicNumber}
 				</div>
@@ -23,28 +22,32 @@ class LessDetailedAtomicElement {
 	}
 }
 
-class MoreDetailedAtomicElement {
+class MoreDetailedAtomicElement extends React.Component {
 	constructor(props) {
 		super(props);
 	}
 	
-	render() {
-		<div className="bordered">
-			<div className="moreDetailed">
-				{this.props.atomicNumber}
+	render() {	
+		return (
+			<div className={"bordered " + this.props.type}>
+				<div className="moreDetailed">
+					{this.props.atomicNumber}
+				</div>
+				
+				<div className="moreDetailed symbol">
+					{this.props.symbol}
+				</div>
+				
+				<div className="moreDetailed">
+					{this.props.elementName}
+				</div>
+				
+				<div className="moreDetailed">
+					{this.props.atomicWeight}
+				</div>
 			</div>
-			
-			<div className="moreDetailed symbol">
-				{this.props.symbol}
-			</div>
-			
-			<div className="moreDetailed">
-				{this.props.elementName}
-			</div>
-			
-			<div className="moreDetailed">
-				{this.props.atomicWeight}
-			</div>
-		</div>
+		);
 	}
 }
+
+export {LessDetailedAtomicElement, MoreDetailedAtomicElement}

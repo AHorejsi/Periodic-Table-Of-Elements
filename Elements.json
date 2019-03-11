@@ -9,7 +9,7 @@
 		"symbol": "He",
 		"atomicNumber": "2",
 		"atomicWeight": "4.003",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"lithium": {
 		"symbol": "Li",
@@ -57,7 +57,7 @@
 		"symbol": "Ne",
 		"atomicNumber": "10",
 		"atomicWeight": "20.180",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"sodium": {
 		"symbol": "Na",
@@ -75,7 +75,7 @@
 		"symbol": "Al",
 		"atomicNumber": "13",
 		"atomicWeight": "26.982",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"silicon": {
 		"symbol": "Si",
@@ -105,7 +105,7 @@
 		"symbol": "Ar",
 		"atomicNumber": "18",
 		"atomicWeight": "39.948",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"potassium": {
 		"symbol": "K",
@@ -123,67 +123,67 @@
 		"symbol": "Sc",
 		"atomicNumber": "21",
 		"atomicWeight": "44.956",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"titanium": {
 		"symbol": "Ti",
 		"atomicNumber": "22",
 		"atomicWeight": "47.867",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"vanadium": {
 		"symbol": "V",
 		"atomicNumber": "23",
 		"atomicWeight": "50.942",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"chromium": {
 		"symbol": "Cr",
 		"atomicNumber": "24",
 		"atomicWeight": "51.996",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"manganese": {
 		"symbol": "Mn",
 		"atomicNumber": "25",
 		"atomicWeight": "54.938",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"iron": {
 		"symbol": "Fe",
 		"atomicNumber": "26",
 		"atomicWeight": "55.845",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"cobalt": {
 		"symbol": "Co",
 		"atomicNumber": "27",
 		"atomicWeight": "58.933",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"nickel": {
 		"symbol": "Ni",
 		"atomicNumber": "28",
 		"atomicWeight": "58.693",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"copper": {
 		"symbol": "Cu",
 		"atomicNumber": "29",
 		"atomicWeight": "63.546",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"zinc": {
 		"symbol": "Zn",
 		"atomicNumber": "30",
 		"atomicWeight": "65.380",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"gallium": {
 		"symbol": "Ga",
 		"atomicNumber": "31",
 		"atomicWeight": "69.723",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"germanium": {
 		"symbol": "Ge",
@@ -213,7 +213,7 @@
 		"symbol": "Kr",
 		"atomicNumber": "36",
 		"atomicWeight": "83.798",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"rubidium": {
 		"symbol": "Rb",
@@ -231,73 +231,73 @@
 		"symbol": "Y",
 		"atomicNumber": "39",
 		"atomicWeight": "88.906",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"zirconium": {
 		"symbol": "Zr",
 		"atomicNumber": "40",
 		"atomicWeight": "91.224",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"niobium": {
 		"symbol": "Nb",
 		"atomicNumber": "41",
 		"atomicWeight": "92.906",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"molybdenur": {
 		"symbol": "Mo",
 		"atomicNumber": "42",
 		"atomicWeight": "95.950",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"technetium": {
 		"symbol": "Tc",
 		"atomicNumber": "43",
 		"atomicWeight": "[98]"
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"ruthenium": {
 		"symbol": "Ru",
 		"atomicNumber": "44",
 		"atomicWeight": "101.070",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"rhodium": {
 		"symbol": "Rh",
 		"atomicNumber": "45",
 		"atomicWeight": "102.910",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"palladium": {
 		"symbol": "Pd",
 		"atomicNumber": "46",
 		"atomicWeight": "106.420",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"silver": {
 		"symbol": "Ag",
 		"atomicNumber": "47",
 		"atomicWeight": "107.870",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"cadmium": {
 		"symbol": "Cd",
 		"atomicNumber": "48",
 		"atomicWeight": "112.410",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"indium": {
 		"symbol": "In",
 		"atomicNumber": "49",
 		"atomicWeight": "114.820",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"tin": {
 		"symbol": "Sn",
 		"atomicNumber": "50",
 		"atomicWeight": "118.710",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"antimony": {
 		"symbol": "Sb",
@@ -321,7 +321,7 @@
 		"symbol": "Xe",
 		"atomicNumber": "54",
 		"atomicWeight": "131.290",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"caesium": {
 		"symbol": "Cs",
@@ -429,79 +429,79 @@
 		"symbol": "Hf",
 		"atomicNumber": "72"
 		"atomicWeight": "178.490",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"tantalum": {
 		"symbol": "Ta",
 		"atomicNumber": "73",
 		"atomicWeight": "180.950",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"tungsten": {
 		"symbol": "W",
 		"atomicNumber": "74",
 		"atomicWeight": "183.840",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"rhenium": {
 		"symbol": "Re",
 		"atomicNumber": "75",
 		"atomicWeight": "186.210",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"osmium": {
 		"symbol": "Os",
 		"atomicNumber": "76",
 		"atomicWeight": "190.230",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"iridium": {
 		"symbol": "Ir",
 		"atomicNumber": "77",
 		"atomicWeight": "192.220",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"platinum": {
 		"symbol": "Pt",
 		"atomicNumber": "78",
 		"atomicWeight": "195.080",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"gold": {
 		"symbol": "Au",
 		"atomicNumber": "79",
 		"atomicWeight": "196.970",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"mercury": {
 		"symbol": "Hg",
 		"atomicNumber": "80",
 		"atomicWeight": "200.590",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"thallium": {
 		"symbol": "Tl",
 		"atomicNumber": "81",
 		"atomicWeight": "204.380",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"lead": {
 		"symbol": "Pb",
 		"atomicNumber": "82",
 		"atomicWeight": "207.200",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"bismuth": {
 		"symbol": "Bi",
 		"atomicNumber": "83",
 		"atomicWeight": "208.980",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"polonium": {
 		"symbol": "Po",
 		"atomicNumber": "84",
 		"atomicWeight": "[209]",
-		"type": "post-transition metal"
+		"type": "post-transition-metal"
 	},
 	"astatine": {
 		"symbol": "At",
@@ -513,7 +513,7 @@
 		"symbol": "Rn",
 		"atomicNumber": "86",
 		"atomicWeight": "[222]",
-		"type": "noble gas"
+		"type": "noble-gas"
 	},
 	"francium": {
 		"symbol": "Fr",
@@ -621,31 +621,31 @@
 		"symbol": "Rf",
 		"atomicNumber": "104",
 		"atomicWeight": "[267]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"dubnium": {
 		"symbol": "Db",
 		"atomicNumber": "105",
 		"atomicWeight": "[268]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"seaborgium": {
 		"symbol": "Sg",
 		"atomicNumber": "106",
 		"atomicWeight": "[269]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"bohrium": {
 		"symbol": "Bh",
 		"atomicNumber": "107",
 		"atomicWeight": "[270]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"hassium": {
 		"symbol": "Hs",
 		"atomicNumber": "108",
 		"atomicWeight": "[270]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"meitnerium": {
 		"symbol": "Mt",
@@ -669,7 +669,7 @@
 		"symbol": "Cn",
 		"atomicNumber": "112",
 		"atomicWeight": "[285]",
-		"type": "transition metal"
+		"type": "transition-metal"
 	},
 	"nihonium": {
 		"symbol": "Nh",
