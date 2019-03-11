@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ElementPhaseTable from "./ElementPhases";
 import "./Stylesheet.css";
+import SliderCollection from "./Sliders";
 
-ReactDOM.render(<ElementPhaseTable />, document.getElementById("app"));
+ReactDOM.render(<SliderCollection />, document.getElementById("app"));

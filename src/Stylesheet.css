@@ -22,7 +22,7 @@
 
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
-	background-color: rgb(255, 212, 127); 
+    background-color: rgb(255, 212, 127); 
 }
 
 .alkaline {
@@ -138,5 +138,14 @@
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
-
 /* End of classes for colors indicating phases */
+
+/* Begin of classes for sliders */
+.generalSlider {
+    
+}
+
+.valueBox {
+    width: 3em;
+}
+/* End of classes for sliders */

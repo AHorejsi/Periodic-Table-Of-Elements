@@ -8,10 +8,8 @@ class PeriodicTable extends React.Component {
 		super(props);
 	}
 	
-	render() {
-		let json = JSON.parse(this.props.jsonData);
-		
-		
+    render() {
+
  	}
 }
 
