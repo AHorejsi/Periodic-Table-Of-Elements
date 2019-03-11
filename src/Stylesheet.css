@@ -99,7 +99,7 @@
 
 .numberColumn {
 	padding: 0.5em 0.25em 0.5em 0.25em;
-	border-color: rgb(203, 236, 230) white rgb(203, 236, 230);
+	border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
 /* End of classes for number positions */
 

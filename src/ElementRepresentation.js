@@ -8,15 +8,23 @@ class LessDetailedAtomicElement extends React.Component {
 	
 	render() {		
 		return (
-			<div className={"bordered " + this.props.type}>
-				<div className="lessDetailed centered">
-					{this.props.atomicNumber}
-				</div>
+            <div className={"bordered " + this.props.type}>
+                <div className="lessDetailed centered">
+                    {this.props.atomicNumber}
+                </div>
 
                 <div className="elementSymbol lessDetailed bolded centered">
-					{this.props.symbol}
-				</div>
-			</div>
+                    {this.props.symbol}
+                </div>
+
+                <div className="lessDetailed centered">
+                    {this.props.elementName}
+                </div>
+
+                <div className="lessDetailed centered">
+                    {this.props.atomicWeight}
+                </div>
+            </div>
 		);
 	}
 }
@@ -27,24 +35,8 @@ class MoreDetailedAtomicElement extends React.Component {
 	}
 	
 	render() {	
-		return (
-			<div className={"bordered " + this.props.type}>
-				<div className="moreDetailed centered">
-					{this.props.atomicNumber}
-				</div>
-				
-                <div className="elementSymbol moreDetailed bolded centered">
-					{this.props.symbol}
-				</div>
-				
-				<div className="moreDetailed centered">
-					{this.props.elementName}
-				</div>
-				
-				<div className="moreDetailed centered">
-					{this.props.atomicWeight}
-				</div>
-			</div>
+        return (
+
 		);
 	}
 }
