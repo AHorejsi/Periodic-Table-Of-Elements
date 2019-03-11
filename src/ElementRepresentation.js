@@ -3,8 +3,8 @@ import React from "react";
 
 class LessDetailedAtomicElement extends React.Component {
 	constructor(props) {
-		super(props);
-	}
+        super(props);
+    }
 	
 	render() {		
 		return (
@@ -12,8 +12,8 @@ class LessDetailedAtomicElement extends React.Component {
 				<div className="lessDetailed centered">
 					{this.props.atomicNumber}
 				</div>
-				
-				<div className="lessDetailed bolded centered">
+
+                <div className="elementSymbol lessDetailed bolded centered">
 					{this.props.symbol}
 				</div>
 			</div>
@@ -23,7 +23,7 @@ class LessDetailedAtomicElement extends React.Component {
 
 class MoreDetailedAtomicElement extends React.Component {
 	constructor(props) {
-		super(props);
+        super(props);
 	}
 	
 	render() {	
@@ -33,7 +33,7 @@ class MoreDetailedAtomicElement extends React.Component {
 					{this.props.atomicNumber}
 				</div>
 				
-				<div className="moreDetailed bolded centered">
+                <div className="elementSymbol moreDetailed bolded centered">
 					{this.props.symbol}
 				</div>
 				

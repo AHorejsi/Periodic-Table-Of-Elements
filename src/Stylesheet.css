@@ -103,49 +103,6 @@
 }
 /* End of classes for number positions */
 
-/* Begin of classes for colors indicating phases */
-.phaseElement {
-    font-size: 1.5em;
-}
+/* Begin of classes for grid layout */
 
-.solid {
-    color: black;
-    padding-left: 0.31em;
-    padding-right: 0.31em;
-}
-
-.liquid {
-    color: blue;
-    padding-left: 0.33em;
-    padding-right: 0.33em;
-}
-
-.gas {
-    color: rgb(153, 0, 0);
-    padding-left: 0.25em;
-    padding-right: 0.25em;
-}
-
-.unknown {
-    color: rgb(102, 119, 102);
-}
-
-.phaseBorder {
-    border: 3px solid black;
-}
-
-.phaseDiv {
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
-/* End of classes for colors indicating phases */
-
-/* Begin of classes for sliders */
-.generalSlider {
-    
-}
-
-.valueBox {
-    width: 3em;
-}
-/* End of classes for sliders */
+/* End of classes for grid layout */
