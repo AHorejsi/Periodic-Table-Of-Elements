@@ -14,5 +14,5 @@ xmlHttp.onreadystatechange = function() {
 	}
 };
 
-xmlHttp.open("GET", "C:/Users/alexh/Desktop/periodic-table/src/Elements.json", true);
+xmlHttp.open("GET", "./src/Elements.json", true);
 xmlHttp.send();
