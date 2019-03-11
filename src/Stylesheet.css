@@ -20,7 +20,7 @@
 }
 /* End of classes for the representation of individual elements */
 
-/* Begin of colors for different kinds of elements */
+/* Begin of classes for colors of different kinds of elements */
 .alkali {
 	background-color: rgb(255, 213, 100); 
 }
@@ -60,7 +60,7 @@
 .no-kind {
 	background-color: rgb(220, 220, 220);
 }
-/* End of colors for different kinds of elements */
+/* End of classes for colors of different kinds of elements */
 
 /* Begin of classes for element legend */
 .legendTop {
@@ -102,3 +102,7 @@
 	border-color: rgb(203, 236, 230) white rgb(203, 236, 230);
 }
 /* End of classes for number positions */
+
+/* Begin of classes for periodic table */
+
+/* End of classes for periodic table */
