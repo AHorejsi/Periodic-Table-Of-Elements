@@ -2,7 +2,9 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import {LessDetailedAtomicElement, MoreDetailedAtomicElement} from "./ElementRepresentation";
-import ElementLegend from "./ElementLegend";
-import {NumberRow, NumberColumn} from "./NumberPositions";
+import PeriodicTable from "./PeriodicTable";
 import "./Stylesheet.css";
+
+window.onload = function() {
+	ReactDOM.render(<PeriodicTable />, document.getElementById("root"));
+}

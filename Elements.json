@@ -254,7 +254,7 @@
 	"technetium": {
 		"symbol": "Tc",
 		"atomicNumber": "43",
-		"atomicWeight": "[98]"
+		"atomicWeight": "[98]",
 		"type": "transition-metal"
 	},
 	"ruthenium": {
@@ -427,7 +427,7 @@
 	},
 	"hafnium": {
 		"symbol": "Hf",
-		"atomicNumber": "72"
+		"atomicNumber": "72",
 		"atomicWeight": "178.490",
 		"type": "transition-metal"
 	},

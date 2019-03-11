@@ -102,4 +102,4 @@ class ElementLegend extends React.Component {
 	}
 }
 
-export default ElementLegend;
+export default ElementLegend
