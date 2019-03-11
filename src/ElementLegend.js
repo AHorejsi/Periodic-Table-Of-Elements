@@ -12,25 +12,25 @@ class ElementLegend extends React.Component {
 		return (
 			<table className="bordered">
 				<tr className="legendTop">
-					<td className="legendSide centered columnPadding bolded">Metals</td>
-					<td className="legendSide centered columnPadding bolded">Nonmetals</td>
-					<td className="centered columnPadding bolded">Other</td>
+					<td className="legendSide centered tablePadding bolded">Metals</td>
+					<td className="legendSide centered tablePadding bolded">Nonmetals</td>
+					<td className="centered tablePadding bolded">Other</td>
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered alkali legendBox" />
 						</span>
 						Alkali metals
 					</td>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered noble-gas legendBox" />
 						</span>
 						Noble gases
 					</td>
-					<td className="columnPadding">
+					<td className="tablePadding">
 						<span className="boxPadding">
 							<span className="bordered metalloid legendBox" />
 						</span>
@@ -39,13 +39,13 @@ class ElementLegend extends React.Component {
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered alkaline legendBox" />
 						</span>
 						Alkaline metals
 					</td>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered nonmetal legendBox" />
 						</span>
@@ -55,7 +55,7 @@ class ElementLegend extends React.Component {
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered lanthanoid legendBox" />
 						</span>
@@ -66,7 +66,7 @@ class ElementLegend extends React.Component {
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered actinoid legendBox" />
 						</span>
@@ -77,7 +77,7 @@ class ElementLegend extends React.Component {
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered transition-metal legendBox" />
 						</span>
@@ -88,7 +88,7 @@ class ElementLegend extends React.Component {
 				</tr>
 				
 				<tr>
-					<td className="legendSide columnPadding">
+					<td className="legendSide tablePadding">
 						<span className="boxPadding">
 							<span className="bordered post-transition-metal legendBox" />
 						</span>
