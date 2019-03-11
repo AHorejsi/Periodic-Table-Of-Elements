@@ -12,5 +12,5 @@ xmlHttp.onreadystatechange = function() {
 	}
 };
 
-xmlHttp.open("GET", "./src/Elements.json", true);
+xmlHttp.open("GET", "./periodic-table/Elements.json", true);
 xmlHttp.send();
