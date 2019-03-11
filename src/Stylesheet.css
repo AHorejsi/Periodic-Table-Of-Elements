@@ -85,8 +85,20 @@
 /* End of classes for element legend */
 
 /* Begin of classes for number positions */
-.numberRowPadding {
+.number {
+	border-style: solid;
+	border-width: 0.05em;
+	font-size: 1.5em;
+}
+
+.numberRow {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+	border-color: white rgb(203, 236, 230) white rgb(203, 236, 230);
+}
+
+.numberColumn {
+	padding: 0.5em 0.25em 0.5em 0.25em;
+	border-color: rgb(203, 236, 230) white rgb(203, 236, 230);
 }
 /* End of classes for number positions */
