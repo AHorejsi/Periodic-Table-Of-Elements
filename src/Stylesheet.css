@@ -6,19 +6,21 @@
 	text-align: center;
 }
 
-.lessDetailed {
-	font-size: 10px;
-}
-
-.moreDetailed {
-	font-size: 15px;
-}
-
 .bolded {
 	font-weight: bold;
 }
 
-/* Begin of Colors for different kinds of elements */
+/* Begin of classes for the representation of individual elements */
+.lessDetailed {
+	font-size: 1em;
+}
+
+.moreDetailed {
+	font-size: 2em;
+}
+/* End of classes for the representation of individual elements */
+
+/* Begin of colors for different kinds of elements */
 .alkali {
 	background-color: rgb(255, 213, 100); 
 }
@@ -58,7 +60,7 @@
 .no-kind {
 	background-color: rgb(220, 220, 220);
 }
-/* End of Colors for different kinds of elements */
+/* End of colors for different kinds of elements */
 
 /* Begin of classes for element legend */
 .legendTop {
@@ -80,4 +82,11 @@
 .boxPadding {
 	padding-right: 0.5em;
 }
-/* End of class for element legend */
+/* End of classes for element legend */
+
+/* Begin of classes for number positions */
+.numberRowPadding {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+/* End of classes for number positions */
