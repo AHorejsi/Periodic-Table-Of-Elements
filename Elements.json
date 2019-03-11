@@ -651,19 +651,19 @@
 		"symbol": "Mt",
 		"atomicNumber": "109",
 		"atomicWeight": "[278]",
-		"type": null
+		"type": "no-kind"
 	},
 	"darmstadtium": {
 		"symbol": "Ds",
 		"atomicNumber": "110",
 		"atomicWeight": "[281]",
-		"type": null
+		"type": "no-kind"
 	},
 	"roentgenium": {
 		"symbol": "Rg",
 		"atomicNumber": "111",
 		"atomicWeight": "[282]",
-		"type": null
+		"type": "no-kind"
 	},
 	"copernicium": {
 		"symbol": "Cn",
@@ -675,36 +675,36 @@
 		"symbol": "Nh",
 		"atomicNumber": "113",
 		"atomicWeight": "[286]",
-		"type": null
+		"type": "no-kind"
 	},
 	"flerovium": {
 		"symbol": "Fl",
 		"atomicNumber": "114",
 		"atomicWeight": "[289]",
-		"type": null
+		"type": "no-kind"
 	},
 	"moscovium": {
 		"symbol": "Mc",
 		"atomicNumber": "115",
 		"atomicWeight": "[290]",
-		"type": null
+		"type": "no-kind"
 	},
 	"livermorium": {
 		"symbol": "Lv",
 		"atomicNumber": "116",
 		"atomicWeight": "[293]",
-		"type": null
+		"type": "no-kind"
 	},
 	"tennessine": {
 		"symbol": "Ts",
 		"atomicNumber": "117",
 		"atomicWeight": "[294]",
-		"type": null
+		"type": "no-kind"
 	},
 	"oganesson": {
 		"symbol": "Og",
 		"atomicNumber": "118",
 		"atomicWeight": "[294]",
-		"type": null
+		"type": "no-kind"
 	}
 }

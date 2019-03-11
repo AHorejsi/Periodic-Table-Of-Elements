@@ -16,6 +16,7 @@
 	font-weight: bold;
 }
 
+/* Beginning of Colors for different kinds of elements */
 .alkali {
 	background-color: rgb(255, 213, 100); 
 }
@@ -52,6 +53,15 @@
 	background-color: rgb(100, 218, 247);
 }
 
-.null {
+.no-kind {
 	background-color: rgb(220, 220, 220);
+}
+/* End of Colors for different kinds of elements */
+
+.legendTop {
+	border-top: 1px solid black;
+}
+
+.legendSide {
+	border-right: 1px solid black;
 }
