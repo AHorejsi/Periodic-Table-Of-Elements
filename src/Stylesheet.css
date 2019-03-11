@@ -22,39 +22,39 @@
 
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
-	background-color: rgb(255, 213, 100); 
+	background-color: rgb(255, 212, 127); 
 }
 
 .alkaline {
-	background-color: rgb(255, 253, 130);
+    background-color: rgb(255, 255, 127);
 }
 
 .lanthanoid {
-	background-color: rgb(255, 204, 154);
+    background-color: rgb(255, 212, 195);
 }
 
 .actinoid {
-	background-color: rgb(249, 191, 255);
+    background-color: rgb(238, 212, 229);
 }
 
 .transition-metal {
-	background-color: rgb(243, 116, 228);
+    background-color: rgb(238, 204, 204);
 }
 
 .post-transition-metal {
-	background-color: rgb(136, 238, 221);
+    background-color: rgb(136, 238, 221);
 }
 
 .metalloid {
-	background-color: rgb(53, 191, 28);
+    background-color: rgb(136, 221, 153);
 }
 
 .nonmetal {
-	background-color: rgb(122, 247, 100);
+    background-color: rgb((127, 246, 127);
 }
 
 .noble-gas {
-	background-color: rgb(137, 144, 246);
+    background-color: rgb(195, 212, 255);
 }
 
 .no-type {
