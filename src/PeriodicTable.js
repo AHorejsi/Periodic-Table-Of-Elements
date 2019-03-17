@@ -1,6 +1,8 @@
 import React from "react";
-import { NumberRow, NumberColumn } from "./NumberPositions";
-import {LessDetailedAtomicElement, MoreDetailedAtomicElement} from "./ElementRepresentation";
+import {NumberRow, NumberColumn} from "./NumberPositions";
+import AtomicElement from "./ElementRepresentation";
+import ElementLegend from "./ElementLegend";
+import DetailedElement from "./DetailedElement";
 
 
 class PeriodicTable extends React.Component {
@@ -10,13 +12,7 @@ class PeriodicTable extends React.Component {
 
     render() {		
         return (
-            <div className="grid">
-                <div className="columnNumbers">
-                    <NumberRow />
-                </div>
-                <div className="rowNumbers">
-                    <NumberColumn />
-                </div>
+            <div>
             </div>
         );
     }

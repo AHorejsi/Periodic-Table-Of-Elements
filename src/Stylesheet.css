@@ -10,16 +10,6 @@
 	font-weight: bold;
 }
 
-/* Begin of classes for the representation of individual elements */
-.lessDetailed {
-	font-size: 1em;
-}
-
-.moreDetailed {
-	font-size: 2em;
-}
-/* End of classes for the representation of individual elements */
-
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -80,7 +70,7 @@
 }
 
 .boxPadding {
-	padding-right: 0.5em;
+	padding-right: 0.1em;
 }
 /* End of classes for element legend */
 
@@ -105,30 +95,12 @@
 }
 
 .numberColumn {
-	padding: 0.7em 1.1em 0.7em 1.1em;
+	padding: 0.5em 0.7em 0.5em 0.7em;
     border-width: 0.05em;
 	border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
 /* End of classes for number positions */
 
 /* Begin of classes for grid layout */
-.grid {
-    display: grid;
-    background-color: black;
-}
 
-.columnNumbers {
-    grid-column: 2 / 19;
-    background-color: white;
-}
-
-.rowNumbers {
-    grid-row: 2 / 8;
-    background-color: white;
-}
-
-#hydrogen {
-    grid-row: 2 / 2;
-    grid-column: 2 / 2;
-}
 /* End of classes for grid layout */

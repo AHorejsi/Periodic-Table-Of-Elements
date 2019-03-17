@@ -8,8 +8,8 @@ class ElementLegend extends React.Component {
 	
 	render() {
 		return (
-			<table className="bordered">
-				<thead>
+			<table className="panel">
+				<thead className="panel-heading">
 					<tr className="legendTop">
 						<th className="legendSide centered tablePadding bolded">Metals</th>
 						<th className="legendSide centered tablePadding bolded">Nonmetals</th>
@@ -17,40 +17,45 @@ class ElementLegend extends React.Component {
 					</tr>
 				</thead>
 				
-				<tbody>
+				<tbody className="panel-body">
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered alkali legendBox" />
+                                <span className="bordered alkali legendBox">
+                                    Alkali metals
+                                </span>
 							</span>
-							Alkali metals
 						</td>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered noble-gas legendBox" />
+                                <span className="bordered noble-gas legendBox">
+                                    Noble gases
+                                </span>
 							</span>
-							Noble gases
 						</td>
 						<td className="tablePadding">
 							<span className="boxPadding">
-								<span className="bordered metalloid legendBox" />
+                                <span className="bordered metalloid legendBox">
+                                    Metalloids
+                                </span>
 							</span>
-							Metalloids
 						</td>
 					</tr>
 					
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered alkaline legendBox" />
+                                <span className="bordered alkaline legendBox">
+                                    Alkaline metals
+                                </span>
 							</span>
-							Alkaline metals
 						</td>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered nonmetal legendBox" />
+                                <span className="bordered nonmetal legendBox">
+                                    Other nonmetals
+                                </span>
 							</span>
-							Other nonmetals
 						</td>
 						<td />
 					</tr>
@@ -58,9 +63,10 @@ class ElementLegend extends React.Component {
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered lanthanoid legendBox" />
+                                <span className="bordered lanthanoid legendBox">
+                                    Lanthanoid
+                                </span>
 							</span>
-							Lanthanoid
 						</td>
 						<td className="legendSide" />
 						<td />
@@ -69,9 +75,10 @@ class ElementLegend extends React.Component {
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered actinoid legendBox" />
+                                <span className="bordered actinoid legendBox">
+                                    Actinoid
+                                </span>
 							</span>
-							Actinoid
 						</td>
 						<td className="legendSide" />
 						<td />
@@ -80,9 +87,10 @@ class ElementLegend extends React.Component {
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered transition-metal legendBox" />
-							</span>
-							Transition metals
+                                <span className="bordered transition-metal legendBox">
+                                    Transition metals
+                                </span>
+							</span>							
 						</td>
 						<td className="legendSide" />
 						<td />
@@ -91,9 +99,10 @@ class ElementLegend extends React.Component {
 					<tr>
 						<td className="legendSide tablePadding">
 							<span className="boxPadding">
-								<span className="bordered post-transition-metal legendBox" />
+                                <span className="bordered post-transition-metal legendBox">
+                                    Post-transition metals
+                                </span>
 							</span>
-							Post-transition metals
 						</td>
 						<td className="legendSide" />
 						<td />

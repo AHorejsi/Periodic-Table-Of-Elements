@@ -1,15 +1,34 @@
 import React from "react";
 
 
-class LessDetailedAtomicElement extends React.Component {
+class AtomicElement extends React.Component {
 	constructor(props) {
         super(props);
     }
+
+    _renderMoreDetailedVersion(event) {
+        document.getElementById("detailedElement").setAttribute("class", this.props.type);
+        document.getElementById("detailedAtomicNumber").textContent = this.props.atomicNumber;
+        document.getElementById("detailedSymbol").textContent = this.props.symbol;
+        document.getElementById("detailedElementName").textContent = this.props.elementName.charAt(0).toUpperCase() +
+                                                                     this.props.elementName.substring(1);
+        document.getElementById("detailedAtomicWeight").textContent = this.props.atomicWeight;
+    }
+
+    _resetMoreDetailedVersion(event) {
+        document.getElementById("detailedElement").setAttribute("class", "");
+        document.getElementById("detailedAtomicNumber").textContent = "";
+        document.getElementById("detailedSymbol").textContent = "";
+        document.getElementById("detailedElementName").textContent = "";
+        document.getElementById("detailedAtomicWeight").textContent = "";
+    }
 	
-	render() {		
-		return (
-			<div className={"bordered " + this.props.type}>
-				<div className="lessDetailed centered">
+    render() {
+        return (
+            <div id={this.props.elementName} className={"bordered " + this.props.type}
+                onMouseOver={(event) => this._renderMoreDetailedVersion(event)}
+                onMouseOut={(event) => this._resetMoreDetailedVersion(event)}>
+				<div className="centered">
 					{this.props.atomicNumber}
 				</div>
 
@@ -21,32 +40,4 @@ class LessDetailedAtomicElement extends React.Component {
 	}
 }
 
-class MoreDetailedAtomicElement extends React.Component {
-	constructor(props) {
-        super(props);
-	}
-	
-	render() {	
-		return (
-			<div className={"bordered " + this.props.type}>
-				<div className="moreDetailed centered">
-					{this.props.atomicNumber}
-				</div>
-				
-                <div className="elementSymbol moreDetailed bolded centered">
-					{this.props.symbol}
-				</div>
-				
-				<div className="moreDetailed centered">
-					{this.props.elementName}
-				</div>
-				
-				<div className="moreDetailed centered">
-					{this.props.atomicWeight}
-				</div>
-			</div>
-		);
-	}
-}
-
-export {LessDetailedAtomicElement, MoreDetailedAtomicElement}
+export default AtomicElement
