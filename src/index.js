@@ -13,6 +13,5 @@ xmlHttp.onreadystatechange = () => {
 };
 
 xmlHttp.responseType = "text";
-xmlHttp.overrideMimeType("application/json");
 xmlHttp.open("GET", "./Elements.json", true);
 xmlHttp.send();

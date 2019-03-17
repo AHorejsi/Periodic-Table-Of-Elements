@@ -20,15 +20,15 @@ class NumberRow extends React.Component {
 						<td className="number numberRow bolded">7</td>
 						<td className="number numberRow bolded">8</td>
 						<td className="number numberRow bolded">9</td>
-						<td className="number numberRow bolded">10</td>
-						<td className="number numberRow bolded">11</td>
-						<td className="number numberRow bolded">12</td>
-						<td className="number numberRow bolded">13</td>
-						<td className="number numberRow bolded">14</td>
-						<td className="number numberRow bolded">15</td>
-						<td className="number numberRow bolded">16</td>
-						<td className="number numberRow bolded">17</td>
-						<td className="number numberRow bolded">18</td>
+                        <td className="number doubleDigitNumberRow bolded">10</td>
+                        <td className="number doubleDigitNumberRow bolded">11</td>
+                        <td className="number doubleDigitNumberRow bolded">12</td>
+                        <td className="number doubleDigitNumberRow bolded">13</td>
+                        <td className="number doubleDigitNumberRow bolded">14</td>
+                        <td className="number doubleDigitNumberRow bolded">15</td>
+                        <td className="number doubleDigitNumberRow bolded">16</td>
+                        <td className="number doubleDigitNumberRow bolded">17</td>
+                        <td className="number doubleDigitNumberRow bolded">18</td>
 					</tr>
 				</tbody>
 			</table>
@@ -43,8 +43,8 @@ class NumberColumn extends React.Component {
 	
 	render() {
 		return (
-			<table>
-				<tbody>
+            <table >
+                <tbody style={{ width: "0.05em" }}>
 					<tr>
 						<td className="number numberColumn bolded">1</td>
 					</tr>
