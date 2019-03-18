@@ -10,8 +10,7 @@ class AtomicElement extends React.Component {
         document.getElementById("detailedElement").setAttribute("class", this.props.type);
         document.getElementById("detailedAtomicNumber").textContent = this.props.atomicNumber;
         document.getElementById("detailedSymbol").textContent = this.props.symbol;
-        document.getElementById("detailedElementName").textContent = this.props.elementName.charAt(0).toUpperCase() +
-                                                                     this.props.elementName.substring(1);
+        document.getElementById("detailedElementName").textContent = this.props.elementName;
         document.getElementById("detailedAtomicWeight").textContent = this.props.atomicWeight;
     }
 
