@@ -12,7 +12,8 @@ class PeriodicTable extends React.Component {
 
     render() {		
         return (
-            <div>
+            <div className="grid">
+                <ElementLegend />
             </div>
         );
     }

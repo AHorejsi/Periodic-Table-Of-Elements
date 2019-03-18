@@ -53,14 +53,6 @@
 /* End of classes for colors of different kinds of elements */
 
 /* Begin of classes for element legend */
-.legendTop {
-	border-bottom: 1px solid black;
-}
-
-.legendSide {
-	border-right: 1px solid black;
-}
-
 .legendBox {
 	padding: 0.1em 0.5em 0.1em 0.5em;
 }
@@ -100,3 +92,9 @@
 	border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
 /* End of classes for number positions */
+
+/* Begin of classes for grid layout */
+.grid {
+    display: grid;
+}
+/* End of classes for grid layout */

@@ -44,7 +44,7 @@ class NumberColumn extends React.Component {
 	render() {
 		return (
             <table >
-                <tbody style={{ width: "0.05em" }}>
+                <tbody>
 					<tr>
 						<td className="number numberColumn bolded">1</td>
 					</tr>
