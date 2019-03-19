@@ -67,19 +67,38 @@
 /* End of classes for element legend */
 
 /* Begin of classes for number positions */
+.rowOfNumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.columnOfNumbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .number {
 	border-style: solid;
 	font-size: 1.5em;
 }
 
 .numberRow {
-    padding-left: 1.3em;
-    padding-right: 1.3em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
     border-width: 0.05em;
-    border-color: white rgb(203, 236, 230) white rgb(203, 236, 230);
+    border-color: white rgb(203, 236, 230) white white;
 }
 
 .doubleDigitNumberRow {
+    padding-left: 0.64em;
+    padding-right: 0.64em;
+    border-width: 0.05em;
+    border-color: white rgb(203, 236, 230) white white;
+}
+
+.firstRowNumber {
     padding-left: 0.8em;
     padding-right: 0.8em;
     border-width: 0.05em;
@@ -87,14 +106,30 @@
 }
 
 .numberColumn {
-	padding: 0.5em 0.7em 0.5em 0.7em;
+    padding: 0.3em 0.1em 0.3em 0.1em;
     border-width: 0.05em;
-	border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
+    border-color: white white rgb(203, 236, 230) white;
+}
+
+.firstColumnNumber {
+    padding: 0.3em 0.1em 0.3em 0.1em;
+    border-width: 0.05em;
+    border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
 /* End of classes for number positions */
 
 /* Begin of classes for grid layout */
 .grid {
     display: grid;
+}
+
+.columnNumbers {
+    grid-row: 1 / 1;
+    grid-column: 2 / 19;
+}
+
+.rowNumbers {
+    grid-row: 2 / 8;
+    grid-column: 1 / 1;
 }
 /* End of classes for grid layout */

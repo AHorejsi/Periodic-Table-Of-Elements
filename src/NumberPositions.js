@@ -6,32 +6,31 @@ class NumberRow extends React.Component {
 		super(props);
 	}
 	
-	render() {
-		return (
-			<table>
-				<tbody>
-					<tr>
-						<td className="number numberRow bolded">1</td>
-						<td className="number numberRow bolded">2</td>
-						<td className="number numberRow bolded">3</td>
-						<td className="number numberRow bolded">4</td>
-						<td className="number numberRow bolded">5</td>
-						<td className="number numberRow bolded">6</td>
-						<td className="number numberRow bolded">7</td>
-						<td className="number numberRow bolded">8</td>
-						<td className="number numberRow bolded">9</td>
-                        <td className="number doubleDigitNumberRow bolded">10</td>
-                        <td className="number doubleDigitNumberRow bolded">11</td>
-                        <td className="number doubleDigitNumberRow bolded">12</td>
-                        <td className="number doubleDigitNumberRow bolded">13</td>
-                        <td className="number doubleDigitNumberRow bolded">14</td>
-                        <td className="number doubleDigitNumberRow bolded">15</td>
-                        <td className="number doubleDigitNumberRow bolded">16</td>
-                        <td className="number doubleDigitNumberRow bolded">17</td>
-                        <td className="number doubleDigitNumberRow bolded">18</td>
-					</tr>
-				</tbody>
-			</table>
+    render() {
+        let html = [];
+
+        for (let index = 1; index <= 18; index++) {
+            let value;
+
+            if (index == 1) {
+                value = <div className="number firstRowNumber bolded centered">{index}</div>
+            } 
+            else if (index < 10) {
+                value = <div className="number numberRow bolded centered">{index}</div>
+            }
+            else {
+                value = <div className="number doubleDigitNumberRow bolded centered">{index}</div>;
+            }
+
+            html.push(value);
+        }
+
+        return (
+            <div className="columnNumbers">
+                <div className="rowOfNumbers">
+                    {html}
+                </div>
+            </div>
 		);
 	}
 }
@@ -41,33 +40,28 @@ class NumberColumn extends React.Component {
 		super(props);
 	}
 	
-	render() {
-		return (
-            <table >
-                <tbody>
-					<tr>
-						<td className="number numberColumn bolded">1</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">2</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">3</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">4</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">5</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">6</td>
-					</tr>
-					<tr>
-						<td className="number numberColumn bolded">7</td>
-					</tr>
-				</tbody>
-			</table>
+    render() {
+        let html = [];
+
+        for (let index = 1; index <= 7; index++) {
+            let value;
+
+            if (index == 1) {
+                value = <div className="number firstColumnNumber bolded centered">{index}</div>;
+            }
+            else {
+                value = <div className="number numberColumn bolded centered">{index}</div>;
+            }
+
+            html.push(value);
+        }
+
+        return (
+            <div className="rowNumbers">
+                <div className="columnOfNumbers">
+                    {html}
+                </div>
+            </div>
 		);
 	}
 }
