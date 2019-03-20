@@ -11,13 +11,13 @@ class TemperatureSlider extends React.Component {
     }
 
     _updateAtomicElementStates(event, sourceOfUpdate) {
-        /*let temperature = this._findTemperatureAndUpdateSlider(sourceOfUpdate);
+        let temperature = this._findTemperatureAndUpdateSlider(sourceOfUpdate);
         
-        for (elem of elemJSON) {
+        for (let elem of elemJSON) {
             let elemDiv = document.getElementById(elem);
             let phaseState = this._computePhaseState(elem, temperature);
             elemDiv.setAttribute("phase", phaseState);
-        }*/
+        }
     }
 
     _findTemperatureAndUpdateSlider(sourceOfUpdate) {
