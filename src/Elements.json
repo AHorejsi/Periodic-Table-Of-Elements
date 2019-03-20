@@ -5,6 +5,7 @@
     "atomicWeight": "1.008",
     "type": "nonmetal",
     "boilingPoint": 20.271,
+    "meltingPoint": 14.025,
     "row": 0,
     "column": 0
   },
@@ -14,6 +15,7 @@
 		"atomicWeight": "4.003",
     "type": "noble-gas",
     "boilingPoint": 4.222,
+    "meltingPoint": 0.95,
     "row": 0,
     "column": 17
 	},
@@ -23,6 +25,7 @@
 		"atomicWeight": "6.940",
     "type": "alkali",
     "boilingPoint": 1603,
+    "meltingPoint": 453.7,
     "row": 1,
     "column": 0
 	},
@@ -32,6 +35,7 @@
 		"atomicWeight": "9.012",
     "type": "alkaline",
     "boilingPoint": 2742,
+    "meltingPoint": 
     "row": 1,
     "column": 1
 	},
@@ -41,6 +45,7 @@
 		"atomicWeight": "10.810",
     "type": "metalloid",
     "boilingPoint": 4200,
+    "meltingPoint": 2573,
     "row": 1,
     "column": 12
 	},
@@ -50,6 +55,7 @@
 		"atomicWeight": "12.011",
     "type": "nonmetal",
     "boilingPoint": 4300,
+    "meltingPoint": 3773,
     "row": 1,
     "column": 13
 	},
@@ -59,6 +65,7 @@
 		"atomicWeight": "14.007",
     "type": "nonmetal",
     "boilingPoint": 77.355,
+    "meltingPoint": 63.14,
     "row": 1,
     "column": 14
 	},
@@ -68,6 +75,7 @@
     "atomicWeight": "15.999",
     "type": "nonmetal",
     "boilingPoint": 90.188,
+    "meltingPoint": 50.35,
     "row": 1,
     "column": 15
   },
@@ -77,6 +85,7 @@
 		"atomicWeight": "18.998",
     "type": "nonmetal",
     "boilingPoint": 85.04,
+    "meltingPoint": 53.48,
     "row": 1,
     "column": 16
 	},
@@ -86,6 +95,7 @@
 		"atomicWeight": "20.180",
     "type": "noble-gas",
     "boilingPoint": 27.104,
+    "meltingPoint": 24.553,
     "row": 1,
     "column": 17
 	},
@@ -95,6 +105,7 @@
 		"atomicWeight": "22.990",
     "type": "alkali",
     "boilingPoint": 1156.09,
+    "meltingPoint": 371,
     "row": 2,
     "column": 0
 	},
@@ -104,6 +115,7 @@
 		"atomicWeight": "24.305",
     "type": "alkaline",
     "boilingPoint": 1363,
+    "meltingPoint": 922,
     "row": 2,
     "column": 1
 	},
@@ -112,7 +124,8 @@
 		"atomicNumber": "13",
 		"atomicWeight": "26.982",
     "type": "post-transition-metal",
-    "boilingPointL": 2743,
+    "boilingPoint": 2743,
+    "meltingPoint": 933.25,
     "row": 2,
     "column": 12
 	},
@@ -122,6 +135,7 @@
 		"atomicWeight": "28.085",
     "type": "metalloid",
     "boilingPoint": 3538,
+    "meltingPoint": 1683,
     "row": 2,
     "column": 13
 	},
@@ -131,6 +145,7 @@
 		"atomicWeight": "30.974",
     "type": "nonmetal",
     "boilingPoint": 550,
+    "meltingPoint": 317.3,
     "row": 2,
     "column": 14
 	},
@@ -140,6 +155,7 @@
 		"atomicWeight": "32.060",
     "type": "nonmetal",
     "boilingPoint": 717.87,
+    "meltingPoint": 388.36,
     "row": 2,
     "column": 15
 	},
@@ -149,6 +165,7 @@
 		"atomicWeight": "35.450",
     "type": "nonmetal",
     "boilingPoint": 239.11,
+    "meltingPoint": 172.16,
     "row": 2,
     "column": 16
 	},
@@ -158,6 +175,7 @@
 		"atomicWeight": "39.948",
     "type": "noble-gas",
     "boilingPoint": 87.302,
+    "meltingPoint": 83.81,
     "row": 2,
     "columnn": 17
 	},
@@ -167,6 +185,7 @@
 		"atomicWeight": "39.098",
     "type": "alkali",
     "boilingPoint": 1032,
+    "meltingPoint": 336.35,
     "row": 3,
     "column": 0
 	},
@@ -176,6 +195,7 @@
 		"atomicWeight": "40.078",
     "type": "alkaline",
     "boilingPoint": 1757,
+    "meltingPoint": 1112,
     "row": 3,
     "column": 1
 	},
@@ -185,6 +205,7 @@
 		"atomicWeight": "44.956",
     "type": "transition-metal",
     "boilingPoint": 3109,
+    "meltingPoint": 1812,
     "row": 3,
     "column": 2
 	},
@@ -194,6 +215,7 @@
 		"atomicWeight": "47.867",
     "type": "transition-metal",
     "boilingPoint": 3560,
+    "meltingPoint": 1933,
     "row": 3,
     "column": 3
 	},
@@ -203,6 +225,7 @@
 		"atomicWeight": "50.942",
     "type": "transition-metal",
     "boilingPoint": 3680,
+    "meltingPoint": 2175,
     "row": 3,
     "column": 4
 	},
@@ -212,6 +235,7 @@
 		"atomicWeight": "51.996",
     "type": "transition-metal",
     "boilingPoint": 2755,
+    "meltingPoint": 2130,
     "row": 3,
     "column": 5
 	},
@@ -221,6 +245,7 @@
 		"atomicWeight": "54.938",
     "type": "transition-metal",
     "boilingPoint": 2334,
+    "meltingPoint": 1517,
     "row": 3,
     "column": 6
 	},
@@ -230,6 +255,7 @@
 		"atomicWeight": "55.845",
     "type": "transition-metal",
     "boilingPoint": 3134,
+    "meltingPoint": 1808,
     "row": 3,
     "column": 7
 	},
@@ -239,6 +265,7 @@
 		"atomicWeight": "58.933",
     "type": "transition-metal",
     "boilingPoint": 3200,
+    "meltingPoint": 1768,
     "row": 3,
     "column": 8
 	},
@@ -248,6 +275,7 @@
 		"atomicWeight": "58.693",
     "type": "transition-metal",
     "boilingPoint": 3003,
+    "meltingPoint": 
     "row": 3,
     "column": 9
 	},
@@ -257,6 +285,7 @@
 		"atomicWeight": "63.546",
     "type": "transition-metal",
     "boilingPoint": 2835,
+    "meltingPoint": 1357.6,
     "row": 3,
     "column": 10
 	},
@@ -266,6 +295,7 @@
 		"atomicWeight": "65.380",
     "type": "transition-metal",
     "boilingPoint": 1180,
+    "meltingPoint": 692.73,
     "row": 3,
     "column": 11
 	},
@@ -275,6 +305,7 @@
 		"atomicWeight": "69.723",
     "type": "post-transition-metal",
     "boilingPoint": 2673,
+    "meltingPoint": 302.9,
     "row": 3,
     "column": 12
 	},
@@ -284,6 +315,7 @@
 		"atomicWeight": "72.630",
     "type": "metalloid",
     "boilingPoint": 3106,
+    "meltingPoint": 1210.4,
     "row": 3,
     "column": 13
 	},
@@ -293,6 +325,7 @@
 		"atomicWeight": "74.922",
     "type": "metalloid",
     "boilingPoint": 887,
+    "meltingPoint": 1081,
     "row": 3,
     "column": 14
 	},
@@ -302,6 +335,7 @@
 		"atomicWeight": "78.971",
     "type": "nonmetal",
     "boilingPoint": 958,
+    "meltingPoint": 494,
     "row": 3,
     "column": 15
 	},
@@ -311,6 +345,7 @@
 		"atomicWeight": "79.904",
     "type": "nonmetal",
     "boilingPoint": 332,
+    "meltingPoint": 265.9,
     "row": 3,
     "column": 16
 	},
@@ -320,6 +355,7 @@
 		"atomicWeight": "83.798",
     "type": "noble-gas",
     "boilingPoint": 119.735,
+    "meltingPoint": 115.78,
     "row": 3,
     "column": 17
 	},
@@ -329,6 +365,7 @@
 		"atomicWeight": "85.468",
     "type": "alkali",
     "boilingPoint": 961,
+    "meltingPoint": 312.64,
     "row": 4,
     "column": 0
 	},
@@ -338,6 +375,7 @@
 		"atomicWeight": "87.620",
     "type": "alkaline",
     "boilingPoint": 1650,
+    "meltingPoint": 1042,
     "row": 4,
     "column": 1
 	},
@@ -347,6 +385,7 @@
 		"atomicWeight": "88.906",
     "type": "transition-metal",
     "boilingPoint": 3203,
+    "meltingPoint": 1799,
     "row": 4,
     "column": 2
 	},
@@ -356,6 +395,7 @@
 		"atomicWeight": "91.224",
     "type": "transition-metal",
     "boilingPoint": 4650,
+    "meltingPoint": 2125,
     "row": 4,
     "column": 3
 	},
@@ -365,6 +405,7 @@
 		"atomicWeight": "92.906",
     "type": "transition-metal",
     "boilingPoint": 5017,
+    "meltingPoint": 2741,
     "row": 4,
     "column": 4
 	},
@@ -374,6 +415,7 @@
 		"atomicWeight": "95.950",
     "type": "transition-metal",
     "boilingPoint": 4912,
+    "meltingPoint": 2890,
     "row": 4,
     "column": 5
 	},
@@ -383,6 +425,7 @@
 		"atomicWeight": "[98]",
     "type": "transition-metal",
     "boilingPoint": 4538,
+    "meltingPoint": 2473,
     "row": 4,
     "column": 6
 	},
@@ -392,6 +435,7 @@
 		"atomicWeight": "101.070",
     "type": "transition-metal",
     "boilingPoint": 4423,
+    "meltingPoint": 2523,
     "row": 4,
     "column": 7
 	},
@@ -401,6 +445,7 @@
 		"atomicWeight": "102.910",
     "type": "transition-metal",
     "boilingPoint": 3968,
+    "meltingPoint": 2239,
     "row": 4,
     "column": 8
 	},
@@ -410,6 +455,7 @@
 		"atomicWeight": "106.420",
     "type": "transition-metal",
     "boilingPoint": 3236,
+    "meltingPoint": 1825,
     "row": 4,
     "column": 9
 	},
@@ -419,6 +465,7 @@
 		"atomicWeight": "107.870",
     "type": "transition-metal",
     "boilingPoint": 2483,
+    "meltingPoint": 1234,
     "row": 4,
     "column": 10
 	},
@@ -428,6 +475,7 @@
 		"atomicWeight": "112.410",
     "type": "transition-metal",
     "boilingPoint": 1040,
+    "meltingPoint": 594.18,
     "row": 4,
     "column": 11
 	},
@@ -437,6 +485,7 @@
 		"atomicWeight": "114.820",
     "type": "post-transition-metal",
     "boilingPoint": 2345,
+    "meltingPoint": 429.76,
     "row": 4,
     "column": 12
 	},
@@ -446,6 +495,7 @@
 		"atomicWeight": "118.710",
     "type": "post-transition-metal",
     "boilingPoint": 2875,
+    "meltingPoint": 505.06,
     "row": 4,
     "column": 13
 	},
@@ -455,6 +505,7 @@
 		"atomicWeight": "121.760",
     "type": "metalloid",
     "boilingPoint": 1908,
+    "meltingPoint": 903.9,
     "row": 4,
     "column": 14
 	},
@@ -464,6 +515,7 @@
 		"atomicWeight": "127.600",
     "type": "metalloid",
     "boilingPoint": 1261,
+    "meltingPoint": 722.65,
     "row": 4,
     "column": 15
 	},
@@ -473,6 +525,7 @@
 		"atomicWeight": "126.900",
     "type": "nonmetal",
     "boilingPoint": 457.4,
+    "meltingPoint": 386.7,
     "row": 4,
     "column": 16
 	},
@@ -482,6 +535,7 @@
 		"atomicWeight": "131.290",
     "type": "noble-gas",
     "boilingPoint": 165.051,
+    "meltingPoint": 161.3,
     "row": 4,
     "column": 17
 	},
@@ -491,6 +545,7 @@
 		"atomicWeight": "132.910",
     "type": "alkali",
     "boilingPoint": 944,
+    "meltingPoint": 301.55,
     "row": 5,
     "column": 0
 	},
@@ -500,6 +555,7 @@
 		"atomicWeight": "137.330",
     "type": "alkaline",
     "boilingPoint": 1910,
+    "meltingPoint": 1002,
     "row": 5,
     "column": 1
 	},
@@ -509,6 +565,7 @@
 		"atomicWeight": "138.910",
     "type": "lanthanoid",
     "boilingPoint": 3737,
+    "meltingPoint": 1193,
     "row": 8,
     "column": 3
 	},
@@ -518,6 +575,7 @@
 		"atomicWeight": "140.120",
     "type": "lanthanoid",
     "boilingPoint": 3716,
+    "meltingPoint": 1071,
     "row": 8,
     "column": 4
 	},
@@ -527,6 +585,7 @@
 		"atomicWeight": "140.910",
     "type": "lanthanoid",
     "boilingPoint": 3403,
+    "meltingPoint": 1204,
     "row": 8,
     "column": 5
 	},
@@ -536,6 +595,7 @@
 		"atomicWeight": "144.240",
     "type": "lanthanoid",
     "boilingPoint": 3347,
+    "meltingPoint": 1289,
     "row": 8,
     "column": 6
 	},
@@ -545,6 +605,7 @@
 		"atomicWeight": "[145]",
     "type": "lanthanoid",
     "boilingPoint": 3273,
+    "meltingPoint": 1204,
     "row": 8,
     "column": 7
 	},
@@ -554,6 +615,7 @@
 		"atomicWeight": "150.360",
     "type": "lanthanoid",
     "boilingPoint": 2173,
+    "meltingPoint": 1345,
     "row": 8,
     "column": 8
 	},
@@ -563,6 +625,7 @@
 		"atomicWeight": "151.960",
     "type": "lanthanoid",
     "boilingPoint": 1802,
+    "meltingPoint": 1095,
     "row": 8,
     "column": 9
 	},
@@ -572,6 +635,7 @@
 		"atomicWeight": "157.250",
     "type": "lanthanoid",
     "boilingPoint": 3273,
+    "meltingPoint": 1585,
     "row": 8,
     "column": 10
 	},
@@ -581,6 +645,7 @@
 		"atomicWeight": "158.930",
     "type": "lanthanoid",
     "boilingPoint": 3396,
+    "meltingPoint": 1630,
     "row": 8,
     "column": 11
 	},
@@ -590,6 +655,7 @@
 		"atomicWeight": "162.500",
     "type": "lanthanoid",
     "boilingPoint": 2840,
+    "meltingPoint": 1685,
     "row": 8,
     "column": 12
 	},
@@ -599,6 +665,7 @@
 		"atomicWeight": "164.930",
     "type": "lanthanoid",
     "boilingPoint": 2873,
+    "meltingPoint": 1743,
     "row": 8,
     "column": 13
 	},
@@ -608,6 +675,7 @@
 		"atomicWeight": "167.260",
     "type": "lanthanoid",
     "boilingPoint": 3141,
+    "meltingPoint": 1795,
     "row": 8,
     "column": 14
 	},
@@ -617,6 +685,7 @@
 		"atomicWeight": "168.930",
     "type": "lanthanoid",
     "boilingPoint": 2223,
+    "meltingPoint": 1818,
     "row": 8,
     "column": 15
 	},
@@ -626,6 +695,7 @@
 		"atomicWeight": "173.050",
     "type": "lanthanoid",
     "boilingPoint": 1703,
+    "meltingPoint": 1097,
     "row": 8,
     "column": 16
 	},
@@ -635,6 +705,7 @@
 		"atomicWeight": "174.970",
     "type": "lanthanoid",
     "boilingPoint": 3675,
+    "metlingPoint": 1936,
     "row": 8,
     "column": 17
 	},
@@ -644,6 +715,7 @@
 		"atomicWeight": "178.490",
     "type": "transition-metal",
     "boilingPoint": 4876,
+    "metlingPoint": 2500,
     "row": 5,
     "column": 3
 	},
@@ -653,6 +725,7 @@
 		"atomicWeight": "180.950",
     "type": "transition-metal",
     "boilingPoint": 5731,
+    "meltingPoint": 3269,
     "row": 5,
     "column": 4
 	},
@@ -662,6 +735,7 @@
 		"atomicWeight": "183.840",
     "type": "transition-metal",
     "boilingPoint": 6203,
+    "meltingPoint": 3680,
     "row": 5,
     "column": 5
 	},
@@ -671,6 +745,7 @@
 		"atomicWeight": "186.210",
     "type": "transition-metal",
     "boilingPoint": 5869,
+    "meltingPoint": 3453,
     "row": 5,
     "column": 6
 	},
@@ -680,6 +755,7 @@
 		"atomicWeight": "190.230",
     "type": "transition-metal",
     "boilingPoint": 5285,
+    "meltingPoint": 3300,
     "row": 5,
     "column": 7
 	},
@@ -689,6 +765,7 @@
 		"atomicWeight": "192.220",
     "type": "transition-metal",
     "boilingPoint": 4403,
+    "meltingPoint": 2716,
     "row": 5,
     "column": 8
 	},
@@ -698,6 +775,7 @@
 		"atomicWeight": "195.080",
     "type": "transition-metal",
     "boilingPoint": 4098,
+    "meltingPoint": 2045,
     "row": 5,
     "column": 9
 	},
@@ -707,6 +785,7 @@
 		"atomicWeight": "196.970",
     "type": "transition-metal",
     "boilingPoint": 3243,
+    "meltingPoint": 1337.58,
     "row": 5,
     "column": 10
 	},
@@ -716,6 +795,7 @@
 		"atomicWeight": "200.590",
     "type": "transition-metal",
     "boilingPoint": 629.88,
+    "meltingPoint": 234.28,
     "row": 5,
     "column": 11
 	},
@@ -725,6 +805,7 @@
 		"atomicWeight": "204.380",
     "type": "post-transition-metal",
     "boilingPoint": 1746,
+    "meltingPoint": 577,
     "row": 5,
     "column": 12
 	},
@@ -734,6 +815,7 @@
 		"atomicWeight": "207.200",
     "type": "post-transition-metal",
     "boilingPoint": 2022,
+    "meltingPoint": 600.6,
     "row": 5,
     "column": 13
 	},
@@ -743,6 +825,7 @@
 		"atomicWeight": "208.980",
     "type": "post-transition-metal",
     "boilingPoint": 1837,
+    "meltingPoint": 544.52,
     "row": 5,
     "column": 14
 	},
@@ -752,6 +835,7 @@
 		"atomicWeight": "[209]",
     "type": "post-transition-metal",
     "boilingPoint": 1235,
+    "meltingPoint": 527,
     "row": 5,
     "column": 15
 	},
@@ -761,6 +845,7 @@
 		"atomicWeight": "[210]",
     "type": "metalloid",
     "boilingPoint": 638.3,
+    "meltingPoint": 575,
     "row": 5,
     "column": 16
 	},
@@ -770,6 +855,7 @@
 		"atomicWeight": "[222]",
     "type": "noble-gas",
     "boilingPoint": 211.5,
+    "meltingPoint": 202,
     "row": 5,
     "column": 17
 	},
@@ -779,6 +865,7 @@
 		"atomicWeight": "[223]",
     "type": "alkali",
     "boilingPoint": 949.95,
+    "meltingPoint": 300,
     "row": 6,
     "column": 0
 	},
@@ -788,6 +875,7 @@
 		"atomicWeight": "[226]",
     "type": "alkaline",
     "boilingPoint": 2010,
+    "meltingPoint": 973,
     "row": 6,
     "column": 1
 	},
@@ -797,6 +885,7 @@
 		"atomicWeight": "[227]",
     "type": "actinoid",
     "boilingPoint": 3471,
+    "meltingPoint": 1323,
     "row": 9,
     "column": 3
 	},
@@ -806,6 +895,7 @@
 		"atomicWeight": "232.040",
     "type": "actinoid",
     "boilingPoint": 5061,
+    "meltingPoint": 2028,
     "row": 9,
     "column": 4
 	},
@@ -815,6 +905,7 @@
 		"atomicWeight": "231.040",
     "type": "actinoid",
     "boilingPoint": 4300,
+    "meltingPoint": 2113,
     "row": 9,
     "column": 5
 	},
@@ -824,6 +915,7 @@
 		"atomicWeight": "238.030",
     "type": "actinoid",
     "boilingPoint": 4404,
+    "meltingPoint": 1405,
     "row": 9,
     "column": 6
 	},
@@ -833,6 +925,7 @@
 		"atomicWeight": "[237]",
     "type": "actinoid",
     "boilingPoint": 4273,
+    "meltingPoint": 913,
     "row": 9,
     "column": 7
 	},
@@ -842,6 +935,7 @@
 		"atomicWeight": "[244]",
     "type": "actinoid",
     "boilingPoint": 3501,
+    "meltingPoint": 913,
     "row": 9,
     "column": 8
 	},
@@ -851,6 +945,7 @@
 		"atomicWeight": "[243]",
     "type": "actinoid",
     "boilingPoint": 2880,
+    "meltingPoint": 1267,
     "row": 9,
     "column": 9
 	},
@@ -860,6 +955,7 @@
 		"atomicWeight": "[247]",
     "type": "actinoid",
     "boilingPoint": 3383,
+    "meltingPoint": 1340,
     "row": 9,
     "column": 10
 	},
@@ -869,6 +965,7 @@
 		"atomicWeight": "[247]",
     "type": "actinoid",
     "boilingPoint": "unknown",
+    "meltingPoint": 1259,
     "row": 9,
     "column": 11
 	},
@@ -878,6 +975,7 @@
 		"atomicWeight": "[251]",
     "type": "actinoid",
     "boilingPoint": "unknown",
+    "meltingPoint": 1173,
     "row": 9,
     "column": 12
 	},
@@ -887,6 +985,7 @@
 		"atomicWeight": "[252]",
     "type": "actinoid",
     "boilingPoint": "unknown",
+    "meltingPoint": 1133,
     "row": 9,
     "column": 13
 	},
