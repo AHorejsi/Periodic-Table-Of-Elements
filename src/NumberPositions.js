@@ -12,11 +12,11 @@ class NumberRow extends React.Component {
         for (let index = 1; index <= 18; index++) {
             let value;
 
-            if (index == 1) {
-                value = <div className="number firstRowNumber bolded centered">{index}</div>
+            if (index === 1) {
+                value = <div className="number firstRowNumber bolded centered">{index}</div>;
             } 
             else if (index < 10) {
-                value = <div className="number numberRow bolded centered">{index}</div>
+                value = <div className="number numberRow bolded centered">{index}</div>;
             }
             else {
                 value = <div className="number doubleDigitNumberRow bolded centered">{index}</div>;
@@ -46,7 +46,7 @@ class NumberColumn extends React.Component {
         for (let index = 1; index <= 7; index++) {
             let value;
 
-            if (index == 1) {
+            if (index === 1) {
                 value = <div className="number firstColumnNumber bolded centered">{index}</div>;
             }
             else {

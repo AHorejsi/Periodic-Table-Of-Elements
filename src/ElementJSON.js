@@ -1,6 +1,3 @@
-"use strict";
-
-
 var elemJSON;
 var request = new XMLHttpRequest();
 
