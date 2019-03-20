@@ -10,6 +10,10 @@
 	font-weight: bold;
 }
 
+.floatLeft {
+    float: left;
+}
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -53,16 +57,33 @@
 /* End of classes for colors of different kinds of elements */
 
 /* Begin of classes for element legend */
-.legendBox {
-	padding: 0.1em 0.5em 0.1em 0.5em;
+.metals {
+    margin: auto;
 }
 
-.tablePadding {
-	padding: 0.25em 0.5em 0.25em 0.5em;
+.singleLineBoxSpace {
+    width: 8em;
+    height: 1.5em;
 }
 
-.boxPadding {
-	padding-right: 0.1em;
+.doubleLineboxSpace {
+	width: 8em;
+    height: 3em;
+}
+
+.columnPadding {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.bottomBorder {
+    border-bottom: solid black;
+    border-width: 0.1em;
+}
+
+.sideBorder {
+    border-right: solid black;
+    border-width: 0.1em;
 }
 /* End of classes for element legend */
 
@@ -85,15 +106,15 @@
 }
 
 .numberRow {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
 
 .doubleDigitNumberRow {
-    padding-left: 0.64em;
-    padding-right: 0.64em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
@@ -118,7 +139,7 @@
 }
 /* End of classes for number positions */
 
-/* Begin of classes for grid layout */
+/* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
 }
@@ -132,4 +153,9 @@
     grid-row: 2 / 8;
     grid-column: 1 / 1;
 }
-/* End of classes for grid layout */
+
+.legend {
+    grid-row: 2 / 3;
+    grid-column: 5 / 12;
+}
+/* End of classes for layout of periodic table */

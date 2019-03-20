@@ -7,96 +7,65 @@ class ElementLegend extends React.Component {
 	}
 	
 	render() {
-		return (
-            <div>
+        return (
+            <div className="legend">
                 <table className="panel">
                     <thead className="panel-heading">
-                        <tr>
-                            <th className="centered tablePadding bolded">Metals</th>
-                            <th className="centered tablePadding bolded">Nonmetals</th>
-                            <th className="centered tablePadding bolded">Other</th>
+                        <tr className="bottomBorder">
+                            <th className="centered bolded columnPadding sideBorder">Metals</th>
+                            <th className="centered bolded columnPadding sideBorder">Nonmetals</th>
+                            <th className="centered bolded columnPadding">Other</th>
                         </tr>
                     </thead>
 
                     <tbody className="panel-body">
                         <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered alkali legendBox">
-                                        Alkali metals
-                                </span>
-                                </span>
+                            <td className="columnPadding sideBorder">
+                                <div className="metals">
+                                    <div className="floatLeft">
+                                        <div className="singleLineBoxSpace bordered alkali centered">
+                                            Alkali metals
+                                    </div>
+
+                                        <div className="singleLineBoxSpace bordered alkaline centered">
+                                            Alkaline metals
+                                    </div>
+
+                                        <div className="singleLineBoxSpace bordered lanthanoid centered">
+                                            Lanthanoid
+                                        </div>
+                                    </div>
+
+                                    <div className="floatLeft">
+                                        <div className="singleLineBoxSpace bordered actinoid centered">
+                                            Actinoid
+                                    </div>
+
+                                        <div className="singleLineboxSpace bordered transition-metal centered">
+                                            Transition metals
+                                    </div>
+
+                                        <div className="doubleLineboxSpace bordered post-transition-metal centered">
+                                            Post-transition metals
+                                        </div>
+                                    </div>
+                                </div>
                             </td>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered noble-gas legendBox">
+
+                            <td className="columnPadding sideBorder">
+                                    <div className="singleLineBoxSpace bordered noble-gas centered">
                                         Noble gases
-                                </span>
-                                </span>
-                            </td>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered metalloid legendBox">
-                                        Metalloids
-                                </span>
-                                </span>
-                            </td>
-                        </tr>
+                                    </div>
 
-                        <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered alkaline legendBox">
-                                        Alkaline metals
-                                </span>
-                                </span>
-                            </td>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered nonmetal legendBox">
+                                    <div className="singleLineboxSpace bordered nonmetal centered">
                                         Other nonmetals
-                                </span>
-                                </span>
+                                    </div>
                             </td>
-                        </tr>
 
-                        <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered lanthanoid legendBox">
-                                        Lanthanoid
-                                </span>
-                                </span>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered actinoid legendBox">
-                                        Actinoid
-                                </span>
-                                </span>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered transition-metal legendBox">
-                                        Transition metals
-                                </span>
-                                </span>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td className="tablePadding">
-                                <span className="boxPadding">
-                                    <span className="bordered post-transition-metal legendBox">
-                                        Post-transition metals
-                                </span>
-                                </span>
+                            <td className="columnPadding">
+                                    <div className="singleLineBoxSpace bordered metalloid centered">
+                                        Metalloids
+                                    </div>
                             </td>
                         </tr>
                     </tbody>
