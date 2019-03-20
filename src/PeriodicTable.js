@@ -6,6 +6,8 @@ import DetailedElement from "./DetailedElement";
 import TemperatureSlider from "./TemperatureSlider";
 
 
+var elemJSON = require("./ElementJSON").elementJSON;
+
 class PeriodicTable extends React.Component {
     constructor(props) {
         super(props);

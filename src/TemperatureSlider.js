@@ -11,20 +11,13 @@ class TemperatureSlider extends React.Component {
     }
 
     _updateAtomicElementStates(event, sourceOfUpdate) {
-        let temperature = this._findTemperatureAndUpdateSlider(sourceOfUpdate);
+        /*let temperature = this._findTemperatureAndUpdateSlider(sourceOfUpdate);
         
         for (elem of elemJSON) {
-            let elemSymbol = document.getElementById(elem).children[1];
-
-            elemSymbol.classList.remove("gas");
-            elemSymbol.classList.remove("liquid");
-            elemSymbol.classList.remove("solid");
-            elemSymbol.classList.remove("unknown");
-
+            let elemDiv = document.getElementById(elem);
             let phaseState = this._computePhaseState(elem, temperature);
-
-            elemSymbol.classList.add(phaseState);
-        }
+            elemDiv.setAttribute("phase", phaseState);
+        }*/
     }
 
     _findTemperatureAndUpdateSlider(sourceOfUpdate) {
@@ -44,15 +37,18 @@ class TemperatureSlider extends React.Component {
 
     _computePhaseState(elem, temperature) {
         if (elem.boilingPoint !== "unknown") {
-            
+            if (temperature > elem.boilingPoint) {
+                return "gas";
+            }
         }
 
         if (elem.meltingPoint !== "unknown") {
-
-        }
-
-        if (elem.freezingPoint !== "unknown") {
-
+            if (temperature < elem.meltingPoint) {
+                return "solid";
+            }
+            else {
+                return "liquid";
+            }
         }
 
         return "unknown";
