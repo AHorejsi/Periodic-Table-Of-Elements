@@ -22,28 +22,32 @@ class ElementLegend extends React.Component {
                         <tr>
                             <td className="columnPadding sideBorder">
                                 <div className="metals">
-                                    <div className="floatLeft">
-                                        <div className="singleLineBoxSpace bordered alkali centered">
-                                            Alkali metals
-                                    </div>
-
-                                        <div className="singleLineBoxSpace bordered alkaline centered">
-                                            Alkaline metals
-                                    </div>
-
-                                        <div className="singleLineBoxSpace bordered lanthanoid centered">
-                                            Lanthanoid
+                                        <div className="floatLeft">
+                                            <div className="singleLineBoxSpace bordered alkali centered">
+                                                Alkali metals
                                         </div>
+
+                                            <div className="singleLineBoxSpace bordered alkaline centered">
+                                                Alkaline metals
+                                        </div>
+
+                                        <div className="doubleLineboxSpace bordered transition-metal centered">
+                                            Transition
+                                            <br />
+                                            metals
+                                    </div>
+
+                                        
                                     </div>
 
                                     <div className="floatLeft">
                                         <div className="singleLineBoxSpace bordered actinoid centered">
                                             Actinoid
-                                    </div>
+                                        </div>
 
-                                        <div className="singleLineboxSpace bordered transition-metal centered">
-                                            Transition metals
-                                    </div>
+                                        <div className="singleLineBoxSpace bordered lanthanoid centered">
+                                            Lanthanoid
+                                        </div>
 
                                         <div className="doubleLineboxSpace bordered post-transition-metal centered">
                                             Post-transition metals
