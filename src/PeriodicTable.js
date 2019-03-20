@@ -3,6 +3,7 @@ import {NumberRow, NumberColumn} from "./NumberPositions";
 import AtomicElement from "./ElementRepresentation";
 import ElementLegend from "./ElementLegend";
 import DetailedElement from "./DetailedElement";
+import TemperatureSlider from "./TemperatureSlider";
 
 
 class PeriodicTable extends React.Component {
@@ -13,9 +14,10 @@ class PeriodicTable extends React.Component {
     render() {		
         return (
             <div className="grid">
-                <NumberRow />
+                {/*<NumberRow />
                 <NumberColumn />
-                <ElementLegend />
+                <ElementLegend />*/}
+                <TemperatureSlider />
             </div>
         );
     }

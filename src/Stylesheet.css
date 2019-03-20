@@ -138,6 +138,24 @@
 }
 /* End of classes for number positions */
 
+/* Begin of classes for slider */
+.tempSlider {
+    width: 100%; /* Full-width */
+    background: #d3d3d3; /* Grey background */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+/* End of classes for slider */
+
 /* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
