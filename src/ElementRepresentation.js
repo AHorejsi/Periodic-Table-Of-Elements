@@ -6,7 +6,7 @@ class AtomicElement extends React.Component {
         super(props);
     }
 
-    _renderMoreDetailedVersion(event) {
+    _renderMoreDetailedVersion() {
         document.getElementById("detailedElement").setAttribute("class", this.props.type);
         document.getElementById("detailedAtomicNumber").textContent = this.props.atomicNumber;
         document.getElementById("detailedSymbol").textContent = this.props.symbol;
@@ -14,7 +14,7 @@ class AtomicElement extends React.Component {
         document.getElementById("detailedAtomicWeight").textContent = this.props.atomicWeight;
     }
 
-    _resetMoreDetailedVersion(event) {
+    _resetMoreDetailedVersion() {
         document.getElementById("detailedElement").setAttribute("class", "");
         document.getElementById("detailedAtomicNumber").textContent = "";
         document.getElementById("detailedSymbol").textContent = "";
@@ -25,8 +25,8 @@ class AtomicElement extends React.Component {
     render() {
         return (
             <div id={this.props.elementName} className={"bordered " + this.props.type}
-                onMouseOver={(event) => this._renderMoreDetailedVersion(event)}
-                onMouseOut={(event) => this._resetMoreDetailedVersion(event)}>
+                onMouseOver={(event) => this._renderMoreDetailedVersion()}
+                onMouseOut={(event) => this._resetMoreDetailedVersion()}>
 				<div className="centered">
 					{this.props.atomicNumber}
 				</div>

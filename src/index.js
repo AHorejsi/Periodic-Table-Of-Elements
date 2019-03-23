@@ -4,4 +4,4 @@ import "./Stylesheet.css";
 import PeriodicTable from "./PeriodicTable";
 
 
-ReactDOM.render(<PeriodicTable />, document.getElementById("app"));
+ReactDOM.render(<PeriodicTable />, document.getElementById("main"));

@@ -10,5 +10,4 @@ request.onreadystatechange = () => {
 request.open("GET", "./Elements.json", true);
 request.send();
 
-
 exports.elementJSON = elemJSON;
