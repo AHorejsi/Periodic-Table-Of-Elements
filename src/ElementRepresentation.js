@@ -1,4 +1,5 @@
 import React from "react";
+import PeriodicTable from "./PeriodicTable";
 
 
 class AtomicElement extends React.Component {
@@ -13,7 +14,7 @@ class AtomicElement extends React.Component {
         document.getElementById("detailedElementName").textContent = this.props.elementName;
         document.getElementById("detailedAtomicWeight").textContent = this.props.atomicWeight;
     }
-
+   
     _resetMoreDetailedVersion() {
         document.getElementById("detailedElement").setAttribute("class", "");
         document.getElementById("detailedAtomicNumber").textContent = "";

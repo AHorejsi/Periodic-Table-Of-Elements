@@ -1,7 +1,7 @@
 import React from "react";
 
 
-var elemJSON = require("./ElementJSON").elementJSON;
+var jsonData = require("./ElementJSON");
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class TemperatureSlider extends React.Component {
     }
 
     _editStates(temperature) {
-        for (let elem in elemJSON) {
+        for (let elem in jsonData.elementJSON) {
             let elemDiv = document.getElementById(elem);
             let phaseState = this._computePhaseState(elem, temperature);
             //Edit state color
@@ -51,10 +51,10 @@ class TemperatureSlider extends React.Component {
         return (
             <div>
                 <form>
-                    <input id="temperatureSlider" type="range" min="0" max="6000" step="1" value="0"
-                        onClick={(event) => this._updateAtomicElementStatesFromSlider()} />
-                    <input id="temperatureInput" type="text" maxLength="4"
-                        onKeyDown={(event) => this._updateAtomicElementStatesFromTextBox()} />
+                    <input id="temperatureSlider" className="slider" type="range" min="0" max="6000" step="1"
+                        onInput={(event) => this._updateAtomicElementStatesFromSlider()} />
+                    <input id="temperatureInput" className="slider" type="text" maxLength="4"
+                        onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
                 </form>
             </div>
         );        
