@@ -4,7 +4,7 @@ import "./Stylesheet.css";
 import PeriodicTable from "./PeriodicTable";
 
 
-window.onload = function () {
+window.onload = function() {
     //document.getElementById("temperatureInput").value = "0";
     //document.getElementById("temperatureSlider").value = "0";
 }

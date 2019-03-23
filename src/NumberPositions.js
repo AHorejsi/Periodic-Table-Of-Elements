@@ -7,7 +7,7 @@ class NumberRow extends React.Component {
 	}
 	
     render() {
-        /*let html = [];
+        let html = [];
 
         for (let index = 1; index <= 18; index++) {
             let value;
@@ -23,14 +23,12 @@ class NumberRow extends React.Component {
             }
 
             html.push(value);
-        }*/
-
-        let html = `<div ng-repeat='value in rowNumbers'>{{rowNumbers}}</div>`;
+        }
 
         return (
             <div className="columnNumbers">
                 <div className="rowOfNumbers" dangerouslySetInnerHTML={{__html: html}}>
-                    {/*html*/}
+                    {html}
                 </div>
             </div>
 		);
