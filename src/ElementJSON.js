@@ -1,13 +1,13 @@
 var elemJSON;
-var request = new XMLHttpRequest();
+var xmlHttp = new XMLHttpRequest();
 
-request.onreadystatechange = () => {
-    if (request.readyState === 4 && request.status === 200) {
-        elemJSON = JSON.parse(request.responseText);
+xmlHttp.onreadystatechange = function() {
+    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+        elemJSON = JSON.parse(xmlHttp.responseText);
+        exports.elementJSON = elemJSON;
     }
 };
 
-request.open("GET", "./Elements.json", true);
-request.send();
+xmlHttp.open("GET", "./Elements.json", true);
+xmlHttp.send();
 
-exports.elementJSON = elemJSON;

@@ -11,6 +11,8 @@ class DetailedElement extends React.Component {
     render() {
         let html = [];
 
+        console.log(jsonData.elementJSON.hydrogen);
+
         for (let element in jsonData.elementJSON) {
             let innerHTML = (
                 <div ng-switch-when={element} className={"bordered centered detailedElement" + element.type}>
@@ -36,8 +38,7 @@ class DetailedElement extends React.Component {
         }
 
         html.push(
-            <div className="bordered detailedElement" ng-switch-default>
-            </div>
+            <div className="bordered detailedElement" ng-switch-default></div>
         );
 
         return (

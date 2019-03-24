@@ -4,9 +4,10 @@ import "./Stylesheet.css";
 import PeriodicTable from "./PeriodicTable";
 
 
-window.onload = function() {
-    //document.getElementById("temperatureInput").value = "0";
-    //document.getElementById("temperatureSlider").value = "0";
-}
+var $ = require("jquery");
 
-ReactDOM.render(<PeriodicTable />, document.getElementById("main"));
+$(document).ready(function() {
+    //$("#temperatureInput").val("0");
+    //$("#temperatureSlider").val("0");
+    ReactDOM.render(<PeriodicTable />, document.getElementById("main"));
+});
