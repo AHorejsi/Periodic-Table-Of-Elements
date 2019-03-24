@@ -2,6 +2,7 @@ import React from "react";
 
 
 var angular = require("angular");
+var $ = require("jquery");
 
 class AtomicElement extends React.Component {
 	constructor(props) {
@@ -9,7 +10,7 @@ class AtomicElement extends React.Component {
     }
 	
     render() {
-        let scope = angular.element(document.getElementById("main")).scope();
+        let $scope = angular.element($("#main")).scope();
 
         return (
             <div id={this.props.elementName} className={"bordered " + this.props.type}>
