@@ -16,8 +16,7 @@ class PeriodicTable extends React.Component {
     render() {		
         return (
             <div className="grid">
-                <AtomicElement elementName="hydrogen" symbol="H" atomicNumber="1" atomicWeight="1.008" type="nonmetal" />
-                <DetailedElement />
+                
             </div>
         );
     }

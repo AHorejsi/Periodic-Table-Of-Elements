@@ -139,7 +139,7 @@
 /* End of classes for number positions */
 
 /* Begin of classes for detailed element representation */
-.detailedElement {
+#detailedElement {
     height: 10em;
     width: 10em;
 }
