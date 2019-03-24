@@ -138,6 +138,13 @@
 }
 /* End of classes for number positions */
 
+/* Begin of classes for detailed element representation */
+.detailedElement {
+    height: 10em;
+    width: 10em;
+}
+/* End of classes for detailed element representation */
+
 /* Begin of classes for slider */
 #temperatureSlider {
     background-image: linear-gradient(to right, blue, yellow, orange, red);

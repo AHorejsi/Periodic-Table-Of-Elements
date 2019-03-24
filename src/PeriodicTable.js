@@ -6,7 +6,7 @@ import DetailedElement from "./DetailedElement";
 import TemperatureSlider from "./TemperatureSlider";
 
 
-var elemJSON = require("./ElementJSON").elementJSON;
+var jsonData = require("./ElementJSON");
 
 class PeriodicTable extends React.Component {
     constructor(props) {
@@ -16,7 +16,8 @@ class PeriodicTable extends React.Component {
     render() {		
         return (
             <div className="grid">
-                <NumberRow />
+                <AtomicElement elementName="hydrogen" symbol="H" atomicNumber="1" atomicWeight="1.008" type="nonmetal" />
+                <DetailedElement />
             </div>
         );
     }
