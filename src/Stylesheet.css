@@ -19,40 +19,80 @@
     background-color: rgb(255, 212, 127); 
 }
 
+.alkaliDetailed {
+    background-image: linear-gradient(to bottom, #FF9933, #FFCC66);
+}
+
 .alkaline {
     background-color: rgb(255, 255, 127);
+}
+
+.alkalineDetailed {
+    background-image: linear-gradient(to bottom, #FFFF00, #FFFF99);
 }
 
 .lanthanoid {
     background-color: rgb(255, 212, 195);
 }
 
+.lanthanoidDetailed {
+    background-image: linear-gradient(to bottom, #FFCCFF, #FFCCCC)
+}
+
 .actinoid {
     background-color: rgb(238, 212, 229);
+}
+
+.actinoidDetailed {
+    background-image: linear-gradient(to bottom, #CC99FF, #E699FF);
 }
 
 .transition-metal {
     background-color: rgb(238, 204, 204);
 }
 
+.transition-metalDetailed {
+    background-image: linear-gradient(to bottom, #E5B1B1, #E6C9C9);
+}
+
 .post-transition-metal {
     background-color: rgb(136, 238, 221);
+}
+
+.post-transition-metalDetailed {
+    background-image: linear-gradient(to bottom, #3AD2B9, #43E2C8);
 }
 
 .metalloid {
     background-color: rgb(136, 221, 153);
 }
 
+.metalloidDetailed {
+    background-image: linear-gradient(to bottom, #6FC17F, #B6F6C3);
+}
+
 .nonmetal {
     background-color: rgb(127, 246, 127);
+}
+
+.nonmetalDetailed {
+    background-image: linear-gradient(to bottom, limegreen, lightgreen);
 }
 
 .noble-gas {
     background-color: rgb(195, 212, 255);
 }
 
+.noble-gasDetailed {
+    background-image: linear-gradient(to bottom, #8CA2DF, #CAD8FF);
+}
+
 .no-type {
 	background-color: rgb(220, 220, 220);
+}
+
+.no-typeDetailed {
+    background-image: linear-gradient(to bottom, #BFBFC4, #E4E4EE);
 }
 /* End of classes for colors of different kinds of elements */
 

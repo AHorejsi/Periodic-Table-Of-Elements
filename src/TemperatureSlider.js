@@ -63,9 +63,9 @@ class TemperatureSlider extends React.Component {
             <div>
                 <form>
                     <input id="temperatureSlider" className="slider" type="range" min="0" max="6000" step="1"
-                        onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
+                           onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
                     <input id="temperatureInput" type="text" maxLength="4"
-                        onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
+                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
                 </form>
             </div>
         );        

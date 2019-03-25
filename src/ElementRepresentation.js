@@ -9,7 +9,7 @@ class AtomicElement extends React.Component {
     }
 
     _renderDetailedElement() {
-        $("#detailedElement").addClass(this.props.type);
+        $("#detailedElement").addClass(this.props.type + "Detailed");
         $("#detailedAtomicNumber").text(this.props.atomicNumber);
         $("#detailedSymbol").text(this.props.symbol);
         $("#detailedElementName").text(this.props.elementName);
@@ -17,7 +17,7 @@ class AtomicElement extends React.Component {
     }
 
     _resetDetailedElement() {
-        $("#detailedElement").removeClass(this.props.type);
+        $("#detailedElement").removeClass(this.props.type + "Detailed");
         $("#detailedAtomicNumber").text("");
         $("#detailedSymbol").text("");
         $("#detailedElementName").text("");
