@@ -14,4 +14,3 @@ xmlHttp.open("GET", "./Elements.json", true);
 xmlHttp.send();
 
 exports.elementJSON = elemJSON;
-

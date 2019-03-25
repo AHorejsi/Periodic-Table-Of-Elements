@@ -27,9 +27,10 @@ class AtomicElement extends React.Component {
     render() {
         return (
             <div id={this.props.elementName} className={"bordered " + this.props.type}
-                onMouseOver={(event) => this._renderDetailedElement()}
-                onMouseOut={(event) => this._resetDetailedElement()}>
-				<div className="centered">
+                 onMouseOver={(event) => this._renderDetailedElement()}
+                 onMouseOut={(event) => this._resetDetailedElement()}>
+
+                <div className="centered">
 					{this.props.atomicNumber}
 				</div>
 

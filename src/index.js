@@ -7,7 +7,8 @@ import PeriodicTable from "./PeriodicTable";
 var $ = require("jquery");
 
 $(document).ready(function() {
-    //$("#temperatureInput").val("0");
-    //$("#temperatureSlider").val("0");
     ReactDOM.render(<PeriodicTable />, document.getElementById("main"));
+
+    $("#temperatureSlider").val(0);
+    $("#temperatureInput").val(0);
 });

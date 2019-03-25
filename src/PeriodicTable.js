@@ -16,7 +16,7 @@ class PeriodicTable extends React.Component {
     render() {		
         return (
             <div className="grid">
-                <NumberRow />
+                <TemperatureSlider />
             </div>
         );
     }

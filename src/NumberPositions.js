@@ -27,7 +27,7 @@ class NumberRow extends React.Component {
 
         return (
             <div className="columnNumbers">
-                <div className="rowOfNumbers" dangerouslySetInnerHTML={{__html: html}}>
+                <div className="rowOfNumbers">
                     {html}
                 </div>
             </div>
