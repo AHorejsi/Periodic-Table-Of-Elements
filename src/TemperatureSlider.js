@@ -1,7 +1,8 @@
 import React from "react";
 
 
-var jsonData = require("./ElementJSON");
+var json = require("./ElementJSON");
+var $ = require("jquery");
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
@@ -9,34 +10,44 @@ class TemperatureSlider extends React.Component {
     }
 
     _updateAtomicElementStatesFromSlider() {
-        let temperature = document.getElementById("temperatureSlider").value;
-        document.getElementById("temperatureInput").value = temperature;
-        this._editStates(temperature);
+        let temperature = $("#temperatureSlider").val();
+        $("#temperatureInput").val(temperature);
+
+        this._editStates(Number(temperature));
     }
 
     _updateAtomicElementStatesFromTextBox() {
-        let temperature = document.getElementById("temperatureInput").value;
-        document.getElementById("temperatureSlider").value = temperature;
-        this._editStates(temperature);
+        let temperature = $("#temperatureInput").val();
+        $("#temperatureSlider").val(temperature);
+
+        this._editStates(Number(temperature));
     }
 
     _editStates(temperature) {
-        for (let elem in jsonData.elementJSON) {
-            let elemDiv = document.getElementById(elem);
-            let phaseState = this._computePhaseState(elem, temperature);
-            //Edit state color
+        for (let elem in json.elementJSON.data) {
+            let elemDiv = $("#" + elem);
+            let phaseState = this._computePhaseState(elem, json.elementJSON.data, temperature);
+
+            if (!elemDiv.hasClass(phaseState)) {
+                elemDiv.removeClass("gas");
+                elemDiv.removeClass("liquid");
+                elemDiv.removeClass("solid");
+                elemDiv.removeClass("unknown");
+
+                elemDiv.addClass(phaseState);
+            }
         }
     }
 
-    _computePhaseState(elem, temperature) {
-        if (elem.boilingPoint !== "unknown") {
-            if (temperature > elem.boilingPoint) {
+    _computePhaseState(elem, data, temperature) {
+        if (data[elem].boilingPoint !== "unknown") {
+            if (temperature > data[elem].boilingPoint) {
                 return "gas";
             }
         }
 
-        if (elem.meltingPoint !== "unknown") {
-            if (temperature < elem.meltingPoint) {
+        if (data[elem].meltingPoint !== "unknown") {
+            if (temperature < data[elem].meltingPoint) {
                 return "solid";
             }
             else {
@@ -52,7 +63,7 @@ class TemperatureSlider extends React.Component {
             <div>
                 <form>
                     <input id="temperatureSlider" className="slider" type="range" min="0" max="6000" step="1"
-                        onInput={(event) => this._updateAtomicElementStatesFromSlider()} />
+                        onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
                     <input id="temperatureInput" type="text" maxLength="4"
                         onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
                 </form>

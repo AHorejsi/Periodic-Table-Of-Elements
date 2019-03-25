@@ -11,4 +11,5 @@ $(document).ready(function() {
 
     $("#temperatureSlider").val(0);
     $("#temperatureInput").val(0);
+    $("#temperatureSlider").trigger("change");
 });

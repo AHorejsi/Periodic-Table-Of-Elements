@@ -182,6 +182,24 @@
 }
 /* End of classes for slider */
 
+/* Begin of classes for element phase state representation */
+.gas {
+    color: rgb(153, 0, 0);
+}
+
+.liquid {
+    color: rgb(0, 0, 221);
+}
+
+.solid {
+    color: black;
+}
+
+.unknown {
+    color: rgb(102, 119, 102);
+}
+/* End of classes for element phase state representation */
+
 /* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
