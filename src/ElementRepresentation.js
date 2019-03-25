@@ -12,7 +12,7 @@ class AtomicElement extends React.Component {
         $("#detailedElement").addClass(this.props.type + "Detailed");
         $("#detailedAtomicNumber").text(this.props.atomicNumber);
         $("#detailedSymbol").text(this.props.symbol);
-        $("#detailedElementName").text(this.props.elementName);
+        $("#detailedElementName").text(this.props.elementName.charAt(0).toUpperCase() + this.props.elementName.substring(1));
         $("#detailedAtomicWeight").text(this.props.atomicWeight);
     }
 
@@ -26,15 +26,15 @@ class AtomicElement extends React.Component {
 	
     render() {
         return (
-            <div id={this.props.elementName} className={"bordered " + this.props.type}
+            <div id={this.props.elementName} className={"bordered centered " + this.props.type}
                  onMouseOver={(event) => this._renderDetailedElement()}
                  onMouseOut={(event) => this._resetDetailedElement()}>
 
-                <div className="centered">
+                <div>
 					{this.props.atomicNumber}
 				</div>
 
-                <div className="elementSymbol lessDetailed bolded centered">
+                <div className="bolded">
 					{this.props.symbol}
                 </div>
 			</div>

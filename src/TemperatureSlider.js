@@ -24,9 +24,11 @@ class TemperatureSlider extends React.Component {
     }
 
     _editStates(temperature) {
-        for (let elem in json.elementJSON.data) {
+        let jsonData = json.elementJSON.data;
+
+        for (let elem in jsonData) {
             let elemDiv = $("#" + elem);
-            let phaseState = this._computePhaseState(elem, json.elementJSON.data, temperature);
+            let phaseState = this._computePhaseState(elem, jsonData, temperature);
 
             if (!elemDiv.hasClass(phaseState)) {
                 elemDiv.removeClass("gas");
@@ -39,15 +41,15 @@ class TemperatureSlider extends React.Component {
         }
     }
 
-    _computePhaseState(elem, data, temperature) {
-        if (data[elem].boilingPoint !== "unknown") {
-            if (temperature > data[elem].boilingPoint) {
+    _computePhaseState(elem, jsonData, temperature) {
+        if (jsonData[elem].boilingPoint !== "unknown") {
+            if (temperature > jsonData[elem].boilingPoint) {
                 return "gas";
             }
         }
 
-        if (data[elem].meltingPoint !== "unknown") {
-            if (temperature < data[elem].meltingPoint) {
+        if (jsonData[elem].meltingPoint !== "unknown") {
+            if (temperature < jsonData[elem].meltingPoint) {
                 return "solid";
             }
             else {
