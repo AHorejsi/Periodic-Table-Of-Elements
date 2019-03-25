@@ -17,7 +17,7 @@ class PeriodicTable extends React.Component {
         return (
             <div className="grid">
                 <TemperatureSlider />
-                <AtomicElement elementName="hydrogen" atomicNumber="1" atomicWeight="1.008" symbol="H" type="no-type" />
+                <AtomicElement elementName="hydrogen" atomicNumber="1" atomicWeight="1.008" symbol="H" type="nonmetal" />
                 <DetailedElement />
             </div>
         );
