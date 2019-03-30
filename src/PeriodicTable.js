@@ -1,6 +1,7 @@
 import React from "react";
 import AtomicElement from "./ElementRepresentation";
 import RangeBox from "./RangeBox";
+import { NumberRow } from "./NumberPositions";
 
 
 var json = require("./ElementJSON");
@@ -17,7 +18,7 @@ class PeriodicTable extends React.Component {
         for (let elem in elementData) {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
                 atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
-                type={elementData[elem].type} row={elementData[elem].row} column={elementData[elem].column} />);
+                type={elementData[elem].type} row={elementData[elem].row + 1} column={elementData[elem].column + 1} />);
         }
 
         this._addGap(html);
@@ -28,7 +29,7 @@ class PeriodicTable extends React.Component {
 
     _addGap(html) {
         let gapStyling = {
-            gridRow: "8 / 8",
+            gridRow: "9 / 9",
             gridColumn: "4 / 18",
             height: "3.5em"
         };
@@ -37,8 +38,8 @@ class PeriodicTable extends React.Component {
     }
 
     _addRangeBoxes(html) {
-        html.push(<RangeBox min="57" max="71" repType="lanthanoid" gridRow="6" gridColumn="3" />);
-        html.push(<RangeBox min="89" max="103" repType="actinoid" gridRow="7" gridColumn="3" />)
+        html.push(<RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />);
+        html.push(<RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />)
     }
 
     render() {
