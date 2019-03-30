@@ -25,17 +25,17 @@ class ElementLegend extends React.Component {
                                         <div className="floatLeft">
                                             <div className="singleLineBoxSpace bordered alkali centered">
                                                 Alkali metals
-                                        </div>
+                                            </div>
 
                                             <div className="singleLineBoxSpace bordered alkaline centered">
                                                 Alkaline metals
-                                        </div>
+                                            </div>
 
                                         <div className="doubleLineboxSpace bordered transition-metal centered">
                                             Transition
                                             <br />
                                             metals
-                                    </div>
+                                        </div>
 
                                         
                                     </div>
