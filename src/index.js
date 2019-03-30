@@ -9,7 +9,7 @@ var $ = require("jquery");
 $(document).ready(function() {
     ReactDOM.render(<PeriodicTable />, document.getElementById("main"));
 
-    $("#temperatureSlider").val(6000);
-    $("#temperatureInput").val(6000);
-    $("#temperatureSlider").triggerHandler("change");
+    $("#temperatureSlider").val(0);
+    $("#temperatureInput").val(0);
+    $("#temperatureSlider").trigger("change");
 });

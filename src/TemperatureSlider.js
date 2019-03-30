@@ -24,32 +24,28 @@ class TemperatureSlider extends React.Component {
     }
 
     _editStates(temperature) {
-        let jsonData = json.elementJSON.data;
+        let elementData = json.elementJSON.data;
 
-        for (let elem in jsonData) {
+        for (let elem in elementData) {
             let elemDiv = $("#" + elem);
-            let phaseState = this._computePhaseState(elem, jsonData, temperature);
+            let phaseState = this._computePhaseState(elem, elementData, temperature);
 
             if (!elemDiv.hasClass(phaseState)) {
-                elemDiv.removeClass("gas");
-                elemDiv.removeClass("liquid");
-                elemDiv.removeClass("solid");
-                elemDiv.removeClass("unknown");
-
+                elemDiv.removeClass("gas liquid solid unknown");
                 elemDiv.addClass(phaseState);
             }
         }
     }
 
-    _computePhaseState(elem, jsonData, temperature) {
-        if (jsonData[elem].boilingPoint !== "unknown") {
-            if (temperature > jsonData[elem].boilingPoint) {
+    _computePhaseState(elem, elementData, temperature) {
+        if (elementData[elem].boilingPoint !== "unknown") {
+            if (temperature > elementData[elem].boilingPoint) {
                 return "gas";
             }
         }
 
-        if (jsonData[elem].meltingPoint !== "unknown") {
-            if (temperature < jsonData[elem].meltingPoint) {
+        if (elementData[elem].meltingPoint !== "unknown") {
+            if (temperature < elementData[elem].meltingPoint) {
                 return "solid";
             }
             else {
@@ -62,12 +58,17 @@ class TemperatureSlider extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="tempSlider">
                 <form>
-                    <input id="temperatureSlider" className="slider" type="range" min="0" max="9999" step="1"
-                           onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
-                    <input id="temperatureInput" type="number" minLength="1" maxLength="4"
-                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
+                    <div>
+                        <input id="temperatureSlider" className="slider" type="range" min="0" max="9999" step="1"
+                               onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
+                    </div>
+
+                    <div>
+                        <input id="temperatureInput" className="sliderTextbox" type="number" minLength="1" maxLength="4"
+                               onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
+                    </div>
                 </form>
             </div>
         );        

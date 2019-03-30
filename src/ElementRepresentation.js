@@ -25,10 +25,16 @@ class AtomicElement extends React.Component {
     }
 	
     render() {
+        let gridStyling = {
+            gridRow: this.props.row + " / " + this.props.row,
+            gridColumn: this.props.column + " / " + this.props.column
+        };
+
         return (
             <div id={this.props.elementName} className={"bordered centered " + this.props.type}
                  onMouseOver={(event) => this._renderDetailedElement()}
-                 onMouseOut={(event) => this._resetDetailedElement()}>
+                 onMouseOut={(event) => this._resetDetailedElement()}
+                 style={gridStyling}>
 
                 <div>
 					{this.props.atomicNumber}

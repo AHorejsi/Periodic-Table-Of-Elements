@@ -8,11 +8,11 @@ class DetailedElement extends React.Component {
 
     render() {
         return (
-            <div id="detailedElement" className="bordered centered">
+            <div id="detailedElement" className="bordered centered detailed">
                 <div id="detailedAtomicNumber" />
-                <div id="detailedSymbol" className="bolded" />
-                <div id="detailedElementName" />
                 <div id="detailedAtomicWeight" />
+                <div id="detailedElementName" />
+                <div id="detailedSymbol" className="bolded" />
             </div>
         );
     }

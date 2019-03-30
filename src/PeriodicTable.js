@@ -1,9 +1,5 @@
 import React from "react";
-import {NumberRow, NumberColumn} from "./NumberPositions";
 import AtomicElement from "./ElementRepresentation";
-import ElementLegend from "./ElementLegend";
-import DetailedElement from "./DetailedElement";
-import TemperatureSlider from "./TemperatureSlider";
 
 
 var json = require("./ElementJSON");
@@ -13,12 +9,19 @@ class PeriodicTable extends React.Component {
         super(props);
     }
 
-    render() {		
+    render() {
+        let html = []
+        let elementData = json.elementJSON.data;
+
+        for (let elem in elementData) {
+            html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
+                                     atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
+                                     type={elementData[elem].type} row={elementData[elem].row} column={elementData[elem].column} />);
+        }
+
         return (
             <div className="grid">
-                <TemperatureSlider />
-                <AtomicElement elementName="hydrogen" atomicNumber="1" atomicWeight="1.008" symbol="H" type="nonmetal" />
-                <DetailedElement />
+                {html}
             </div>
         );
     }
