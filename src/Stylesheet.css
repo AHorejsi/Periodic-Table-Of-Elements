@@ -14,6 +14,11 @@
     float: left;
 }
 
+.elemBox {
+    height: 3.1em;
+    width: 5.3em;
+}
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -185,7 +190,7 @@
 }
 
 #detailedSymbol {
-    font-size: 5em;
+    font-size: 4em;
     margin-top: 0.001em;
 }
 /* End of classes for detailed element representation */
@@ -252,6 +257,8 @@
 /* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
+    grid-row-gap: 0em;
+    grid-column-gap: 0em;
 }
 
 .columnNumbers {
@@ -265,13 +272,13 @@
 }
 
 .legend {
-    grid-row: 2 / 4;
-    grid-column: 4 / 12;
+    grid-row: 1 / 4;
+    grid-column: 6 / 14;
 }
 
 .detailed {
-    grid-row: 1 / 3;
-    grid-column: 25 / 26;
+    grid-row: 1 / 4;
+    grid-column: 4 / 7;
 }
 
 .tempSlider {

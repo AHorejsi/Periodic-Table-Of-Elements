@@ -1,7 +1,8 @@
 import React from "react";
 import AtomicElement from "./ElementRepresentation";
 import RangeBox from "./RangeBox";
-import { NumberRow } from "./NumberPositions";
+import DetailedElement from "./DetailedElement";
+import ElementLegend from "./ElementLegend";
 
 
 var json = require("./ElementJSON");
@@ -22,7 +23,6 @@ class PeriodicTable extends React.Component {
         }
 
         this._addGap(html);
-        this._addRangeBoxes(html);
 
         return html;
     }
@@ -37,15 +37,15 @@ class PeriodicTable extends React.Component {
         html.push(<div style={gapStyling} />);
     }
 
-    _addRangeBoxes(html) {
-        html.push(<RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />);
-        html.push(<RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />)
-    }
-
     render() {
         return (
             <div className="grid">
+                <DetailedElement />
+                <ElementLegend />
                 {this._getInnerHTML()}
+                <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
+                <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
+                
             </div>
         );
     }

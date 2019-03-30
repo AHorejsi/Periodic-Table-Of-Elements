@@ -13,7 +13,7 @@ class RangeBox extends React.Component {
         };
 
         return (
-            <div className={"bordered centered " + this.props.repType} style={gridStyling}>
+            <div className={"bordered centered elemBox " + this.props.repType} style={gridStyling}>
                 {this.props.min + "-" + this.props.max}
             </div>
         );
