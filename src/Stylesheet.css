@@ -132,6 +132,10 @@
     border-right: solid black;
     border-width: 0.1em;
 }
+
+.legendHeight {
+    height: 4em;
+}
 /* End of classes for element legend */
 
 /* Begin of classes for number positions */
@@ -200,7 +204,7 @@
 
 /* Begin of classes for slider */
 #temperatureSlider {
-    background-image: linear-gradient(to right, blue, yellow, orange, red);
+    background-image: linear-gradient(to right, blue, yellow, red);
 }
 
 .slider {
@@ -288,11 +292,26 @@
     padding-left: 4.1em;
 }
 
-.detailedAndLegend {
+.legendGroup {
     grid-row: 2 / 5;
     grid-column: 4 / 14;
     padding-left: 3em;
     padding-right: 3em;
     height: 4em;
 }
+
+.detailed {
+    grid-row: 9 / 12;
+    grid-column: 2 / 4;
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+}
 /* End of classes for layout of periodic table */
+
+/* Begin of classes for styling of phase state legend */
+#phaseStateLegend {
+    height: 9em;
+    width: 9em;
+    border: 1px solid black;
+}
+/* End of classes for styling of phase state legend */

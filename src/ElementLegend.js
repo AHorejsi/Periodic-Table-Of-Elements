@@ -8,7 +8,7 @@ class ElementLegend extends React.Component {
 	
     render() {
         return (
-            <div className="floatRight">
+            <div className="floatRight legendHeight">
                 <table className="panel">
                     <thead className="panel-heading">
                         <tr className="bottomBorder">

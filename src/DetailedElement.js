@@ -8,7 +8,7 @@ class DetailedElement extends React.Component {
 
     render() {
         return (
-            <div id="detailedElement" className="bordered centered inlined floatLeft">
+            <div id="detailedElement" className="bordered centered floatLeft">
                 <div id="detailedAtomicNumber" />
                 <div id="detailedAtomicWeight" />
                 <div id="detailedElementName" />

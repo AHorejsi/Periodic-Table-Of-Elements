@@ -4,6 +4,7 @@ import RangeBox from "./RangeBox";
 import DetailedElement from "./DetailedElement";
 import ElementLegend from "./ElementLegend";
 import TemperatureSlider from "./TemperatureSlider";
+import PhaseStateLegend from "./PhaseStateLegend";
 
 
 var json = require("./ElementJSON");
@@ -46,12 +47,16 @@ class PeriodicTable extends React.Component {
                 <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
                 <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
 
-                <div className="detailedAndLegend">
-                    <DetailedElement />
+                <div className="legendGroup">
+                    <PhaseStateLegend />
                     <ElementLegend />
                 </div>
 
                 <TemperatureSlider />
+
+                <div className="detailed">
+                    <DetailedElement />
+                </div>
             </div>
         );
     }
