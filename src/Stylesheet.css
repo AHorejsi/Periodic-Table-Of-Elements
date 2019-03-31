@@ -242,14 +242,6 @@
     width: 18%;
     text-align: center;
 }
-
-.sliderDiv {
-
-}
-
-.textboxDiv {
-
-}
 /* End of classes for slider */
 
 /* Begin of classes for element phase state representation */
@@ -313,5 +305,63 @@
     height: 9em;
     width: 9em;
     border: 1px solid black;
+}
+
+.phaseSymbol {
+    border: 0.3em solid black;
+    font-weight: bold;
+}
+
+.phaseSymbolOuterDiv {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+}
+
+#gasLegend {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+#liquidLegend {
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+}
+
+#solidLegend {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+#solidText {
+    padding-left: 2em;
+}
+
+#liquidText {
+    padding-left: 1.7em;
+}
+
+#gasText {
+    padding-left: 2.2em;
+}
+
+#unknownText {
+    padding-left: 1em;
+}
+
+.solidColor {
+    color: black;
+}
+
+.liquidColor {
+    color: #0000DD;
+}
+
+.gasColor {
+    color: #990000;
+}
+
+.unknownColor {
+    color: #667766;
 }
 /* End of classes for styling of phase state legend */
