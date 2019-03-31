@@ -6,9 +6,9 @@ class ElementLegend extends React.Component {
 		super(props);
 	}
 	
-	render() {
+    render() {
         return (
-            <div className="legend">
+            <div className="floatRight">
                 <table className="panel">
                     <thead className="panel-heading">
                         <tr className="bottomBorder">
@@ -40,7 +40,7 @@ class ElementLegend extends React.Component {
                                         
                                     </div>
 
-                                    <div className="floatLeft">
+                                    <div className="floatRight">
                                         <div className="singleLineBoxSpace bordered actinoid centered">
                                             Actinoid
                                         </div>
