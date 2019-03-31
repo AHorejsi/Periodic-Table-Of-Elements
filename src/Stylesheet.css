@@ -348,20 +348,4 @@
 #unknownText {
     padding-left: 1em;
 }
-
-.solidColor {
-    color: black;
-}
-
-.liquidColor {
-    color: #0000DD;
-}
-
-.gasColor {
-    color: #990000;
-}
-
-.unknownColor {
-    color: #667766;
-}
 /* End of classes for styling of phase state legend */
