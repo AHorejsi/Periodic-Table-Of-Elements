@@ -38,8 +38,22 @@ class TemperatureSlider extends React.Component {
     }
 
     _computePhaseState(elem, elementData, temperature) {
-        //Fix this
-        return "solid";
+        if (elementData[elem].boilingPoint != "unknown") {
+            if (elementData[elem].boilingPoint < temperature) {
+                return "gas";
+            }
+        }
+
+        if (elementData[elem].meltingPoint != "unknown") {
+            if (elementData[elem].meltingPoint < temperature) {
+                return "liquid";
+            }
+            else {
+                return "solid";
+            }
+        }
+
+        return "unknown";
     }
 
     render() {
