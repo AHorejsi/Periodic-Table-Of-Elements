@@ -21,7 +21,8 @@ class PeriodicTable extends React.Component {
         for (let elem in elementData) {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
                 atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
-                type={elementData[elem].type} row={elementData[elem].row + 1} column={elementData[elem].column + 1} />);
+                type={elementData[elem].type} link={elementData[elem].wiki}
+                row={elementData[elem].row + 1} column={elementData[elem].column + 1} />);
         }
 
         this._addGap(html);

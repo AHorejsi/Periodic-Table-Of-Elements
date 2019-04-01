@@ -34,6 +34,7 @@ class AtomicElement extends React.Component {
             <div id={this.props.elementName} className={"bordered centered elemBox " + this.props.type}
                  onMouseOver={(event) => this._renderDetailedElement()}
                  onMouseOut={(event) => this._resetDetailedElement()}
+                 onClick={(event) => window.open(this.props.link)}
                  style={gridStyling}>
 
                 <div>
