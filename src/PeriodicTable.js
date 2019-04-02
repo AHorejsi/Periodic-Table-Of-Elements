@@ -5,6 +5,7 @@ import DetailedElement from "./DetailedElement";
 import ElementLegend from "./ElementLegend";
 import TemperatureSlider from "./TemperatureSlider";
 import PhaseStateLegend from "./PhaseStateLegend";
+import { NumberRow, NumberColumn } from "./NumberPositions";
 
 
 var json = require("./ElementJSON");

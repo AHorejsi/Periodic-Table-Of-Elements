@@ -157,22 +157,22 @@
 }
 
 .numberRow {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.44em;
+    padding-right: 1.44em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
 
 .doubleDigitNumberRow {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
 
 .firstRowNumber {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.44em;
+    padding-right: 1.44em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white rgb(203, 236, 230);
 }
@@ -239,8 +239,18 @@
 }
 
 .sliderTextbox {
-    width: 18%;
+    width: 25%;
     text-align: center;
+}
+
+#sliderDiv {
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+#textboxDiv {
+    position: absolute;
+    padding-left: 6em;
 }
 /* End of classes for slider */
 
@@ -270,11 +280,11 @@
 
 .columnNumbers {
     grid-row: 1 / 2;
-    grid-column: 2 / 19;
+    grid-column: 2 / 25;
 }
 
 .rowNumbers {
-    grid-row: 2 / 8;
+    grid-row: 2 / 9;
     grid-column: 1 / 2;
 }
 
