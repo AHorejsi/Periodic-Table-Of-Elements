@@ -26,7 +26,7 @@ class NumberRow extends React.Component {
         }
 
         return (
-            <div className="columnNumbers">
+            <div id="columnNumbers">
                 <div className="rowOfNumbers">
                     {html}
                 </div>
@@ -57,7 +57,7 @@ class NumberColumn extends React.Component {
         }
 
         return (
-            <div className="rowNumbers">
+            <div id="rowNumbers">
                 <div className="columnOfNumbers">
                     {html}
                 </div>

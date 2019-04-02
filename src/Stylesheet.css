@@ -164,8 +164,8 @@
 }
 
 .doubleDigitNumberRow {
-    padding-left: 1.1em;
-    padding-right: 1.1em;
+    padding-left: 1.16em;
+    padding-right: 1.16em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
@@ -278,16 +278,6 @@
     grid-gap: 0em;
 }
 
-.columnNumbers {
-    grid-row: 1 / 2;
-    grid-column: 2 / 25;
-}
-
-.rowNumbers {
-    grid-row: 2 / 9;
-    grid-column: 1 / 2;
-}
-
 .tempSlider {
     grid-row: 2 / 3;
     grid-column: 14 / 18;
@@ -359,3 +349,20 @@
     padding-left: 1em;
 }
 /* End of classes for styling of phase state legend */
+
+/* Begin of classes for page */
+#columnNumbers {
+    grid-row: 1 / 2;
+    grid-column: 2 / 25;
+}
+
+#rowNumbers {
+    grid-row: 2 / 9;
+    grid-column: 1 / 2;
+}
+
+#periodicTable {
+    grid-row: 2 / 18;
+    grid-column: 3 / 10;
+}
+/* End of classes for page */

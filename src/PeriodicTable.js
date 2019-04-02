@@ -43,21 +43,23 @@ class PeriodicTable extends React.Component {
 
     render() {
         return (
-            <div className="grid">
-                {this._getInnerHTML()}
+            <div id="periodicTable">
+                <div className="grid">
+                    {this._getInnerHTML()}
 
-                <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
-                <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
+                    <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
+                    <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
 
-                <div className="legendGroup">
-                    <PhaseStateLegend />
-                    <ElementLegend />
-                </div>
+                    <div className="legendGroup">
+                        <PhaseStateLegend />
+                        <ElementLegend />
+                    </div>
 
-                <TemperatureSlider />
+                    <TemperatureSlider />
 
-                <div className="detailed">
-                    <DetailedElement />
+                    <div className="detailed">
+                        <DetailedElement />
+                    </div>
                 </div>
             </div>
         );

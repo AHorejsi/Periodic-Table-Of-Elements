@@ -9,7 +9,7 @@ var $ = require("jquery");
 $(document).ready(function() {
     ReactDOM.render(<Page />, document.getElementById("main"));
 
-    //$("#temperatureSlider").val(0);
-    //$("#temperatureInput").val(0);
-    $("#temperatureSlider").trigger("change");
+    //$("#temperatureSlider").val(273);
+    //$("#temperatureInput").val(273);
+    //$("#temperatureSlider").trigger("change");
 });
