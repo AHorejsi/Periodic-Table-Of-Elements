@@ -55,19 +55,19 @@ class ElementLegend extends React.Component {
                             </td>
 
                             <td className="columnPadding sideBorder">
-                                    <div className="singleLineBoxSpace bordered noble-gas centered handPointer">
-                                        Noble gases
-                                    </div>
+                                <div className="singleLineBoxSpace bordered noble-gas centered handPointer">
+                                    Noble gases
+                                </div>
 
-                                    <div className="singleLineboxSpace bordered nonmetal centered handPointer">
-                                        Other nonmetals
-                                    </div>
+                                <div className="singleLineboxSpace bordered nonmetal centered handPointer">
+                                    Other nonmetals
+                                </div>
                             </td>
 
                             <td className="columnPadding">
-                                    <div className="singleLineBoxSpace bordered metalloid centered handPointer">
-                                        Metalloids
-                                    </div>
+                                <div className="singleLineBoxSpace bordered metalloid centered handPointer">
+                                    Metalloids
+                                </div>
                             </td>
                         </tr>
                     </tbody>

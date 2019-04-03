@@ -1,5 +1,5 @@
 .bordered {
-	border: 1px solid black;
+	border: 0.05em solid black;
 }
 
 .centered {
@@ -201,17 +201,23 @@
     color: rgb(22, 49, 91);
 }
 
-.highlight {
+.highlightNumber {
     background-color: yellow;
 }
 
-.unhighlight {
+.unhighlightNumber {
     background-color: white;
+}
+
+.grayout {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
 }
 /* End of classes for number positions */
 
 /* Begin of classes for detailed element representation */
 #detailedElement {
+    position: absolute;
     height: 9em;
     width: 9em;
 }
@@ -324,7 +330,7 @@
 #phaseStateLegend {
     height: 9em;
     width: 9em;
-    border: 1px solid black;
+    border: 0.05em solid black;
 }
 
 .phaseSymbol {
