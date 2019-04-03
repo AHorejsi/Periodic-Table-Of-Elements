@@ -29,7 +29,7 @@ class AtomicElement extends React.Component {
         };
 
         return (
-            <div id={this.props.elementName} className={"bordered centered elemBox " + this.props.type + " group" +
+            <div id={this.props.elementName} className={"bordered centered elemBox pointerCursor " + this.props.type + " group" +
                                                         this.props.group + " period" + this.props.period}
                  onMouseOver={(event) => this._renderDetailedElement()}
                  onMouseOut={(event) => this._resetDetailedElement()}

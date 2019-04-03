@@ -26,6 +26,7 @@ class PeriodicTable extends React.Component {
         }
 
         this._addGap(html);
+        this._addInfoBox(html);
 
         return html;
     }
@@ -38,6 +39,17 @@ class PeriodicTable extends React.Component {
         };
 
         html.push(<div style={gapStyling} />);
+    }
+
+    _addInfoBox(html) {
+        let infoStyling = {
+            gridRow: "13 / 13",
+            gridColumn: "1 / 5"
+        };
+
+        html.push(<p style={infoStyling}>
+                    For elements with no stable isotopes, the mass number of the isotope with the longest half-life is in brackets.
+                  </p>)
     }
 
     render() {

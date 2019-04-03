@@ -22,6 +22,14 @@
     height: 3.1em;
     width: 5.3em;
 }
+
+.handPointer {
+    cursor: pointer;
+}
+
+.pointerCursor {
+    cursor: default;
+}
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -187,10 +195,6 @@
     padding: 0.3em 0.03em 0.3em 0.03em;
     border-width: 0.02em;
     border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
-}
-
-.handPointer {
-    cursor: pointer;
 }
 
 .textColor {
