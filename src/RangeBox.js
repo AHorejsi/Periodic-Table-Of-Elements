@@ -12,11 +12,11 @@ class RangeBox extends React.Component {
             gridColumn: this.props.gridColumn,
             paddingTop: "0.8em",
             fontWeight: "bolder",
-            color: "blue"
+            color: "rgb(55, 11, 142)"
         };
 
         return (
-            <div className={"bordered centered elemBox " + this.props.repType} style={styling}>
+            <div className={"bordered centered elemBox cursorPointer " + this.props.repType} style={styling}>
                 {this.props.min + "-" + this.props.max}
             </div>
         );

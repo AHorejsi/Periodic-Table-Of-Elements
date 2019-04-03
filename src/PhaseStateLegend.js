@@ -8,43 +8,43 @@ class PhaseStateLegend extends React.Component {
 
     render() {
         return (
-            <div id="phaseStateLegend" className="floatLeft">
-                <div className="phaseSymbolOuterDiv">
-                    <span id="solidLegend" className="phaseSymbol centered solid">
+            <div id="phaseStateLegend" className="floatLeft pointerCursor">
+                <div className="phaseSymbolOuterDiv pointerCursor">
+                    <span id="solidLegend" className="phaseSymbol centered solid handPointer">
                         S
                     </span>
 
-                    <span id="solidText" className="solid bolded">
+                    <span id="solidText" className="solid bolded handPointer">
                         Solid
                     </span>
                 </div>
 
-                <div className="phaseSymbolOuterDiv">
-                    <span id="liquidLegend" className="phaseSymbol centered liquid">
+                <div className="phaseSymbolOuterDiv pointerCursor">
+                    <span id="liquidLegend" className="phaseSymbol centered liquid handPointer">
                         L
                     </span>
 
-                    <span id="liquidText" className="liquid bolded">
+                    <span id="liquidText" className="liquid bolded handPointer">
                         Liquid
                     </span>
                 </div>
 
-                <div className="phaseSymbolOuterDiv">
-                    <span id="gasLegend" className="phaseSymbol centered gas">
+                <div className="phaseSymbolOuterDiv pointerCursor">
+                    <span id="gasLegend" className="phaseSymbol centered gas handPointer">
                         G
                     </span>
 
-                    <span id="gasText" className="gas bolded">
+                    <span id="gasText" className="gas bolded handPointer">
                         Gas
                     </span>
                 </div>
 
-                <div className="phaseSymbolOuterDiv">
-                    <span id="unknownLegend" className="phaseSymbol centered unknown">
+                <div className="phaseSymbolOuterDiv pointerCursror">
+                    <span id="unknownLegend" className="phaseSymbol centered unknown handPointer">
                         Uk
                     </span>
 
-                    <span id="unknownText" className="unknown bolded">
+                    <span id="unknownText" className="unknown bolded handPointer">
                         Unknown
                     </span>
                 </div>
