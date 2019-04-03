@@ -21,7 +21,7 @@ class PeriodicTable extends React.Component {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
                 atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
                 type={elementData[elem].type} link={elementData[elem].wiki}
-                row={elementData[elem].row + 1} column={elementData[elem].column + 1}
+                row={elementData[elem].row} column={elementData[elem].column}
                 group={elementData[elem].group} period={elementData[elem].period}/>);
         }
 
