@@ -210,8 +210,8 @@
 }
 
 .grayout {
-    opacity: 0.6;
-    filter: alpha(opacity = 60);
+    opacity: 0.3;
+    filter: alpha(opacity = 30);
 }
 /* End of classes for number positions */
 

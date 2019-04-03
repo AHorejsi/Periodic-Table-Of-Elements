@@ -82,6 +82,8 @@ class NumberColumn extends React.Component {
 
         htmlElement.removeClass("unhighlightNumber");
         htmlElement.addClass("highlightNumber");
+
+        $(".elemBox:not(.period" + periodNumber + ")").addClass("grayout");
     }
 
     _unhighlightRow(periodNumber) {
@@ -89,6 +91,8 @@ class NumberColumn extends React.Component {
 
         htmlElement.removeClass("highlightNumber");
         htmlElement.addClass("unhighlightNumber");
+
+        $(".elemBox:not(.period" + periodNumber + ")").removeClass("grayout");
     }
 	
     render() {
