@@ -1,4 +1,5 @@
 import React from "react";
+import $ from "jquery";
 
 
 class NumberRow extends React.Component {
@@ -6,12 +7,24 @@ class NumberRow extends React.Component {
 		super(props);
     }
 
-    _highlightColumn(index) {
+    _highlightColumn(groupNumber) {
+        let htmlElement = $("#group" + groupNumber + "ElementSet");
 
+        htmlElement.removeClass("unhighlight");
+        htmlElement.addClass("highlight");
+
+        this._highlightRelevantElements(groupNumber);
     }
 
-    _unhighlightColumn(index) {
+    _highlightRelevantElements(groupNumber) {
+        let groupedElements = $(".group" + groupNumber);
+    }
 
+    _unhighlightColumn(groupNumber) {
+        let htmlElement = $("#group" + groupNumber + "ElementSet");
+
+        htmlElement.removeClass("highlight");
+        htmlElement.addClass("unhighlight");
     }
 	
     render() {
@@ -21,19 +34,31 @@ class NumberRow extends React.Component {
             let value;
 
             if (index === 1) {
-                value = <div className="number firstRowNumber bolded centered"
-                             onMouseOver={(event) => this._highlightColumn(index)}
-                             onMouseOut={(event) => this._unhighlightColumn(index)}>{index}</div>;
+                value = <a id={"group" + index + "ElementSet"}
+                           className="number firstRowNumber bolded centered handPointer textColor unhighlight"
+                           onMouseOver={(event) => this._highlightColumn(index)}
+                           onMouseOut={(event) => this._unhighlightColumn(index)}
+                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                            {index}
+                        </a>;
             } 
             else if (index < 10) {
-                value = <div className="number numberRow bolded centered"
-                             onMouseOver={(event) => this._highlightColumn(index)}
-                             onMouseOut={(event) => this._unhighlightColumn(index)}>{index}</div>;
+                value = <a id={"group" + index + "ElementSet"}
+                           className="number numberRow bolded centered handPointer textColor unhighlight"
+                           onMouseOver={(event) => this._highlightColumn(index)}
+                           onMouseOut={(event) => this._unhighlightColumn(index)}
+                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                            {index}
+                        </a>;
             }
             else {
-                value = <div className="number doubleDigitNumberRow bolded centered"
-                             onMouseOver={(event) => this._highlightColumn(index)}
-                             onMouseOut={(event) => this._unhighlightColumn(index)}>{index}</div>;
+                value = <a id={"group" + index + "ElementSet"}
+                           className="number doubleDigitNumberRow bolded centered handPointer textColor unhighlight"
+                           onMouseOver={(event) => this._highlightColumn(index)}
+                           onMouseOut={(event) => this._unhighlightColumn(index)}
+                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                            {index}
+                        </a>;
             }
 
             html.push(value);
@@ -52,7 +77,21 @@ class NumberRow extends React.Component {
 class NumberColumn extends React.Component {
 	constructor(props) {
 		super(props);
-	}
+    }
+
+    _highlightRow(periodNumber) {
+        let htmlElement = $("#period" + periodNumber + "ElementSet");
+
+        htmlElement.removeClass("unhighlight");
+        htmlElement.addClass("highlight");
+    }
+
+    _unhighlightRow(periodNumber) {
+        let htmlElement = $("#period" + periodNumber + "ElementSet");
+
+        htmlElement.removeClass("highlight");
+        htmlElement.addClass("unhighlight");
+    }
 	
     render() {
         let html = [];
@@ -61,10 +100,22 @@ class NumberColumn extends React.Component {
             let value;
 
             if (index === 1) {
-                value = <div className="number firstColumnNumber bolded centered">{index}</div>;
+                value = <a id={"period" + index + "ElementSet"}
+                           className="number firstColumnNumber bolded centered handPointer textColor unhighlight"
+                           onMouseOver={(event) => this._highlightRow(index)}
+                           onMouseOut={(event) => this._unhighlightRow(index)}
+                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Period_" + index + "_element")}>
+                            {index}
+                        </a>;
             }
             else {
-                value = <div className="number numberColumn bolded centered">{index}</div>;
+                value = <a id={"period" + index + "ElementSet"}
+                           className="number numberColumn bolded centered handPointer textColor unhighlight"
+                           onMouseOver={(event) => this._highlightRow(index)}
+                           onMouseOut={(event) => this._unhighlightRow(index)}
+                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Period_" + index + "_element")}>
+                            {index}
+                        </a>;
             }
 
             html.push(value);

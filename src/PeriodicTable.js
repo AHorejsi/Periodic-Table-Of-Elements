@@ -5,10 +5,8 @@ import DetailedElement from "./DetailedElement";
 import ElementLegend from "./ElementLegend";
 import TemperatureSlider from "./TemperatureSlider";
 import PhaseStateLegend from "./PhaseStateLegend";
-import { NumberRow, NumberColumn } from "./NumberPositions";
+import elemJSON from "./ElementJSON";
 
-
-var json = require("./ElementJSON");
 
 class PeriodicTable extends React.Component {
     constructor(props) {
@@ -17,13 +15,14 @@ class PeriodicTable extends React.Component {
 
     _getInnerHTML() {
         let html = []
-        let elementData = json.elementJSON.data;
+        let elementData = elemJSON.data;
 
         for (let elem in elementData) {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
                 atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
                 type={elementData[elem].type} link={elementData[elem].wiki}
-                row={elementData[elem].row + 1} column={elementData[elem].column + 1} />);
+                row={elementData[elem].row + 1} column={elementData[elem].column + 1}
+                group={elementData[elem].group} period={elementData[elem].period}/>);
         }
 
         this._addGap(html);

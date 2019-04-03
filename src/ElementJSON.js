@@ -13,4 +13,5 @@ xmlHttp.onreadystatechange = function() {
 xmlHttp.open("GET", "./Elements.json", true);
 xmlHttp.send();
 
-exports.elementJSON = elemJSON;
+
+export default elemJSON;

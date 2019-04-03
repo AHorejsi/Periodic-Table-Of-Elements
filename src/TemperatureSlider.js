@@ -1,8 +1,6 @@
 import React from "react";
-
-
-var json = require("./ElementJSON");
-var $ = require("jquery");
+import $ from "jquery";
+import elemJSON from "./ElementJSON";
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
@@ -24,7 +22,7 @@ class TemperatureSlider extends React.Component {
     }
 
     _editStates(temperature) {
-        let elementData = json.elementJSON.data;
+        let elementData = elemJSON.data;
 
         for (let elem in elementData) {
             let elemDiv = $("#" + elem);

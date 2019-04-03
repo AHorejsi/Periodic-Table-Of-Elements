@@ -8,7 +8,9 @@
     "meltingPoint": 14.025,
     "row": 1,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Hydrogen"
+    "wiki": "https://en.wikipedia.org/wiki/Hydrogen",
+    "group": 1,
+    "period": 1
   },
   "helium": {
     "symbol": "He",
@@ -19,7 +21,9 @@
     "meltingPoint": 0.95,
     "row": 1,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Helium"
+    "wiki": "https://en.wikipedia.org/wiki/Helium",
+    "group": 18,
+    "period": 1
   },
   "lithium": {
     "symbol": "Li",
@@ -30,7 +34,9 @@
     "meltingPoint": 453.7,
     "row": 2,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Lithium"
+    "wiki": "https://en.wikipedia.org/wiki/Lithium",
+    "group": 1,
+    "period": 2
   },
   "beryllium": {
     "symbol": "Be",
@@ -41,7 +47,9 @@
     "meltingPoint": 1560,
     "row": 2,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Beryllium"
+    "wiki": "https://en.wikipedia.org/wiki/Beryllium",
+    "group": 2,
+    "period": 2
   },
   "boron": {
     "symbol": "B",
@@ -52,7 +60,9 @@
     "meltingPoint": 2573,
     "row": 2,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Boron"
+    "wiki": "https://en.wikipedia.org/wiki/Boron",
+    "group": 13,
+    "period": 2
   },
   "carbon": {
     "symbol": "C",
@@ -63,7 +73,9 @@
     "meltingPoint": 3773,
     "row": 2,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Carbon"
+    "wiki": "https://en.wikipedia.org/wiki/Carbon",
+    "group": 14,
+    "period": 2
   },
   "nitrogen": {
     "symbol": "N",
@@ -74,7 +86,9 @@
     "meltingPoint": 63.14,
     "row": 2,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Nitrogen"
+    "wiki": "https://en.wikipedia.org/wiki/Nitrogen",
+    "group": 15,
+    "period": 2
   },
   "oxygen": {
     "symbol": "O",
@@ -85,7 +99,9 @@
     "meltingPoint": 50.35,
     "row": 2,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Oxygen"
+    "wiki": "https://en.wikipedia.org/wiki/Oxygen",
+    "group": 16,
+    "period": 2
   },
   "fluorine": {
     "symbol": "F",
@@ -96,7 +112,9 @@
     "meltingPoint": 53.48,
     "row": 2,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Fluorine"
+    "wiki": "https://en.wikipedia.org/wiki/Fluorine",
+    "group": 17,
+    "period": 2
   },
   "neon": {
     "symbol": "Ne",
@@ -107,7 +125,9 @@
     "meltingPoint": 24.553,
     "row": 2,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Neon"
+    "wiki": "https://en.wikipedia.org/wiki/Neon",
+    "group": 18,
+    "period": 2
   },
   "sodium": {
     "symbol": "Na",
@@ -118,7 +138,9 @@
     "meltingPoint": 371,
     "row": 3,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Sodium"
+    "wiki": "https://en.wikipedia.org/wiki/Sodium",
+    "group": 1,
+    "period": 3
   },
   "magnesium": {
     "symbol": "Mg",
@@ -129,7 +151,9 @@
     "meltingPoint": 922,
     "row": 3,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Magnesium"
+    "wiki": "https://en.wikipedia.org/wiki/Magnesium",
+    "group": 2,
+    "period": 3
   },
   "aluminum": {
     "symbol": "Al",
@@ -140,7 +164,9 @@
     "meltingPoint": 933.25,
     "row": 3,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Aluminum"
+    "wiki": "https://en.wikipedia.org/wiki/Aluminum",
+    "group": 13,
+    "period": 3
   },
   "silicon": {
     "symbol": "Si",
@@ -151,7 +177,9 @@
     "meltingPoint": 1683,
     "row": 3,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Silicon"
+    "wiki": "https://en.wikipedia.org/wiki/Silicon",
+    "group": 14,
+    "period": 3
   },
   "phosphorus": {
     "symbol": "P",
@@ -162,7 +190,9 @@
     "meltingPoint": 317.3,
     "row": 3,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Phosphorous"
+    "wiki": "https://en.wikipedia.org/wiki/Phosphorous",
+    "group": 15,
+    "period": 3
   },
   "sulfur": {
     "symbol": "S",
@@ -173,7 +203,9 @@
     "meltingPoint": 388.36,
     "row": 3,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Sulfur"
+    "wiki": "https://en.wikipedia.org/wiki/Sulfur",
+    "group": 16,
+    "period": 3
   },
   "chlorine": {
     "symbol": "Cl",
@@ -184,7 +216,9 @@
     "meltingPoint": 172.16,
     "row": 3,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Chlorine"
+    "wiki": "https://en.wikipedia.org/wiki/Chlorine",
+    "group": 17,
+    "period": 3
   },
   "argon": {
     "symbol": "Ar",
@@ -195,7 +229,9 @@
     "meltingPoint": 83.81,
     "row": 3,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Argon"
+    "wiki": "https://en.wikipedia.org/wiki/Argon",
+    "group": 18,
+    "period": 3
   },
   "potassium": {
     "symbol": "K",
@@ -206,7 +242,9 @@
     "meltingPoint": 336.35,
     "row": 4,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Potassium"
+    "wiki": "https://en.wikipedia.org/wiki/Potassium",
+    "group": 1,
+    "period": 4
   },
   "calcium": {
     "symbol": "Ca",
@@ -217,7 +255,9 @@
     "meltingPoint": 1112,
     "row": 4,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Calcium"
+    "wiki": "https://en.wikipedia.org/wiki/Calcium",
+    "group": 2,
+    "period": 4
   },
   "scandium": {
     "symbol": "Sc",
@@ -228,7 +268,9 @@
     "meltingPoint": 1812,
     "row": 4,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Scandium"
+    "wiki": "https://en.wikipedia.org/wiki/Scandium",
+    "group": 3,
+    "period": 4
   },
   "titanium": {
     "symbol": "Ti",
@@ -239,7 +281,9 @@
     "meltingPoint": 1933,
     "row": 4,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Titanium"
+    "wiki": "https://en.wikipedia.org/wiki/Titanium",
+    "group": 4,
+    "period": 4
   },
   "vanadium": {
     "symbol": "V",
@@ -250,7 +294,9 @@
     "meltingPoint": 2175,
     "row": 4,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Vanadium"
+    "wiki": "https://en.wikipedia.org/wiki/Vanadium",
+    "group": 5,
+    "period": 4
   },
   "chromium": {
     "symbol": "Cr",
@@ -261,7 +307,9 @@
     "meltingPoint": 2130,
     "row": 4,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Chromium"
+    "wiki": "https://en.wikipedia.org/wiki/Chromium",
+    "group": 6,
+    "period": 4
   },
   "manganese": {
     "symbol": "Mn",
@@ -272,7 +320,9 @@
     "meltingPoint": 1517,
     "row": 4,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Manganese"
+    "wiki": "https://en.wikipedia.org/wiki/Manganese",
+    "group": 7,
+    "period": 4
   },
   "iron": {
     "symbol": "Fe",
@@ -283,7 +333,9 @@
     "meltingPoint": 1808,
     "row": 4,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Iron"
+    "wiki": "https://en.wikipedia.org/wiki/Iron",
+    "group": 8,
+    "period": 4
   },
   "cobalt": {
     "symbol": "Co",
@@ -294,7 +346,9 @@
     "meltingPoint": 1768,
     "row": 4,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Cobalt"
+    "wiki": "https://en.wikipedia.org/wiki/Cobalt",
+    "group": 9,
+    "period": 4
   },
   "nickel": {
     "symbol": "Ni",
@@ -305,7 +359,9 @@
     "meltingPoint": 1728,
     "row": 4,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Nickel"
+    "wiki": "https://en.wikipedia.org/wiki/Nickel",
+    "group": 10,
+    "period": 4
   },
   "copper": {
     "symbol": "Cu",
@@ -316,7 +372,9 @@
     "meltingPoint": 1357.6,
     "row": 4,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Copper"
+    "wiki": "https://en.wikipedia.org/wiki/Copper",
+    "group": 11,
+    "period": 4
   },
   "zinc": {
     "symbol": "Zn",
@@ -327,7 +385,9 @@
     "meltingPoint": 692.73,
     "row": 4,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Zinc"
+    "wiki": "https://en.wikipedia.org/wiki/Zinc",
+    "group": 12,
+    "period": 4
   },
   "gallium": {
     "symbol": "Ga",
@@ -338,7 +398,9 @@
     "meltingPoint": 302.9,
     "row": 4,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Gallium"
+    "wiki": "https://en.wikipedia.org/wiki/Gallium",
+    "group": 13,
+    "period": 4
   },
   "germanium": {
     "symbol": "Ge",
@@ -349,7 +411,9 @@
     "meltingPoint": 1210.4,
     "row": 4,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Germanium"
+    "wiki": "https://en.wikipedia.org/wiki/Germanium",
+    "group": 14,
+    "period": 4
   },
   "arsenic": {
     "symbol": "As",
@@ -360,7 +424,9 @@
     "meltingPoint": 1081,
     "row": 4,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Arsenic"
+    "wiki": "https://en.wikipedia.org/wiki/Arsenic",
+    "group": 15,
+    "period": 4
   },
   "selenium": {
     "symbol": "Se",
@@ -371,7 +437,9 @@
     "meltingPoint": 494,
     "row": 4,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Selenium"
+    "wiki": "https://en.wikipedia.org/wiki/Selenium",
+    "group": 16,
+    "period": 4
   },
   "bromine": {
     "symbol": "Br",
@@ -382,7 +450,9 @@
     "meltingPoint": 265.9,
     "row": 4,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Bromine"
+    "wiki": "https://en.wikipedia.org/wiki/Bromine",
+    "group": 17,
+    "period": 4
   },
   "krypton": {
     "symbol": "Kr",
@@ -393,7 +463,9 @@
     "meltingPoint": 115.78,
     "row": 4,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Krypton"
+    "wiki": "https://en.wikipedia.org/wiki/Krypton",
+    "group": 18,
+    "period": 4
   },
   "rubidium": {
     "symbol": "Rb",
@@ -404,7 +476,9 @@
     "meltingPoint": 312.64,
     "row": 5,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Rubidium"
+    "wiki": "https://en.wikipedia.org/wiki/Rubidium",
+    "group": 1,
+    "period": 5
   },
   "strontium": {
     "symbol": "Sr",
@@ -415,7 +489,9 @@
     "meltingPoint": 1042,
     "row": 5,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Strontium"
+    "wiki": "https://en.wikipedia.org/wiki/Strontium",
+    "group": 2,
+    "period": 5
   },
   "yttrium": {
     "symbol": "Y",
@@ -426,7 +502,9 @@
     "meltingPoint": 1799,
     "row": 5,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Yttrium"
+    "wiki": "https://en.wikipedia.org/wiki/Yttrium",
+    "group": 3,
+    "period": 5
   },
   "zirconium": {
     "symbol": "Zr",
@@ -437,7 +515,9 @@
     "meltingPoint": 2125,
     "row": 5,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Zirconium"
+    "wiki": "https://en.wikipedia.org/wiki/Zirconium",
+    "group": 4,
+    "period": 5
   },
   "niobium": {
     "symbol": "Nb",
@@ -448,7 +528,9 @@
     "meltingPoint": 2741,
     "row": 5,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Niobium"
+    "wiki": "https://en.wikipedia.org/wiki/Niobium",
+    "group": 5,
+    "period": 5
   },
   "molybdenur": {
     "symbol": "Mo",
@@ -459,7 +541,9 @@
     "meltingPoint": 2890,
     "row": 5,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Molybdenur"
+    "wiki": "https://en.wikipedia.org/wiki/Molybdenur",
+    "group": 6,
+    "period": 5
   },
   "technetium": {
     "symbol": "Tc",
@@ -470,7 +554,9 @@
     "meltingPoint": 2473,
     "row": 5,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Technetium"
+    "wiki": "https://en.wikipedia.org/wiki/Technetium",
+    "group": 7,
+    "period": 5
   },
   "ruthenium": {
     "symbol": "Ru",
@@ -481,7 +567,9 @@
     "meltingPoint": 2523,
     "row": 5,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Ruthenium"
+    "wiki": "https://en.wikipedia.org/wiki/Ruthenium",
+    "group": 8,
+    "period": 5
   },
   "rhodium": {
     "symbol": "Rh",
@@ -492,7 +580,9 @@
     "meltingPoint": 2239,
     "row": 5,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Rhodium"
+    "wiki": "https://en.wikipedia.org/wiki/Rhodium",
+    "group": 9,
+    "period": 5
   },
   "palladium": {
     "symbol": "Pd",
@@ -503,7 +593,9 @@
     "meltingPoint": 1825,
     "row": 5,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Palladium"
+    "wiki": "https://en.wikipedia.org/wiki/Palladium",
+    "group": 10,
+    "period": 5
   },
   "silver": {
     "symbol": "Ag",
@@ -514,7 +606,9 @@
     "meltingPoint": 1234,
     "row": 5,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Silver"
+    "wiki": "https://en.wikipedia.org/wiki/Silver",
+    "group": 11,
+    "period": 5
   },
   "cadmium": {
     "symbol": "Cd",
@@ -525,7 +619,9 @@
     "meltingPoint": 594.18,
     "row": 5,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Cadmium"
+    "wiki": "https://en.wikipedia.org/wiki/Cadmium",
+    "group": 12,
+    "period": 5
   },
   "indium": {
     "symbol": "In",
@@ -536,7 +632,9 @@
     "meltingPoint": 429.76,
     "row": 5,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Indium"
+    "wiki": "https://en.wikipedia.org/wiki/Indium",
+    "group": 13,
+    "period": 5
   },
   "tin": {
     "symbol": "Sn",
@@ -547,7 +645,9 @@
     "meltingPoint": 505.06,
     "row": 5,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Tin"
+    "wiki": "https://en.wikipedia.org/wiki/Tin",
+    "group": 14,
+    "period": 5
   },
   "antimony": {
     "symbol": "Sb",
@@ -558,7 +658,9 @@
     "meltingPoint": 903.9,
     "row": 5,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Antimony"
+    "wiki": "https://en.wikipedia.org/wiki/Antimony",
+    "group": 15,
+    "period": 5
   },
   "tellurium": {
     "symbol": "Te",
@@ -569,7 +671,9 @@
     "meltingPoint": 722.65,
     "row": 5,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Tellurium"
+    "wiki": "https://en.wikipedia.org/wiki/Tellurium",
+    "group": 16,
+    "period": 5
   },
   "iodine": {
     "symbol": "I",
@@ -580,7 +684,9 @@
     "meltingPoint": 386.7,
     "row": 5,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Iodine"
+    "wiki": "https://en.wikipedia.org/wiki/Iodine",
+    "group": 17,
+    "period": 5
   },
   "xenon": {
     "symbol": "Xe",
@@ -591,7 +697,9 @@
     "meltingPoint": 161.3,
     "row": 5,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Xenon"
+    "wiki": "https://en.wikipedia.org/wiki/Xenon",
+    "group": 18,
+    "period": 5
   },
   "caesium": {
     "symbol": "Cs",
@@ -602,7 +710,9 @@
     "meltingPoint": 301.55,
     "row": 6,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Caesium"
+    "wiki": "https://en.wikipedia.org/wiki/Caesium",
+    "group": 1,
+    "period": 6
   },
   "barium": {
     "symbol": "Ba",
@@ -613,7 +723,9 @@
     "meltingPoint": 1002,
     "row": 6,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Barium"
+    "wiki": "https://en.wikipedia.org/wiki/Barium",
+    "group": 2,
+    "period": 6
   },
   "lanthanum": {
     "symbol": "La",
@@ -624,7 +736,8 @@
     "meltingPoint": 1193,
     "row": 9,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Lanthanum"
+    "wiki": "https://en.wikipedia.org/wiki/Lanthanum",
+    "period": 6
   },
   "cerium": {
     "symbol": "Ce",
@@ -635,7 +748,8 @@
     "meltingPoint": 1071,
     "row": 9,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Cerium"
+    "wiki": "https://en.wikipedia.org/wiki/Cerium",
+    "period": 6
   },
   "praseodymium": {
     "symbol": "Pr",
@@ -646,7 +760,8 @@
     "meltingPoint": 1204,
     "row": 9,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Praseodymium"
+    "wiki": "https://en.wikipedia.org/wiki/Praseodymium",
+    "period": 6
   },
   "neodymium": {
     "symbol": "Nd",
@@ -657,7 +772,8 @@
     "meltingPoint": 1289,
     "row": 9,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Neodymium"
+    "wiki": "https://en.wikipedia.org/wiki/Neodymium",
+    "period": 6
   },
   "promethium": {
     "symbol": "Pm",
@@ -668,7 +784,8 @@
     "meltingPoint": 1204,
     "row": 9,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Promethium"
+    "wiki": "https://en.wikipedia.org/wiki/Promethium",
+    "period": 6
   },
   "samarium": {
     "symbol": "Sm",
@@ -679,7 +796,8 @@
     "meltingPoint": 1345,
     "row": 9,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Samarium"
+    "wiki": "https://en.wikipedia.org/wiki/Samarium",
+    "period": 6
   },
   "europium": {
     "symbol": "Eu",
@@ -690,7 +808,8 @@
     "meltingPoint": 1095,
     "row": 9,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Europium"
+    "wiki": "https://en.wikipedia.org/wiki/Europium",
+    "period": 6
   },
   "gadolinium": {
     "symbol": "Gd",
@@ -701,7 +820,8 @@
     "meltingPoint": 1585,
     "row": 9,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Gadolinium"
+    "wiki": "https://en.wikipedia.org/wiki/Gadolinium",
+    "period": 6
   },
   "terbium": {
     "symbol": "Tb",
@@ -712,7 +832,8 @@
     "meltingPoint": 1630,
     "row": 9,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Terbium"
+    "wiki": "https://en.wikipedia.org/wiki/Terbium",
+    "period": 6
   },
   "dysprosium": {
     "symbol": "Dy",
@@ -723,7 +844,8 @@
     "meltingPoint": 1685,
     "row": 9,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Dysprosium"
+    "wiki": "https://en.wikipedia.org/wiki/Dysprosium",
+    "period": 6
   },
   "holmium": {
     "symbol": "Ho",
@@ -734,7 +856,8 @@
     "meltingPoint": 1743,
     "row": 9,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Holmium"
+    "wiki": "https://en.wikipedia.org/wiki/Holmium",
+    "period": 6
   },
   "erbium": {
     "symbol": "Er",
@@ -745,7 +868,8 @@
     "meltingPoint": 1795,
     "row": 9,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Erbium"
+    "wiki": "https://en.wikipedia.org/wiki/Erbium",
+    "period": 6
   },
   "thulium": {
     "symbol": "Tm",
@@ -756,7 +880,8 @@
     "meltingPoint": 1818,
     "row": 9,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Thulium"
+    "wiki": "https://en.wikipedia.org/wiki/Thulium",
+    "period": 6
   },
   "ytterbium": {
     "symbol": "Yb",
@@ -767,7 +892,8 @@
     "meltingPoint": 1097,
     "row": 9,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Ytterbium"
+    "wiki": "https://en.wikipedia.org/wiki/Ytterbium",
+    "period": 6
   },
   "lutetium": {
     "symbol": "Lu",
@@ -778,7 +904,8 @@
     "metlingPoint": 1936,
     "row": 9,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Lutetium"
+    "wiki": "https://en.wikipedia.org/wiki/Lutetium",
+    "period": 6
   },
   "hafnium": {
     "symbol": "Hf",
@@ -789,7 +916,9 @@
     "metlingPoint": 2500,
     "row": 6,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Hafnium"
+    "wiki": "https://en.wikipedia.org/wiki/Hafnium",
+    "group": 4,
+    "period": 6
   },
   "tantalum": {
     "symbol": "Ta",
@@ -800,7 +929,9 @@
     "meltingPoint": 3269,
     "row": 6,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Tantalum"
+    "wiki": "https://en.wikipedia.org/wiki/Tantalum",
+    "group": 6,
+    "period": 5
   },
   "tungsten": {
     "symbol": "W",
@@ -811,7 +942,9 @@
     "meltingPoint": 3680,
     "row": 6,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Tungsten"
+    "wiki": "https://en.wikipedia.org/wiki/Tungsten",
+    "group": 6,
+    "period": 6
   },
   "rhenium": {
     "symbol": "Re",
@@ -822,7 +955,9 @@
     "meltingPoint": 3453,
     "row": 6,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Rhenium"
+    "wiki": "https://en.wikipedia.org/wiki/Rhenium",
+    "group": 7,
+    "period": 6
   },
   "osmium": {
     "symbol": "Os",
@@ -833,7 +968,9 @@
     "meltingPoint": 3300,
     "row": 6,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Osmium"
+    "wiki": "https://en.wikipedia.org/wiki/Osmium",
+    "group": 8,
+    "period": 6
   },
   "iridium": {
     "symbol": "Ir",
@@ -844,7 +981,9 @@
     "meltingPoint": 2716,
     "row": 6,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Iridium"
+    "wiki": "https://en.wikipedia.org/wiki/Iridium",
+    "group": 9,
+    "period": 6
   },
   "platinum": {
     "symbol": "Pt",
@@ -855,7 +994,9 @@
     "meltingPoint": 2045,
     "row": 6,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Platinum"
+    "wiki": "https://en.wikipedia.org/wiki/Platinum",
+    "group": 10,
+    "period": 6
   },
   "gold": {
     "symbol": "Au",
@@ -866,7 +1007,9 @@
     "meltingPoint": 1337.58,
     "row": 6,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Gold"
+    "wiki": "https://en.wikipedia.org/wiki/Gold",
+    "group": 11,
+    "period": 6
   },
   "mercury": {
     "symbol": "Hg",
@@ -877,7 +1020,9 @@
     "meltingPoint": 234.28,
     "row": 6,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Mercury"
+    "wiki": "https://en.wikipedia.org/wiki/Mercury",
+    "group": 12,
+    "period": 6
   },
   "thallium": {
     "symbol": "Tl",
@@ -888,7 +1033,9 @@
     "meltingPoint": 577,
     "row": 6,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Thallium"
+    "wiki": "https://en.wikipedia.org/wiki/Thallium",
+    "group": 13,
+    "period": 6
   },
   "lead": {
     "symbol": "Pb",
@@ -899,7 +1046,9 @@
     "meltingPoint": 600.6,
     "row": 6,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Lead"
+    "wiki": "https://en.wikipedia.org/wiki/Lead",
+    "group": 14,
+    "period": 6
   },
   "bismuth": {
     "symbol": "Bi",
@@ -910,7 +1059,9 @@
     "meltingPoint": 544.52,
     "row": 6,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Bismuth"
+    "wiki": "https://en.wikipedia.org/wiki/Bismuth",
+    "group": 15,
+    "period": 6
   },
   "polonium": {
     "symbol": "Po",
@@ -921,7 +1072,9 @@
     "meltingPoint": 527,
     "row": 6,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Polonium"
+    "wiki": "https://en.wikipedia.org/wiki/Polonium",
+    "group": 16,
+    "period": 6
   },
   "astatine": {
     "symbol": "At",
@@ -932,7 +1085,9 @@
     "meltingPoint": 575,
     "row": 6,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Astatine"
+    "wiki": "https://en.wikipedia.org/wiki/Astatine",
+    "group": 17,
+    "period": 6
   },
   "radon": {
     "symbol": "Rn",
@@ -943,7 +1098,9 @@
     "meltingPoint": 202,
     "row": 6,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Radon"
+    "wiki": "https://en.wikipedia.org/wiki/Radon",
+    "group": 18,
+    "period": 6
   },
   "francium": {
     "symbol": "Fr",
@@ -954,7 +1111,9 @@
     "meltingPoint": 300,
     "row": 7,
     "column": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Francium"
+    "wiki": "https://en.wikipedia.org/wiki/Francium",
+    "group": 1,
+    "period": 7
   },
   "radium": {
     "symbol": "Ra",
@@ -965,7 +1124,9 @@
     "meltingPoint": 973,
     "row": 7,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Radium"
+    "wiki": "https://en.wikipedia.org/wiki/Radium",
+    "group": 2,
+    "period": 7
   },
   "actinium": {
     "symbol": "Ac",
@@ -976,7 +1137,8 @@
     "meltingPoint": 1323,
     "row": 10,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Actinium"
+    "wiki": "https://en.wikipedia.org/wiki/Actinium",
+    "period": 7
   },
   "thorium": {
     "symbol": "Th",
@@ -987,7 +1149,8 @@
     "meltingPoint": 2028,
     "row": 10,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Thorium"
+    "wiki": "https://en.wikipedia.org/wiki/Thorium",
+    "period": 7
   },
   "protactinium": {
     "symbol": "Pa",
@@ -998,7 +1161,8 @@
     "meltingPoint": 2113,
     "row": 10,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Protactinium"
+    "wiki": "https://en.wikipedia.org/wiki/Protactinium",
+    "period": 7
   },
   "uranium": {
     "symbol": "U",
@@ -1009,7 +1173,8 @@
     "meltingPoint": 1405,
     "row": 10,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Uranium"
+    "wiki": "https://en.wikipedia.org/wiki/Uranium",
+    "period": 7
   },
   "neptunium": {
     "symbol": "Np",
@@ -1020,7 +1185,8 @@
     "meltingPoint": 913,
     "row": 10,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Neptunium"
+    "wiki": "https://en.wikipedia.org/wiki/Neptunium",
+    "period": 7
   },
   "plutonium": {
     "symbol": "Pu",
@@ -1031,7 +1197,8 @@
     "meltingPoint": 913,
     "row": 10,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Plutonium"
+    "wiki": "https://en.wikipedia.org/wiki/Plutonium",
+    "period": 7
   },
   "americium": {
     "symbol": "Am",
@@ -1042,7 +1209,8 @@
     "meltingPoint": 1267,
     "row": 10,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Americium"
+    "wiki": "https://en.wikipedia.org/wiki/Americium",
+    "period": 7
   },
   "curium": {
     "symbol": "Cm",
@@ -1053,7 +1221,8 @@
     "meltingPoint": 1340,
     "row": 10,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Curium"
+    "wiki": "https://en.wikipedia.org/wiki/Curium",
+    "period": 7
   },
   "berkelium": {
     "symbol": "Bk",
@@ -1064,7 +1233,8 @@
     "meltingPoint": 1259,
     "row": 10,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Berkelium"
+    "wiki": "https://en.wikipedia.org/wiki/Berkelium",
+    "period": 7
   },
   "californium": {
     "symbol": "Cf",
@@ -1075,7 +1245,8 @@
     "meltingPoint": 1173,
     "row": 10,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Californium"
+    "wiki": "https://en.wikipedia.org/wiki/Californium",
+    "period": 7
   },
   "einsteinium": {
     "symbol": "Es",
@@ -1086,7 +1257,8 @@
     "meltingPoint": 1133,
     "row": 10,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Einsteinium"
+    "wiki": "https://en.wikipedia.org/wiki/Einsteinium",
+    "period": 7
   },
   "fermium": {
     "symbol": "Fm",
@@ -1097,7 +1269,8 @@
     "meltingPoint": "unknown",
     "row": 10,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Fermium"
+    "wiki": "https://en.wikipedia.org/wiki/Fermium",
+    "period": 7
   },
   "mendelevium": {
     "symbol": "Md",
@@ -1108,7 +1281,8 @@
     "meltingPoint": "unknown",
     "row": 10,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Mendelevium"
+    "wiki": "https://en.wikipedia.org/wiki/Mendelevium",
+    "period": 7
   },
   "nobelium": {
     "symbol": "No",
@@ -1119,7 +1293,8 @@
     "meltingPoint": "unknown",
     "row": 10,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Nobelium"
+    "wiki": "https://en.wikipedia.org/wiki/Nobelium",
+    "period": 7
   },
   "lawrencium": {
     "symbol": "Lr",
@@ -1130,7 +1305,8 @@
     "meltingPoint": "unknown",
     "row": 10,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Lawrencium"
+    "wiki": "https://en.wikipedia.org/wiki/Lawrencium",
+    "period": 7
   },
   "rutherfordium": {
     "symbol": "Rf",
@@ -1141,7 +1317,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Rutherfordium"
+    "wiki": "https://en.wikipedia.org/wiki/Rutherfordium",
+    "group": 4,
+    "period": 7
   },
   "dubnium": {
     "symbol": "Db",
@@ -1152,7 +1330,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Dubnium"
+    "wiki": "https://en.wikipedia.org/wiki/Dubnium",
+    "group": 5,
+    "period": 7
   },
   "seaborgium": {
     "symbol": "Sg",
@@ -1163,7 +1343,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Seaborgium"
+    "wiki": "https://en.wikipedia.org/wiki/Seaborgium",
+    "group": 6,
+    "period": 7
   },
   "bohrium": {
     "symbol": "Bh",
@@ -1174,7 +1356,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Bohrium"
+    "wiki": "https://en.wikipedia.org/wiki/Bohrium",
+    "group": 7,
+    "period": 7
   },
   "hassium": {
     "symbol": "Hs",
@@ -1185,7 +1369,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Hassium"
+    "wiki": "https://en.wikipedia.org/wiki/Hassium",
+    "group": 8,
+    "period": 7
   },
   "meitnerium": {
     "symbol": "Mt",
@@ -1196,7 +1382,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Meitnerium"
+    "wiki": "https://en.wikipedia.org/wiki/Meitnerium",
+    "group": 9,
+    "period": 7
   },
   "darmstadtium": {
     "symbol": "Ds",
@@ -1207,7 +1395,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Darmstadtium"
+    "wiki": "https://en.wikipedia.org/wiki/Darmstadtium",
+    "group": 10,
+    "period": 7
   },
   "roentgenium": {
     "symbol": "Rg",
@@ -1218,7 +1408,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Roentgenium"
+    "wiki": "https://en.wikipedia.org/wiki/Roentgenium",
+    "group": 11,
+    "period": 7
   },
   "copernicium": {
     "symbol": "Cn",
@@ -1229,7 +1421,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Copernicium"
+    "wiki": "https://en.wikipedia.org/wiki/Copernicium",
+    "group": 12,
+    "period": 7
   },
   "nihonium": {
     "symbol": "Nh",
@@ -1240,7 +1434,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Nihonium"
+    "wiki": "https://en.wikipedia.org/wiki/Nihonium",
+    "group": 13,
+    "period": 7
   },
   "flerovium": {
     "symbol": "Fl",
@@ -1251,7 +1447,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Flerovium"
+    "wiki": "https://en.wikipedia.org/wiki/Flerovium",
+    "group": 14,
+    "period": 7
   },
   "moscovium": {
     "symbol": "Mc",
@@ -1262,7 +1460,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Moscovium"
+    "wiki": "https://en.wikipedia.org/wiki/Moscovium",
+    "group": 15,
+    "period": 7
   },
   "livermorium": {
     "symbol": "Lv",
@@ -1273,7 +1473,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Livermorium"
+    "wiki": "https://en.wikipedia.org/wiki/Livermorium",
+    "group": 16,
+    "period": 7
   },
   "tennessine": {
     "symbol": "Ts",
@@ -1284,7 +1486,9 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Tennessine"
+    "wiki": "https://en.wikipedia.org/wiki/Tennessine",
+    "group": 17,
+    "period": 7
   },
   "oganesson": {
     "symbol": "Og",
@@ -1295,6 +1499,8 @@
     "meltingPoint": "unknown",
     "row": 7,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Oganesson"
+    "wiki": "https://en.wikipedia.org/wiki/Oganesson",
+    "group": 18,
+    "period": 7
   }
 }

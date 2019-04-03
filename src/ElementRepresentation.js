@@ -1,7 +1,5 @@
 import React from "react";
-
-
-var $ = require("jquery");
+import $ from "jquery";
 
 class AtomicElement extends React.Component {
 	constructor(props) {
@@ -31,7 +29,8 @@ class AtomicElement extends React.Component {
         };
 
         return (
-            <div id={this.props.elementName} className={"bordered centered elemBox " + this.props.type}
+            <div id={this.props.elementName} className={"bordered centered elemBox " + this.props.type + " group" +
+                                                        this.props.group + " period" + this.props.period}
                  onMouseOver={(event) => this._renderDetailedElement()}
                  onMouseOut={(event) => this._resetDetailedElement()}
                  onClick={(event) => window.open(this.props.link)}
