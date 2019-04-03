@@ -178,14 +178,14 @@
 }
 
 .numberColumn {
-    padding: 0.3em 0.1em 0.3em 0.1em;
-    border-width: 0.05em;
+    padding: 0.3em 0.03em 0.3em 0.03em;
+    border-width: 0.02em;
     border-color: white white rgb(203, 236, 230) white;
 }
 
 .firstColumnNumber {
-    padding: 0.3em 0.1em 0.3em 0.1em;
-    border-width: 0.05em;
+    padding: 0.3em 0.03em 0.3em 0.03em;
+    border-width: 0.02em;
     border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
 
