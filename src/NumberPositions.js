@@ -4,7 +4,7 @@ import $ from "jquery";
 
 class NumberRow extends React.Component {
 	constructor(props) {
-		super(props);
+        super(props);
     }
 
     _highlightColumn(groupNumber) {

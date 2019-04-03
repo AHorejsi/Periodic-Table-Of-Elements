@@ -296,6 +296,26 @@
 .unknown {
     color: rgb(102, 119, 102);
 }
+
+.gasHighlight {
+    color: white;
+    background-color: rgb(153, 0, 0);
+}
+
+.liquidHighlight {
+    color: white;
+    background-color: rgb(0, 0, 221);
+}
+
+.solidHighlight {
+    color: white;
+    background-color: black;
+}
+
+.unknownHighlight {
+    color: white;
+    background-color: rgb(102, 119, 102);
+}
 /* End of classes for element phase state representation */
 
 /* Begin of classes for layout of periodic table */
