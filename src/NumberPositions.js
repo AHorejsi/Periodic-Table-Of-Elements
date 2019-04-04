@@ -24,8 +24,8 @@ class NumberRow extends React.Component {
         htmlElement.css({"background-color": "white"});
         
         $(".elemBox:not(.group" + groupNumber + ")").css({
-            "opacity": "",
-            "filter": ""
+            "opacity": "1",
+            "filter": "alpha(opacity = 100)"
         });
     }
 	
@@ -98,8 +98,8 @@ class NumberColumn extends React.Component {
         htmlElement.css({"background-color": "white"});
 
         $(".elemBox:not(.period" + periodNumber + ")").css({
-            "opacity": "",
-            "filter": ""
+            "opacity": "1",
+            "filter": "alpha(opacity = 100)"
         });
     }
 	

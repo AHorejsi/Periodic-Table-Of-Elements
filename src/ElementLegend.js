@@ -16,8 +16,8 @@ class ElementLegend extends React.Component {
 
     _unhighlightType(elementType) {
         $(".elemBox:not(." + elementType + ")").css({
-            "opacity": "",
-            "filter": ""
+            "opacity": "1",
+            "filter": "alpha(opacity = 100)"
         });
     }
 
@@ -35,8 +35,8 @@ class ElementLegend extends React.Component {
     _unhighlightCategory(listOfTypes, callerId) {
         $("#" + callerId).removeAttr("style");
         $(".elemBox:not(." + listOfTypes.join(", .") + ")").css({
-            "opacity": "",
-            "filter": ""
+            "opacity": "1",
+            "filter": "alpha(opacity = 100)"
         });
     }
 	

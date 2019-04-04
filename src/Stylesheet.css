@@ -224,7 +224,7 @@
     -webkit-appearance: none;
     appearance: none;
     height: 0.7em;
-    width: 14em !important;
+    width: 12.5em !important;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -252,7 +252,7 @@
 }
 
 .sliderTextbox {
-    width: 18%;
+    width: 24%;
     text-align: center;
 }
 /* End of classes for slider */
