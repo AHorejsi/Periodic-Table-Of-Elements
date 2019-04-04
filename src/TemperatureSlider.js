@@ -73,4 +73,5 @@ class TemperatureSlider extends React.Component {
     }
 }
 
+
 export default TemperatureSlider

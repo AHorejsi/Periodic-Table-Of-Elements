@@ -30,6 +30,11 @@
 .pointerCursor {
     cursor: default;
 }
+
+.grayout {
+    opacity: 0.3;
+    filter: alpha(opacity = 30);
+}
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -207,11 +212,6 @@
 
 .unhighlightNumber {
     background-color: white;
-}
-
-.grayout {
-    opacity: 0.3;
-    filter: alpha(opacity = 30);
 }
 /* End of classes for number positions */
 
@@ -412,3 +412,13 @@
     grid-column: 2 / 10;
 }
 /* End of classes for page */
+
+/* Begin of classes for range boxes */
+.actinoidRep {
+    background-color: rgb(238, 212, 229);
+}
+
+.lanthanoidRep {
+    background-color: rgb(255, 212, 195);
+}
+/* End of classes for range boxes*/

@@ -133,4 +133,5 @@ class NumberColumn extends React.Component {
 	}
 }
 
+
 export {NumberRow, NumberColumn}

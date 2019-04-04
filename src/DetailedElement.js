@@ -18,4 +18,5 @@ class DetailedElement extends React.Component {
     }
 }
 
+
 export default DetailedElement
