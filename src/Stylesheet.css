@@ -30,11 +30,6 @@
 .pointerCursor {
     cursor: default;
 }
-
-.grayout {
-    opacity: 0.3;
-    filter: alpha(opacity = 30);
-}
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -205,14 +200,6 @@
 .textColor {
     color: rgb(22, 49, 91);
 }
-
-.highlightNumber {
-    background-color: yellow;
-}
-
-.unhighlightNumber {
-    background-color: white;
-}
 /* End of classes for number positions */
 
 /* Begin of classes for detailed element representation */
@@ -268,16 +255,6 @@
     width: 18%;
     text-align: center;
 }
-
-/*#sliderDiv {
-    position: absolute;
-    padding-top: 0.5em;
-}
-
-#textboxDiv {
-    position: absolute;
-    padding-left: 6em;
-}*/
 /* End of classes for slider */
 
 /* Begin of classes for element phase state representation */

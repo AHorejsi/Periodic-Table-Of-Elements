@@ -10,19 +10,23 @@ class NumberRow extends React.Component {
     _highlightColumn(groupNumber) {
         let htmlElement = $("#group" + groupNumber + "ElementSet");
 
-        htmlElement.removeClass("unhighlightNumber");
-        htmlElement.addClass("highlightNumber");
+        htmlElement.css({"background-color": "yellow"});
 
-        $(".elemBox:not(.group" + groupNumber + ")").addClass("grayout");
+        $(".elemBox:not(.group" + groupNumber + ")").css({
+            "opacity": "0.3",
+            "filter": "alpha(opacity = 30)"
+        });;
     }
 
     _unhighlightColumn(groupNumber) {
         let htmlElement = $("#group" + groupNumber + "ElementSet");
 
-        htmlElement.removeClass("highlightNumber");
-        htmlElement.addClass("unhighlightNumber");
+        htmlElement.css({"background-color": "white"});
         
-        $(".elemBox:not(.group" + groupNumber + ")").removeClass("grayout");
+        $(".elemBox:not(.group" + groupNumber + ")").css({
+            "opacity": "",
+            "filter": ""
+        });
     }
 	
     render() {
@@ -33,7 +37,7 @@ class NumberRow extends React.Component {
 
             if (index === 1) {
                 value = <a id={"group" + index + "ElementSet"}
-                           className="number firstRowNumber bolded centered handPointer textColor unhighlightNumber"
+                           className="number firstRowNumber bolded centered handPointer textColor"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}
                            onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
@@ -42,7 +46,7 @@ class NumberRow extends React.Component {
             } 
             else if (index < 10) {
                 value = <a id={"group" + index + "ElementSet"}
-                           className="number numberRow bolded centered handPointer textColor unhighlightNumber"
+                           className="number numberRow bolded centered handPointer textColor"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}
                            onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
@@ -51,7 +55,7 @@ class NumberRow extends React.Component {
             }
             else {
                 value = <a id={"group" + index + "ElementSet"}
-                           className="number doubleDigitNumberRow bolded centered handPointer textColor unhighlightNumber"
+                           className="number doubleDigitNumberRow bolded centered handPointer textColor"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}
                            onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
@@ -80,19 +84,23 @@ class NumberColumn extends React.Component {
     _highlightRow(periodNumber) {
         let htmlElement = $("#period" + periodNumber + "ElementSet");
 
-        htmlElement.removeClass("unhighlightNumber");
-        htmlElement.addClass("highlightNumber");
+        htmlElement.css({"background-color": "yellow"});
 
-        $(".elemBox:not(.period" + periodNumber + ")").addClass("grayout");
+        $(".elemBox:not(.period" + periodNumber + ")").css({
+            "opacity": "0.3",
+            "filter": "alpha(opacity = 30)"
+        });;
     }
 
     _unhighlightRow(periodNumber) {
         let htmlElement = $("#period" + periodNumber + "ElementSet");
 
-        htmlElement.removeClass("highlightNumber");
-        htmlElement.addClass("unhighlightNumber");
+        htmlElement.css({"background-color": "white"});
 
-        $(".elemBox:not(.period" + periodNumber + ")").removeClass("grayout");
+        $(".elemBox:not(.period" + periodNumber + ")").css({
+            "opacity": "",
+            "filter": ""
+        });
     }
 	
     render() {
