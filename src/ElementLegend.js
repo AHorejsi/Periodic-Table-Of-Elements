@@ -7,18 +7,22 @@ class ElementLegend extends React.Component {
 		super(props);
     }
 
-    _highlightType(elementType) {
+    _highlightType(elementType, callerId) {
         $(".elemBox:not(." + elementType + ")").css({
             "opacity": "0.3",
             "filter": "alpha(opacity = 30)"
         });
+        $("#" + callerId).css({
+            "text-decoration": "underline"
+        });
     }
 
-    _unhighlightType(elementType) {
+    _unhighlightType(elementType, callerId) {
         $(".elemBox:not(." + elementType + ")").css({
             "opacity": "1",
             "filter": "alpha(opacity = 100)"
         });
+        $("#" + callerId).removeAttr("style");
     }
 
     _highlightCategory(listOfTypes, callerId) {
@@ -48,8 +52,12 @@ class ElementLegend extends React.Component {
                         <tr className="bottomBorder">
                             <th id="metalHead"
                                 className="centered bolded columnPadding sideBorder handPointer"
-                                onMouseOver={(event) => this._highlightCategory(["alkali", "alkaline", "transition-metal", "post-transition-metal", "actinoid", "lanthanoid"], "metalHead")}
-                                onMouseOut={(event) => this._unhighlightCategory(["alkali", "alkaline", "transition-metal", "post-transition-metal", "actinoid", "lanthanoid"], "metalHead")}>
+                                onMouseOver={(event) => this._highlightCategory(["alkali", "alkaline", "transition-metal",
+                                                                                "post-transition-metal", "actinoid", "lanthanoid"],
+                                                                                "metalHead")}
+                                onMouseOut={(event) => this._unhighlightCategory(["alkali", "alkaline", "transition-metal",
+                                                                                 "post-transition-metal", "actinoid", "lanthanoid"],
+                                                                                 "metalHead")}>
                                 Metals
                             </th>
 
@@ -74,21 +82,24 @@ class ElementLegend extends React.Component {
                             <td className="columnPadding sideBorder">
                                 <div className="metals">
                                     <div className="floatLeft">
-                                        <div className="singleLineBoxSpace bordered alkali centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("alkali")}
-                                             onMouseOut={(event) => this._unhighlightType("alkali")}>
+                                        <div id="alkali-box"
+                                             className="singleLineBoxSpace bordered alkali centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("alkali", "alkali-box")}
+                                             onMouseOut={(event) => this._unhighlightType("alkali", "alkali-box")}>
                                             Alkali metals
                                         </div>
 
-                                        <div className="singleLineBoxSpace bordered alkaline centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("alkaline")}
-                                             onMouseOut={(event) => this._unhighlightType("alkaline")}>
+                                        <div id="alkaline-box"
+                                             className="singleLineBoxSpace bordered alkaline centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("alkaline", "alkaline-box")}
+                                             onMouseOut={(event) => this._unhighlightType("alkaline", "alkaline-box")}>
                                             Alkaline metals
                                         </div>
 
-                                        <div className="doubleLineboxSpace bordered transition-metal centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("transition-metal")}
-                                             onMouseOut={(event) => this._unhighlightType("transition-metal")}>
+                                        <div id="transition-metal-box"
+                                             className="doubleLineboxSpace bordered transition-metal centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("transition-metal", "transition-metal-box")}
+                                             onMouseOut={(event) => this._unhighlightType("transition-metal", "transition-metal-box")}>
                                             Transition
                                             <br />
                                             metals
@@ -96,21 +107,24 @@ class ElementLegend extends React.Component {
                                     </div>
 
                                     <div className="floatRight">
-                                        <div className="singleLineBoxSpace bordered actinoid centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("actinoid")}
-                                             onMouseOut={(event) => this._unhighlightType("actinoid")}>
+                                        <div id="actinoid-box"
+                                             className="singleLineBoxSpace bordered actinoid centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("actinoid", "actinoid-box")}
+                                             onMouseOut={(event) => this._unhighlightType("actinoid", "actinoid-box")}>
                                             Actinoid
                                         </div>
 
-                                        <div className="singleLineBoxSpace bordered lanthanoid centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("lanthanoid")}
-                                             onMouseOut={(event) => this._unhighlightType("lanthanoid")}>
+                                        <div id="lanthanoid-box"
+                                             className="singleLineBoxSpace bordered lanthanoid centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("lanthanoid", "lanthanoid-box")}
+                                             onMouseOut={(event) => this._unhighlightType("lanthanoid", "lanthanoid-box")}>
                                             Lanthanoid
                                         </div>
 
-                                        <div className="doubleLineboxSpace bordered post-transition-metal centered handPointer"
-                                             onMouseOver={(event) => this._highlightType("post-transition-metal")}
-                                             onMouseOut={(event) => this._unhighlightType("post-transition-metal")}>
+                                        <div id="post-transition-metal-box"
+                                             className="doubleLineboxSpace bordered post-transition-metal centered handPointer"
+                                             onMouseOver={(event) => this._highlightType("post-transition-metal", "post-transition-metal-box")}
+                                             onMouseOut={(event) => this._unhighlightType("post-transition-metal", "post-transition-metal-box")}>
                                             Post-transition metals
                                         </div>
                                     </div>
@@ -118,23 +132,26 @@ class ElementLegend extends React.Component {
                             </td>
 
                             <td className="columnPadding sideBorder">
-                                <div className="singleLineBoxSpace bordered noble-gas centered handPointer"
-                                     onMouseOver={(event) => this._highlightType("noble-gas")}
-                                     onMouseOut={(event) => this._unhighlightType("noble-gas")}>
+                                <div id="noble-gas-box"
+                                     className="singleLineBoxSpace bordered noble-gas centered handPointer"
+                                     onMouseOver={(event) => this._highlightType("noble-gas", "noble-gas-box")}
+                                     onMouseOut={(event) => this._unhighlightType("noble-gas", "noble-gas-box")}>
                                     Noble gases
                                 </div>
 
-                                <div className="singleLineboxSpace bordered nonmetal centered handPointer"
-                                     onMouseOver={(event) => this._highlightType("nonmetal")}
-                                     onMouseOut={(event) => this._unhighlightType("nonmetal")}>
+                                <div id="nonmetal-box"
+                                     className="singleLineboxSpace bordered nonmetal centered handPointer"
+                                     onMouseOver={(event) => this._highlightType("nonmetal", "nonmetal-box")}
+                                     onMouseOut={(event) => this._unhighlightType("nonmetal", "nonmetal-box")}>
                                     Other nonmetals
                                 </div>
                             </td>
 
                             <td className="columnPadding">
-                                <div className="singleLineBoxSpace bordered metalloid centered handPointer legendData"
-                                     onMouseOver={(event) => this._highlightType("metalloid")}
-                                     onMouseOut={(event) => this._unhighlightType("metalloid")}>
+                                <div id="metalloid-box"
+                                     className="singleLineBoxSpace bordered metalloid centered handPointer legendData"
+                                     onMouseOver={(event) => this._highlightType("metalloid", "metalloid-box")}
+                                     onMouseOut={(event) => this._unhighlightType("metalloid", "metalloid-box")}>
                                     Metalloids
                                 </div>
                             </td>
