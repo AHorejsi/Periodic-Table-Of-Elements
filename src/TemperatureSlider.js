@@ -58,7 +58,7 @@ class TemperatureSlider extends React.Component {
         return (
             <div className="tempSlider">
                 <form>
-                    <span>
+                    <span id="sliderBox">
                         <input id="temperatureSlider" className="slider floatLeft" type="range" min="0" max="9999" step="1"
                                 onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
                     </span>

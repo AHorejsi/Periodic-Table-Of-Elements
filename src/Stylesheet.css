@@ -255,6 +255,11 @@
     width: 24%;
     text-align: center;
 }
+
+#sliderBox {
+    position: absolute;
+    padding-top: 0.5em;
+}
 /* End of classes for slider */
 
 /* Begin of classes for element phase state representation */

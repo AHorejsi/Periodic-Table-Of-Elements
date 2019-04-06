@@ -36,29 +36,29 @@ class NumberRow extends React.Component {
             let value;
 
             if (index === 1) {
-                value = <a id={"group" + index + "ElementSet"}
+                value = <a id="group1ElementSet"
                            className="number firstRowNumber bolded centered handPointer textColor"
+                           href="https://en.wikipedia.org/wiki/Group_1_element"
                            onMouseOver={(event) => this._highlightColumn(index)}
-                           onMouseOut={(event) => this._unhighlightColumn(index)}
-                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                           onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
                         </a>;
             } 
             else if (index < 10) {
                 value = <a id={"group" + index + "ElementSet"}
                            className="number numberRow bolded centered handPointer textColor"
+                           href={"https://en.wikipedia.org/wiki/Group_" + index + "_element"}
                            onMouseOver={(event) => this._highlightColumn(index)}
-                           onMouseOut={(event) => this._unhighlightColumn(index)}
-                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                           onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
                         </a>;
             }
             else {
                 value = <a id={"group" + index + "ElementSet"}
                            className="number doubleDigitNumberRow bolded centered handPointer textColor"
+                           href={"https://en.wikipedia.org/wiki/Group_" + index + "_element"}
                            onMouseOver={(event) => this._highlightColumn(index)}
-                           onMouseOut={(event) => this._unhighlightColumn(index)}
-                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Group_" + index + "_element")}>
+                           onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
                         </a>;
             }
@@ -110,20 +110,20 @@ class NumberColumn extends React.Component {
             let value;
 
             if (index === 1) {
-                value = <a id={"period" + index + "ElementSet"}
+                value = <a id="period1ElementSet"
                            className="number firstColumnNumber bolded centered handPointer textColor unhighlightNumber"
+                           href="https://en.wikipedia.org/wiki/Period_1_element"
                            onMouseOver={(event) => this._highlightRow(index)}
-                           onMouseOut={(event) => this._unhighlightRow(index)}
-                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Period_" + index + "_element")}>
+                           onMouseOut={(event) => this._unhighlightRow(index)}>
                             {index}
                         </a>;
             }
             else {
                 value = <a id={"period" + index + "ElementSet"}
                            className="number numberColumn bolded centered handPointer textColor unhighlightNumber"
+                           href={"https://en.wikipedia.org/wiki/Period_" + index + "_element"}
                            onMouseOver={(event) => this._highlightRow(index)}
-                           onMouseOut={(event) => this._unhighlightRow(index)}
-                           onClick={(event) => window.open("https://en.wikipedia.org/wiki/Period_" + index + "_element")}>
+                           onMouseOut={(event) => this._unhighlightRow(index)}>
                             {index}
                         </a>;
             }
