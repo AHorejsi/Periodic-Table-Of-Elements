@@ -6,6 +6,11 @@ class TemperatureSlider extends React.Component {
         super(props);
     }
 
+    componentDidMount() {
+        $("#temperatureSlider").val(273);
+        this._updateAtomicElementStatesFromSlider(this.props.json);
+    }
+
     _updateAtomicElementStatesFromSlider(elementData) {
         let temperature = $("#temperatureSlider").val();
         $("#temperatureInput").val(temperature);
@@ -33,18 +38,18 @@ class TemperatureSlider extends React.Component {
     }
 
     _computePhaseState(elem, elementData, temperature) {
-        if (elementData[elem].boilingPoint != "unknown") {
+        if (elementData[elem].boilingPoint !== "unknown") {
             if (elementData[elem].boilingPoint < temperature) {
                 return "gas";
             }
         }
 
-        if (elementData[elem].meltingPoint != "unknown") {
-            if (elementData[elem].meltingPoint < temperature) {
-                return "liquid";
+        if (elementData[elem].meltingPoint !== "unknown") {
+            if (elementData[elem].meltingPoint > temperature) {
+                return "solid";
             }
             else {
-                return "solid";
+                return "liquid";
             }
         }
 
