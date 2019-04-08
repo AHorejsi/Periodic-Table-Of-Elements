@@ -2,7 +2,7 @@ import React from "react";
 import AtomicElement from "./ElementRepresentation";
 import RangeBox from "./RangeBox";
 import DetailedElement from "./DetailedElement";
-import ElementLegend from "./ElementLegend";
+import CategoryLegend from "./CategoryLegend";
 import TemperatureSlider from "./TemperatureSlider";
 import PhaseStateLegend from "./PhaseStateLegend";
 
@@ -59,9 +59,9 @@ class PeriodicTable extends React.Component {
                     <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
                     <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
 
-                    <div className="legendGroup">
+                    <div id="legendGroup">
                         <PhaseStateLegend />
-                        <ElementLegend />
+                        <CategoryLegend />
                     </div>
 
                     <TemperatureSlider json={this.props.json} />
