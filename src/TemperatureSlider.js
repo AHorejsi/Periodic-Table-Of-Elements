@@ -1,29 +1,26 @@
 import React from "react";
 import $ from "jquery";
-import elemJSON from "./ElementJSON";
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
         super(props);
     }
 
-    _updateAtomicElementStatesFromSlider() {
+    _updateAtomicElementStatesFromSlider(elementData) {
         let temperature = $("#temperatureSlider").val();
         $("#temperatureInput").val(temperature);
 
-        this._editStates(Number(temperature));
+        this._editStates(Number(temperature), elementData);
     }
 
-    _updateAtomicElementStatesFromTextBox() {
+    _updateAtomicElementStatesFromTextBox(elementData) {
         let temperature = $("#temperatureInput").val();
         $("#temperatureSlider").val(temperature);
         
-        this._editStates(Number(temperature));
+        this._editStates(Number(temperature), elementData);
     }
 
-    _editStates(temperature) {
-        let elementData = elemJSON.data;
-
+    _editStates(temperature, elementData) {
         for (let elem in elementData) {
             let elemDiv = $("#" + elem);
             let phaseState = this._computePhaseState(elem, elementData, temperature);
@@ -59,12 +56,12 @@ class TemperatureSlider extends React.Component {
             <div id="temperatureDiv">
                 <span id="sliderSpan">
                     <input id="temperatureSlider" className="slider floatLeft" type="range" min="0" max="9999" step="1"
-                           onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
+                           onChange={(event) => this._updateAtomicElementStatesFromSlider(this.props.json)} />
                 </span>
                     
                 <span>
                     <input id="temperatureInput" className="sliderTextbox floatRight" type="number" minLength="1" maxLength="4"
-                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
+                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox(this.props.json)} />
                 </span>
             </div>
         );        

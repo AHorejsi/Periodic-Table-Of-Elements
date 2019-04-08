@@ -13,7 +13,7 @@ class Page extends React.Component {
             <div className="grid">
                 <NumberRow />
                 <NumberColumn />
-                <PeriodicTable />
+                <PeriodicTable json={this.props.json} />
             </div>
         );
     }

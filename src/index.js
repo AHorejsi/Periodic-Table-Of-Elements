@@ -4,10 +4,7 @@ import $ from "jquery";
 import Page from "./Page";
 import "./Stylesheet.css";
 
-$(document).ready(function() {
-    ReactDOM.render(<Page />, document.getElementById("main"));
 
-    //$("#temperatureSlider").val(273);
-    //$("#temperatureInput").val(273);
-    //$("#temperatureSlider").trigger("change");
+$.getJSON("/Elements.json", function(jsonData) {
+    ReactDOM.render(<Page json={jsonData} />, document.getElementById("main"));
 });

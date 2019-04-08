@@ -5,7 +5,6 @@ import DetailedElement from "./DetailedElement";
 import ElementLegend from "./ElementLegend";
 import TemperatureSlider from "./TemperatureSlider";
 import PhaseStateLegend from "./PhaseStateLegend";
-import elemJSON from "./ElementJSON";
 
 
 class PeriodicTable extends React.Component {
@@ -13,9 +12,8 @@ class PeriodicTable extends React.Component {
         super(props);
     }
 
-    _getInnerHTML() {
-        let html = []
-        let elementData = elemJSON.data;
+    _getInnerHTML(elementData) {
+        let html = [];
 
         for (let elem in elementData) {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
@@ -56,7 +54,7 @@ class PeriodicTable extends React.Component {
         return (
             <div id="periodicTable">
                 <div className="grid">
-                    {this._getInnerHTML()}
+                    {this._getInnerHTML(this.props.json)}
 
                     <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
                     <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
@@ -66,7 +64,7 @@ class PeriodicTable extends React.Component {
                         <ElementLegend />
                     </div>
 
-                    <TemperatureSlider />
+                    <TemperatureSlider json={this.props.json} />
 
                     <div className="detailed">
                         <DetailedElement />
