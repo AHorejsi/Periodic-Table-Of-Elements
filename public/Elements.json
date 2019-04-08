@@ -737,6 +737,7 @@
     "row": 10,
     "column": 5,
     "wiki": "https://en.wikipedia.org/wiki/Lanthanum",
+    "group": null,
     "period": 6
   },
   "cerium": {
@@ -749,6 +750,7 @@
     "row": 10,
     "column": 6,
     "wiki": "https://en.wikipedia.org/wiki/Cerium",
+    "group": null,
     "period": 6
   },
   "praseodymium": {
@@ -761,6 +763,7 @@
     "row": 10,
     "column": 7,
     "wiki": "https://en.wikipedia.org/wiki/Praseodymium",
+    "group": null,
     "period": 6
   },
   "neodymium": {
@@ -773,6 +776,7 @@
     "row": 10,
     "column": 8,
     "wiki": "https://en.wikipedia.org/wiki/Neodymium",
+    "group": null,
     "period": 6
   },
   "promethium": {
@@ -785,6 +789,7 @@
     "row": 10,
     "column": 9,
     "wiki": "https://en.wikipedia.org/wiki/Promethium",
+    "group": null,
     "period": 6
   },
   "samarium": {
@@ -797,6 +802,7 @@
     "row": 10,
     "column": 10,
     "wiki": "https://en.wikipedia.org/wiki/Samarium",
+    "group": null,
     "period": 6
   },
   "europium": {
@@ -809,6 +815,7 @@
     "row": 10,
     "column": 11,
     "wiki": "https://en.wikipedia.org/wiki/Europium",
+    "group": null,
     "period": 6
   },
   "gadolinium": {
@@ -821,6 +828,7 @@
     "row": 10,
     "column": 12,
     "wiki": "https://en.wikipedia.org/wiki/Gadolinium",
+    "group": null,
     "period": 6
   },
   "terbium": {
@@ -833,6 +841,7 @@
     "row": 10,
     "column": 13,
     "wiki": "https://en.wikipedia.org/wiki/Terbium",
+    "group": null,
     "period": 6
   },
   "dysprosium": {
@@ -845,6 +854,7 @@
     "row": 10,
     "column": 14,
     "wiki": "https://en.wikipedia.org/wiki/Dysprosium",
+    "group": null,
     "period": 6
   },
   "holmium": {
@@ -857,6 +867,7 @@
     "row": 10,
     "column": 15,
     "wiki": "https://en.wikipedia.org/wiki/Holmium",
+    "group": null,
     "period": 6
   },
   "erbium": {
@@ -869,6 +880,7 @@
     "row": 10,
     "column": 16,
     "wiki": "https://en.wikipedia.org/wiki/Erbium",
+    "group": null,
     "period": 6
   },
   "thulium": {
@@ -881,6 +893,7 @@
     "row": 10,
     "column": 17,
     "wiki": "https://en.wikipedia.org/wiki/Thulium",
+    "group": null,
     "period": 6
   },
   "ytterbium": {
@@ -893,6 +906,7 @@
     "row": 10,
     "column": 18,
     "wiki": "https://en.wikipedia.org/wiki/Ytterbium",
+    "group": null,
     "period": 6
   },
   "lutetium": {
@@ -905,6 +919,7 @@
     "row": 10,
     "column": 19,
     "wiki": "https://en.wikipedia.org/wiki/Lutetium",
+    "group": null,
     "period": 6
   },
   "hafnium": {
@@ -1138,6 +1153,7 @@
     "row": 11,
     "column": 5,
     "wiki": "https://en.wikipedia.org/wiki/Actinium",
+    "group": null,
     "period": 7
   },
   "thorium": {
@@ -1150,6 +1166,7 @@
     "row": 11,
     "column": 6,
     "wiki": "https://en.wikipedia.org/wiki/Thorium",
+    "group": null,
     "period": 7
   },
   "protactinium": {
@@ -1162,6 +1179,7 @@
     "row": 11,
     "column": 7,
     "wiki": "https://en.wikipedia.org/wiki/Protactinium",
+    "group": null,
     "period": 7
   },
   "uranium": {
@@ -1174,6 +1192,7 @@
     "row": 11,
     "column": 8,
     "wiki": "https://en.wikipedia.org/wiki/Uranium",
+    "group": null,
     "period": 7
   },
   "neptunium": {
@@ -1186,6 +1205,7 @@
     "row": 11,
     "column": 9,
     "wiki": "https://en.wikipedia.org/wiki/Neptunium",
+    "group": null,
     "period": 7
   },
   "plutonium": {
@@ -1198,6 +1218,7 @@
     "row": 11,
     "column": 10,
     "wiki": "https://en.wikipedia.org/wiki/Plutonium",
+    "group": null,
     "period": 7
   },
   "americium": {
@@ -1210,6 +1231,7 @@
     "row": 11,
     "column": 11,
     "wiki": "https://en.wikipedia.org/wiki/Americium",
+    "group": null,
     "period": 7
   },
   "curium": {
@@ -1222,6 +1244,7 @@
     "row": 11,
     "column": 12,
     "wiki": "https://en.wikipedia.org/wiki/Curium",
+    "group": null,
     "period": 7
   },
   "berkelium": {
@@ -1234,6 +1257,7 @@
     "row": 11,
     "column": 13,
     "wiki": "https://en.wikipedia.org/wiki/Berkelium",
+    "group": null,
     "period": 7
   },
   "californium": {
@@ -1246,6 +1270,7 @@
     "row": 11,
     "column": 14,
     "wiki": "https://en.wikipedia.org/wiki/Californium",
+    "group": null,
     "period": 7
   },
   "einsteinium": {
@@ -1258,6 +1283,7 @@
     "row": 11,
     "column": 15,
     "wiki": "https://en.wikipedia.org/wiki/Einsteinium",
+    "group": null,
     "period": 7
   },
   "fermium": {
@@ -1270,6 +1296,7 @@
     "row": 11,
     "column": 16,
     "wiki": "https://en.wikipedia.org/wiki/Fermium",
+    "group": null,
     "period": 7
   },
   "mendelevium": {
@@ -1282,6 +1309,7 @@
     "row": 11,
     "column": 17,
     "wiki": "https://en.wikipedia.org/wiki/Mendelevium",
+    "group": null,
     "period": 7
   },
   "nobelium": {
@@ -1294,6 +1322,7 @@
     "row": 11,
     "column": 18,
     "wiki": "https://en.wikipedia.org/wiki/Nobelium",
+    "group": null,
     "period": 7
   },
   "lawrencium": {
@@ -1306,6 +1335,7 @@
     "row": 11,
     "column": 19,
     "wiki": "https://en.wikipedia.org/wiki/Lawrencium",
+    "group": null,
     "period": 7
   },
   "rutherfordium": {
