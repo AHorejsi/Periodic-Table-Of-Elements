@@ -5,6 +5,8 @@ import Page from "./Page";
 import "./Stylesheet.css";
 
 
-$.getJSON("/Elements.json", function(jsonData) {
-    ReactDOM.render(<Page json={jsonData} />, document.getElementById("main"));
+$(document).ready(function() {
+    $.getJSON("/Elements.json", function(jsonData) {
+        ReactDOM.render(<Page json={jsonData} />, document.getElementById("main"));
+    });
 });

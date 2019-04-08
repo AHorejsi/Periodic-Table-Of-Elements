@@ -70,8 +70,8 @@ class ElementLegend extends React.Component {
 
                             <th id="otherHead"
                                 className="centered bolded columnPadding handPointer"
-                                onMouseOver={(event) => this._highlightCategory(["metalloid"], "otherHead")}
-                                onMouseOut={(event) => this._unhighlightCategory(["metalloid"], "otherHead")}>
+                                onMouseOver={(event) => this._highlightCategory(["metalloid", "no-type"], "otherHead")}
+                                onMouseOut={(event) => this._unhighlightCategory(["metalloid", "no-type"], "otherHead")}>
                                 Other
                             </th>
                         </tr>
@@ -149,10 +149,17 @@ class ElementLegend extends React.Component {
 
                             <td className="columnPadding">
                                 <div id="metalloid-box"
-                                     className="singleLineBoxSpace bordered metalloid centered handPointer legendData"
+                                     className="singleLineBoxSpace bordered metalloid centered handPointer"
                                      onMouseOver={(event) => this._highlightType("metalloid", "metalloid-box")}
                                      onMouseOut={(event) => this._unhighlightType("metalloid", "metalloid-box")}>
                                     Metalloids
+                                </div>
+
+                                <div id="no-type-box"
+                                     className="singleLineBoxSpace bordered no-type centered handPointer"
+                                     onMouseOver={(event) => this._highlightType("no-type", "no-type-box")}
+                                     onMouseOut={(event) => this._unhighlightType("no-type", "no-type-box")}>
+                                    Unassigned
                                 </div>
                             </td>
                         </tr>
