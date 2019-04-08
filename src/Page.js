@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "./Title";
-import TabSection from "./TabSection";
 import MainContent from "./MainContent";
 
 
@@ -13,7 +12,6 @@ class Page extends React.Component {
         return (
             <div>
                 <Title />
-                <TabSection />
                 <MainContent json={this.props.json} />
             </div>
         );

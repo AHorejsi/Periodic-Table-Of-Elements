@@ -31,6 +31,10 @@
     cursor: default;
 }
 
+.flex {
+    display: flex;
+}
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -417,9 +421,20 @@
     height: 5em;
     width: 100%;
     background-color: rgb(33, 154, 165);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.titleSpace {
+    width: 1.5em;
 }
 
 .titleLetter {
-    color: white;
+    background-color: white;
+    font-size: 2em;
+    height: 1.5em;
+    width: 1.5em;
 }
 /* End of classes for title */
