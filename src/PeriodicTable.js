@@ -59,14 +59,16 @@ class PeriodicTable extends React.Component {
                     <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />
                     <RangeBox min="89" max="103" repType="actinoid" gridRow="8" gridColumn="4" />
 
-                    <div id="legendGroup">
+                    <div id="transition-metal-gap">
                         <PhaseStateLegend />
                         <CategoryLegend />
                     </div>
 
-                    <TemperatureSlider json={this.props.json} />
+                    <div id="nonmetal-gap">
+                        <TemperatureSlider json={this.props.json} />
+                    </div>
 
-                    <div className="detailed">
+                    <div id="left-corner">
                         <DetailedElement />
                     </div>
                 </div>

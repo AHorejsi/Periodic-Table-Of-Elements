@@ -60,7 +60,7 @@ class TemperatureSlider extends React.Component {
                 </span>
                     
                 <span>
-                    <input id="temperatureInput" className="sliderTextbox floatRight" type="number" minLength="1" maxLength="4"
+                    <input id="temperatureInput" className="sliderTextbox centered floatRight" type="number" minLength="1" maxLength="4"
                            onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox(this.props.json)} />
                 </span>
             </div>

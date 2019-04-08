@@ -253,8 +253,9 @@
 }
 
 .sliderTextbox {
-    width: 24%;
-    text-align: center;
+    width: 4.2%;
+    position: absolute;
+    margin-left: 15%;
 }
 
 #sliderSpan {
@@ -309,12 +310,11 @@
 }
 
 #temperatureDiv {
-    grid-row: 2 / 3;
-    grid-column: 14 / 18;
+    padding-top: 0.5em;
     padding-left: 4.1em;
 }
 
-#legendGroup {
+#transition-metal-gap {
     grid-row: 2 / 5;
     grid-column: 4 / 14;
     padding-left: 3em;
@@ -322,7 +322,12 @@
     height: 4em;
 }
 
-.detailed {
+#nonmetal-gap {
+    grid-row: 2 / 3;
+    grid-column: 14 / 18;
+}
+
+#left-corner {
     grid-row: 9 / 12;
     grid-column: 2 / 4;
     padding-top: 0.5em;
@@ -409,6 +414,12 @@
 
 /* Begin of classes for title */
 #titleDiv {
+    height: 5em;
+    width: 100%;
+    background-color: rgb(33, 154, 165);
+}
 
+.titleLetter {
+    color: white;
 }
 /* End of classes for title */
