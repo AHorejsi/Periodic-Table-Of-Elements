@@ -30,6 +30,7 @@
 .pointerCursor {
     cursor: default;
 }
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -256,9 +257,11 @@
     text-align: center;
 }
 
-#sliderBox {
+#sliderSpan {
     position: absolute;
-    padding-top: 0.5em;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    background-color: lightgray;
+    margin-top: 0.5em;
 }
 /* End of classes for slider */
 
@@ -303,10 +306,9 @@
 /* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
-    grid-gap: 0em;
 }
 
-.tempSlider {
+#temperatureDiv {
     grid-row: 2 / 3;
     grid-column: 14 / 18;
     padding-left: 4.1em;

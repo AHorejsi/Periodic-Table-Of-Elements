@@ -1,17 +1,11 @@
-var elemJSON = {
-    data: null
-};
+import $ from "jquery";
 
-var xmlHttp = new XMLHttpRequest();
 
-xmlHttp.onreadystatechange = function() {
-    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-        elemJSON.data = JSON.parse(xmlHttp.responseText);
-    }
-};
+var elemJSON = {};
 
-xmlHttp.open("GET", "./Elements.json", true);
-xmlHttp.send();
+$.get("/Elements.json", function(data, textStatus, jQueryXMLHttp) {
+    elemJSON.data = data;
+});
 
 
 export default elemJSON;
