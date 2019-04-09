@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery";
 
 
-class NumberRow extends React.Component {
+class GroupNumbers extends React.Component {
 	constructor(props) {
         super(props);
     }
@@ -76,7 +76,7 @@ class NumberRow extends React.Component {
 	}
 }
 
-class NumberColumn extends React.Component {
+class PeriodNumbers extends React.Component {
 	constructor(props) {
 		super(props);
     }
@@ -142,4 +142,4 @@ class NumberColumn extends React.Component {
 }
 
 
-export {NumberRow, NumberColumn}
+export {GroupNumbers, PeriodNumbers}

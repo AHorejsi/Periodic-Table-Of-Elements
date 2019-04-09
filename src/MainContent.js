@@ -1,6 +1,6 @@
 import React from "react";
 import PeriodicTable from "./PeriodicTable";
-import {NumberRow, NumberColumn} from "./NumberPositions";
+import {GroupNumbers, PeriodNumbers} from "./NumberPositions";
 
 
 class MainContent extends React.Component {
@@ -11,8 +11,8 @@ class MainContent extends React.Component {
     render() {
         return (
             <div className="grid">
-                <NumberRow />
-                <NumberColumn />
+                <GroupNumbers />
+                <PeriodNumbers />
                 <PeriodicTable json={this.props.json} />
             </div>
         );

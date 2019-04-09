@@ -48,7 +48,7 @@ class TemperatureSlider extends React.Component {
             if (elementData[elem].meltingPoint > temperature) {
                 return "solid";
             }
-            else {
+            else if (elementData[elem].boilingPoint !== "unknown") {
                 return "liquid";
             }
         }
