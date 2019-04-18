@@ -35,6 +35,10 @@
     display: flex;
 }
 
+.upperSection {
+    background-color: rgb(33, 154, 165);
+}
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -420,7 +424,6 @@
 #titleDiv {
     height: 5em;
     width: 100%;
-    background-color: rgb(33, 154, 165);
     flex-direction: row;
     justify-content: center;
     align-items: center;

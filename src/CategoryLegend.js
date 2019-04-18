@@ -46,7 +46,7 @@ class ElementLegend extends React.Component {
 	
     render() {
         return (
-            <div className="floatRight legendHeight pointerCursor">
+            <div id="categoryLegend" className="floatRight pointerCursor">
                 <table className="panel">
                     <thead className="panel-heading">
                         <tr className="bottomBorder">

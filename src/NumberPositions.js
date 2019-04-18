@@ -8,10 +8,7 @@ class GroupNumbers extends React.Component {
     }
 
     _highlightColumn(groupNumber) {
-        let htmlElement = $("#group" + groupNumber + "ElementSet");
-
-        htmlElement.css({"background-color": "yellow"});
-
+        $("#group" + groupNumber + "ElementSet").css({"background-color": "yellow"});
         $(".elemBox:not(.group" + groupNumber + ")").css({
             "opacity": "0.3",
             "filter": "alpha(opacity = 30)"
@@ -19,10 +16,7 @@ class GroupNumbers extends React.Component {
     }
 
     _unhighlightColumn(groupNumber) {
-        let htmlElement = $("#group" + groupNumber + "ElementSet");
-
-        htmlElement.css({"background-color": "white"});
-        
+        $("#group" + groupNumber + "ElementSet").css({"background-color": "white"});
         $(".elemBox:not(.group" + groupNumber + ")").css({
             "opacity": "1",
             "filter": "alpha(opacity = 100)"

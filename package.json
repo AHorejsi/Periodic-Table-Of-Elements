@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An app displaying an interactive and educational periodic table of elements",
   "private": true,
+  "homepage": "https://github.com/AHorejsi/Periodic-Table-Of-Elements",
   "dependencies": {
     "braces": "^2.3.2",
     "jquery": "^3.3.1",

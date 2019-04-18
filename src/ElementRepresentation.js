@@ -24,8 +24,8 @@ class AtomicElement extends React.Component {
 	
     render() {
         let gridStyling = {
-            gridRow: this.props.row + " / " + this.props.row,
-            gridColumn: this.props.column + " / " + this.props.column
+            gridRow: this.props.row + " / " + (this.props.row + 1),
+            gridColumn: this.props.column + " / " + (this.props.column + 1)
         };
 
         return (

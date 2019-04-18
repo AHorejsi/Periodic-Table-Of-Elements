@@ -8,13 +8,23 @@ class PhaseStateLegend extends React.Component {
     }
 
     _highlightStates(phaseState) {
-        $("#" + phaseState + "Legend").removeClass(phaseState).addClass(phaseState + "Highlight");
-        $("." + phaseState + ".elemBox").removeClass(phaseState).addClass(phaseState + "Highlight");
+        let legendElement = $("#" + phaseState + "Legend");
+        legendElement.removeClass(phaseState);
+        legendElement.addClass(phaseState + "Highlight");
+
+        let elementsInGivenPhase = $("." + phaseState + ".elemBox");
+        elementsInGivenPhase.removeClass(phaseState);
+        elementsInGivenPhase.addClass(phaseState + "Highlight");
     }
 
     _unhighlightStates(phaseState) {
-        $("#" + phaseState + "Legend").removeClass(phaseState + "Highlight").addClass(phaseState);
-        $("." + phaseState + "Highlight.elemBox").removeClass(phaseState + "Highlight").addClass(phaseState);
+        let legendElement = $("#" + phaseState + "Legend");
+        legendElement.removeClass(phaseState + "Highlight");
+        legendElement.addClass(phaseState);
+
+        let elementsInGivenPhase = $("." + phaseState + "Highlight.elemBox")
+        elementsInGivenPhase.removeClass(phaseState + "Highlight");
+        elementsInGivenPhase.addClass(phaseState);
     }
 
     render() {
