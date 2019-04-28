@@ -34,6 +34,7 @@ class GroupNumbers extends React.Component {
                            className="number firstRowNumber bolded centered handPointer textColor"
                            href="https://en.wikipedia.org/wiki/Group_1_element"
 						   target="_blank"
+						   rel="noopener noreferrer"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
@@ -44,6 +45,7 @@ class GroupNumbers extends React.Component {
                            className="number numberRow bolded centered handPointer textColor"
                            href={"https://en.wikipedia.org/wiki/Group_" + index + "_element"}
 						   target="_blank"
+						   rel="noopener noreferrer"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
@@ -54,6 +56,7 @@ class GroupNumbers extends React.Component {
                            className="number doubleDigitNumberRow bolded centered handPointer textColor"
                            href={"https://en.wikipedia.org/wiki/Group_" + index + "_element"}
 						   target="_blank"
+						   rel="noopener noreferrer"
                            onMouseOver={(event) => this._highlightColumn(index)}
                            onMouseOut={(event) => this._unhighlightColumn(index)}>
                             {index}
@@ -111,6 +114,7 @@ class PeriodNumbers extends React.Component {
                            className="number firstColumnNumber bolded centered handPointer textColor unhighlightNumber"
                            href="https://en.wikipedia.org/wiki/Period_1_element"
 						   target="_blank"
+						   rel="noopener noreferrer"
                            onMouseOver={(event) => this._highlightRow(index)}
                            onMouseOut={(event) => this._unhighlightRow(index)}>
                             {index}
@@ -121,6 +125,7 @@ class PeriodNumbers extends React.Component {
                            className="number numberColumn bolded centered handPointer textColor unhighlightNumber"
                            href={"https://en.wikipedia.org/wiki/Period_" + index + "_element"}
 						   target="_blank"
+						   rel="noopener noreferrer"
                            onMouseOver={(event) => this._highlightRow(index)}
                            onMouseOut={(event) => this._unhighlightRow(index)}>
                             {index}
