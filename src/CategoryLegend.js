@@ -47,8 +47,8 @@ class ElementLegend extends React.Component {
     render() {
         return (
             <div id="categoryLegend" className="floatRight pointerCursor">
-                <table className="panel">
-                    <thead className="panel-heading">
+                <table>
+                    <thead>
                         <tr className="bottomBorder">
                             <th id="metalHead"
                                 className="centered bolded columnPadding sideBorder handPointer"
@@ -77,7 +77,7 @@ class ElementLegend extends React.Component {
                         </tr>
                     </thead>
 
-                    <tbody className="panel-body">
+                    <tbody>
                         <tr>
                             <td className="columnPadding sideBorder">
                                 <div className="metals">
