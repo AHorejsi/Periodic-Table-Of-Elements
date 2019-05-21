@@ -16,7 +16,9 @@ class RangeBox extends React.Component {
         };
 
         return (
-            <div className={"bordered centered elemBox cursorPointer " + this.props.repType + "Rep"} style={styling}>
+            <div id={this.props.repType + "RangeBox"}
+                 className={"bordered centered elemBox rangeBox cursorPointer " + this.props.repType + "Rep"}
+                 style={styling}>
                 {this.props.min + "-" + this.props.max}
             </div>
         );

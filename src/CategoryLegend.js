@@ -15,6 +15,13 @@ class ElementLegend extends React.Component {
         $("#" + callerId).css({
             "text-decoration": "underline"
         });
+
+        if (elementType === "lanthanoid" || elementType === "actinoid") {
+            $("#" + elementType + "RangeBox").css({
+                "opacity": "1",
+                "filter": "alpha(opacity = 100)"
+            });
+        }
     }
 
     _unhighlightType(elementType, callerId) {
@@ -34,6 +41,13 @@ class ElementLegend extends React.Component {
             "opacity": "0.3",
             "filter": "alpha(opacity = 30)"
         });
+
+        if (callerId === "metalHead") {
+            $(".rangeBox").css({
+                "opacity": "1",
+                "filter": "alpha(opacity = 100)"
+            });
+        }
     }
 
     _unhighlightCategory(listOfTypes, callerId) {

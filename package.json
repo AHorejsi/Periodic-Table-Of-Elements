@@ -4,13 +4,16 @@
   "description": "An app displaying an interactive and educational periodic table of elements",
   "private": true,
   "homepage": "https://github.com/AHorejsi/Periodic-Table-Of-Elements",
+  "proxy": "http://localhost:8080",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "braces": "^2.3.2",
-    "jquery": "^3.3.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "express": "^4.17.0",
+    "jquery": "^3.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
