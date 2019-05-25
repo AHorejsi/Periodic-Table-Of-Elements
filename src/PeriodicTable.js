@@ -53,7 +53,7 @@ class PeriodicTable extends React.Component {
     render() {
         return (
             <div id="periodicTable">
-                <div className="grid">
+                <div id="innerPeriodicTable" className="grid">
                     {this._getInnerHTML(this.props.json)}
 
                     <RangeBox min="57" max="71" repType="lanthanoid" gridRow="7" gridColumn="4" />

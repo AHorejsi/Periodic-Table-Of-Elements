@@ -39,11 +39,6 @@
     background-color: rgb(33, 154, 165);
 }
 
-#mainContent {
-    right: 0.01em;
-    position: absolute;
-}
-
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 
@@ -412,6 +407,16 @@
 #periodicTable {
     grid-row: 2 / 18;
     grid-column: 2 / 10;
+}
+
+#innerPeriodicTable {
+    position: absolute;
+}
+
+#mainContent {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
 /* End of classes for page */
 
