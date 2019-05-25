@@ -39,6 +39,11 @@
     background-color: rgb(33, 154, 165);
 }
 
+#mainContent {
+    right: 0.01em;
+    position: absolute;
+}
+
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
     background-color: rgb(255, 212, 127); 

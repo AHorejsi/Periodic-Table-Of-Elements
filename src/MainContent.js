@@ -10,10 +10,12 @@ class MainContent extends React.Component {
 
     render() {
         return (
-            <div className="grid">
-                <GroupNumbers />
-                <PeriodNumbers />
-                <PeriodicTable json={this.props.json} />
+            <div id="mainContent">
+                <div className="grid container-fluid">
+                    <GroupNumbers />
+                    <PeriodNumbers />
+                    <PeriodicTable json={this.props.json} />
+                </div>
             </div>
         );
     }
