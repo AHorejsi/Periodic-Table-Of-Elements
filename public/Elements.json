@@ -8,7 +8,6 @@
     "meltingPoint": 14.025,
     "row": 2,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Hydrogen",
     "group": 1,
     "period": 1
   },
@@ -21,7 +20,6 @@
     "meltingPoint": 0.95,
     "row": 2,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Helium",
     "group": 18,
     "period": 1
   },
@@ -34,7 +32,6 @@
     "meltingPoint": 453.7,
     "row": 3,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Lithium",
     "group": 1,
     "period": 2
   },
@@ -47,7 +44,6 @@
     "meltingPoint": 1560,
     "row": 3,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Beryllium",
     "group": 2,
     "period": 2
   },
@@ -60,7 +56,6 @@
     "meltingPoint": 2573,
     "row": 3,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Boron",
     "group": 13,
     "period": 2
   },
@@ -73,7 +68,6 @@
     "meltingPoint": 3773,
     "row": 3,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Carbon",
     "group": 14,
     "period": 2
   },
@@ -86,7 +80,6 @@
     "meltingPoint": 63.14,
     "row": 3,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Nitrogen",
     "group": 15,
     "period": 2
   },
@@ -99,7 +92,6 @@
     "meltingPoint": 50.35,
     "row": 3,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Oxygen",
     "group": 16,
     "period": 2
   },
@@ -112,7 +104,6 @@
     "meltingPoint": 53.48,
     "row": 3,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Fluorine",
     "group": 17,
     "period": 2
   },
@@ -125,7 +116,6 @@
     "meltingPoint": 24.553,
     "row": 3,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Neon",
     "group": 18,
     "period": 2
   },
@@ -138,7 +128,6 @@
     "meltingPoint": 371,
     "row": 4,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Sodium",
     "group": 1,
     "period": 3
   },
@@ -151,7 +140,6 @@
     "meltingPoint": 922,
     "row": 4,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Magnesium",
     "group": 2,
     "period": 3
   },
@@ -164,7 +152,6 @@
     "meltingPoint": 933.25,
     "row": 4,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Aluminum",
     "group": 13,
     "period": 3
   },
@@ -177,7 +164,6 @@
     "meltingPoint": 1683,
     "row": 4,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Silicon",
     "group": 14,
     "period": 3
   },
@@ -190,7 +176,6 @@
     "meltingPoint": 317.3,
     "row": 4,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Phosphorous",
     "group": 15,
     "period": 3
   },
@@ -203,7 +188,6 @@
     "meltingPoint": 388.36,
     "row": 4,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Sulfur",
     "group": 16,
     "period": 3
   },
@@ -216,7 +200,6 @@
     "meltingPoint": 172.16,
     "row": 4,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Chlorine",
     "group": 17,
     "period": 3
   },
@@ -229,7 +212,6 @@
     "meltingPoint": 83.81,
     "row": 4,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Argon",
     "group": 18,
     "period": 3
   },
@@ -242,7 +224,6 @@
     "meltingPoint": 336.35,
     "row": 5,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Potassium",
     "group": 1,
     "period": 4
   },
@@ -255,7 +236,6 @@
     "meltingPoint": 1112,
     "row": 5,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Calcium",
     "group": 2,
     "period": 4
   },
@@ -268,7 +248,6 @@
     "meltingPoint": 1812,
     "row": 5,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Scandium",
     "group": 3,
     "period": 4
   },
@@ -281,7 +260,6 @@
     "meltingPoint": 1933,
     "row": 5,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Titanium",
     "group": 4,
     "period": 4
   },
@@ -294,7 +272,6 @@
     "meltingPoint": 2175,
     "row": 5,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Vanadium",
     "group": 5,
     "period": 4
   },
@@ -307,7 +284,6 @@
     "meltingPoint": 2130,
     "row": 5,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Chromium",
     "group": 6,
     "period": 4
   },
@@ -320,7 +296,6 @@
     "meltingPoint": 1517,
     "row": 5,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Manganese",
     "group": 7,
     "period": 4
   },
@@ -333,7 +308,6 @@
     "meltingPoint": 1808,
     "row": 5,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Iron",
     "group": 8,
     "period": 4
   },
@@ -346,7 +320,6 @@
     "meltingPoint": 1768,
     "row": 5,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Cobalt",
     "group": 9,
     "period": 4
   },
@@ -359,7 +332,6 @@
     "meltingPoint": 1728,
     "row": 5,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Nickel",
     "group": 10,
     "period": 4
   },
@@ -372,7 +344,6 @@
     "meltingPoint": 1357.6,
     "row": 5,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Copper",
     "group": 11,
     "period": 4
   },
@@ -385,7 +356,6 @@
     "meltingPoint": 692.73,
     "row": 5,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Zinc",
     "group": 12,
     "period": 4
   },
@@ -398,7 +368,6 @@
     "meltingPoint": 302.9,
     "row": 5,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Gallium",
     "group": 13,
     "period": 4
   },
@@ -411,7 +380,6 @@
     "meltingPoint": 1210.4,
     "row": 5,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Germanium",
     "group": 14,
     "period": 4
   },
@@ -424,7 +392,6 @@
     "meltingPoint": 1081,
     "row": 5,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Arsenic",
     "group": 15,
     "period": 4
   },
@@ -437,7 +404,6 @@
     "meltingPoint": 494,
     "row": 5,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Selenium",
     "group": 16,
     "period": 4
   },
@@ -450,7 +416,6 @@
     "meltingPoint": 265.9,
     "row": 5,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Bromine",
     "group": 17,
     "period": 4
   },
@@ -463,7 +428,6 @@
     "meltingPoint": 115.78,
     "row": 5,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Krypton",
     "group": 18,
     "period": 4
   },
@@ -476,7 +440,6 @@
     "meltingPoint": 312.64,
     "row": 6,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Rubidium",
     "group": 1,
     "period": 5
   },
@@ -489,7 +452,6 @@
     "meltingPoint": 1042,
     "row": 6,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Strontium",
     "group": 2,
     "period": 5
   },
@@ -502,7 +464,6 @@
     "meltingPoint": 1799,
     "row": 6,
     "column": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Yttrium",
     "group": 3,
     "period": 5
   },
@@ -515,7 +476,6 @@
     "meltingPoint": 2125,
     "row": 6,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Zirconium",
     "group": 4,
     "period": 5
   },
@@ -528,7 +488,6 @@
     "meltingPoint": 2741,
     "row": 6,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Niobium",
     "group": 5,
     "period": 5
   },
@@ -541,7 +500,6 @@
     "meltingPoint": 2890,
     "row": 6,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Molybdenur",
     "group": 6,
     "period": 5
   },
@@ -554,7 +512,6 @@
     "meltingPoint": 2473,
     "row": 6,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Technetium",
     "group": 7,
     "period": 5
   },
@@ -567,7 +524,6 @@
     "meltingPoint": 2523,
     "row": 6,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Ruthenium",
     "group": 8,
     "period": 5
   },
@@ -580,7 +536,6 @@
     "meltingPoint": 2239,
     "row": 6,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Rhodium",
     "group": 9,
     "period": 5
   },
@@ -593,7 +548,6 @@
     "meltingPoint": 1825,
     "row": 6,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Palladium",
     "group": 10,
     "period": 5
   },
@@ -606,7 +560,6 @@
     "meltingPoint": 1234,
     "row": 6,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Silver",
     "group": 11,
     "period": 5
   },
@@ -619,7 +572,6 @@
     "meltingPoint": 594.18,
     "row": 6,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Cadmium",
     "group": 12,
     "period": 5
   },
@@ -632,7 +584,6 @@
     "meltingPoint": 429.76,
     "row": 6,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Indium",
     "group": 13,
     "period": 5
   },
@@ -645,7 +596,6 @@
     "meltingPoint": 505.06,
     "row": 6,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Tin",
     "group": 14,
     "period": 5
   },
@@ -658,7 +608,6 @@
     "meltingPoint": 903.9,
     "row": 6,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Antimony",
     "group": 15,
     "period": 5
   },
@@ -671,7 +620,6 @@
     "meltingPoint": 722.65,
     "row": 6,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Tellurium",
     "group": 16,
     "period": 5
   },
@@ -684,7 +632,6 @@
     "meltingPoint": 386.7,
     "row": 6,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Iodine",
     "group": 17,
     "period": 5
   },
@@ -697,7 +644,6 @@
     "meltingPoint": 161.3,
     "row": 6,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Xenon",
     "group": 18,
     "period": 5
   },
@@ -710,7 +656,6 @@
     "meltingPoint": 301.55,
     "row": 7,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Caesium",
     "group": 1,
     "period": 6
   },
@@ -723,7 +668,6 @@
     "meltingPoint": 1002,
     "row": 7,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Barium",
     "group": 2,
     "period": 6
   },
@@ -736,7 +680,6 @@
     "meltingPoint": 1193,
     "row": 10,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Lanthanum",
     "group": null,
     "period": 6
   },
@@ -749,7 +692,6 @@
     "meltingPoint": 1071,
     "row": 10,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Cerium",
     "group": null,
     "period": 6
   },
@@ -762,7 +704,6 @@
     "meltingPoint": 1204,
     "row": 10,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Praseodymium",
     "group": null,
     "period": 6
   },
@@ -775,7 +716,6 @@
     "meltingPoint": 1289,
     "row": 10,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Neodymium",
     "group": null,
     "period": 6
   },
@@ -788,7 +728,6 @@
     "meltingPoint": 1204,
     "row": 10,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Promethium",
     "group": null,
     "period": 6
   },
@@ -801,7 +740,6 @@
     "meltingPoint": 1345,
     "row": 10,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Samarium",
     "group": null,
     "period": 6
   },
@@ -814,7 +752,6 @@
     "meltingPoint": 1095,
     "row": 10,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Europium",
     "group": null,
     "period": 6
   },
@@ -827,7 +764,6 @@
     "meltingPoint": 1585,
     "row": 10,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Gadolinium",
     "group": null,
     "period": 6
   },
@@ -840,7 +776,6 @@
     "meltingPoint": 1630,
     "row": 10,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Terbium",
     "group": null,
     "period": 6
   },
@@ -853,7 +788,6 @@
     "meltingPoint": 1685,
     "row": 10,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Dysprosium",
     "group": null,
     "period": 6
   },
@@ -866,7 +800,6 @@
     "meltingPoint": 1743,
     "row": 10,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Holmium",
     "group": null,
     "period": 6
   },
@@ -879,7 +812,6 @@
     "meltingPoint": 1795,
     "row": 10,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Erbium",
     "group": null,
     "period": 6
   },
@@ -892,7 +824,6 @@
     "meltingPoint": 1818,
     "row": 10,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Thulium",
     "group": null,
     "period": 6
   },
@@ -905,7 +836,6 @@
     "meltingPoint": 1097,
     "row": 10,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Ytterbium",
     "group": null,
     "period": 6
   },
@@ -918,7 +848,6 @@
     "meltingPoint": 1936,
     "row": 10,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Lutetium",
     "group": null,
     "period": 6
   },
@@ -931,7 +860,6 @@
     "meltingPoint": 2506,
     "row": 7,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Hafnium",
     "group": 4,
     "period": 6
   },
@@ -944,7 +872,6 @@
     "meltingPoint": 3269,
     "row": 7,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Tantalum",
     "group": 5,
     "period": 6
   },
@@ -957,7 +884,6 @@
     "meltingPoint": 3680,
     "row": 7,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Tungsten",
     "group": 6,
     "period": 6
   },
@@ -970,7 +896,6 @@
     "meltingPoint": 3453,
     "row": 7,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Rhenium",
     "group": 7,
     "period": 6
   },
@@ -983,7 +908,6 @@
     "meltingPoint": 3300,
     "row": 7,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Osmium",
     "group": 8,
     "period": 6
   },
@@ -996,7 +920,6 @@
     "meltingPoint": 2716,
     "row": 7,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Iridium",
     "group": 9,
     "period": 6
   },
@@ -1009,7 +932,6 @@
     "meltingPoint": 2045,
     "row": 7,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Platinum",
     "group": 10,
     "period": 6
   },
@@ -1022,7 +944,6 @@
     "meltingPoint": 1337.58,
     "row": 7,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Gold",
     "group": 11,
     "period": 6
   },
@@ -1035,7 +956,6 @@
     "meltingPoint": 234.28,
     "row": 7,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Mercury",
     "group": 12,
     "period": 6
   },
@@ -1048,7 +968,6 @@
     "meltingPoint": 577,
     "row": 7,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Thallium",
     "group": 13,
     "period": 6
   },
@@ -1061,7 +980,6 @@
     "meltingPoint": 600.6,
     "row": 7,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Lead",
     "group": 14,
     "period": 6
   },
@@ -1074,7 +992,6 @@
     "meltingPoint": 544.52,
     "row": 7,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Bismuth",
     "group": 15,
     "period": 6
   },
@@ -1087,7 +1004,6 @@
     "meltingPoint": 527,
     "row": 7,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Polonium",
     "group": 16,
     "period": 6
   },
@@ -1100,7 +1016,6 @@
     "meltingPoint": 575,
     "row": 7,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Astatine",
     "group": 17,
     "period": 6
   },
@@ -1113,7 +1028,6 @@
     "meltingPoint": 202,
     "row": 7,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Radon",
     "group": 18,
     "period": 6
   },
@@ -1126,7 +1040,6 @@
     "meltingPoint": 300,
     "row": 8,
     "column": 2,
-    "wiki": "https://en.wikipedia.org/wiki/Francium",
     "group": 1,
     "period": 7
   },
@@ -1139,7 +1052,6 @@
     "meltingPoint": 973,
     "row": 8,
     "column": 3,
-    "wiki": "https://en.wikipedia.org/wiki/Radium",
     "group": 2,
     "period": 7
   },
@@ -1152,7 +1064,6 @@
     "meltingPoint": 1323,
     "row": 11,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Actinium",
     "group": null,
     "period": 7
   },
@@ -1165,7 +1076,6 @@
     "meltingPoint": 2028,
     "row": 11,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Thorium",
     "group": null,
     "period": 7
   },
@@ -1178,7 +1088,6 @@
     "meltingPoint": 2113,
     "row": 11,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Protactinium",
     "group": null,
     "period": 7
   },
@@ -1191,7 +1100,6 @@
     "meltingPoint": 1405,
     "row": 11,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Uranium",
     "group": null,
     "period": 7
   },
@@ -1204,7 +1112,6 @@
     "meltingPoint": 913,
     "row": 11,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Neptunium",
     "group": null,
     "period": 7
   },
@@ -1217,7 +1124,6 @@
     "meltingPoint": 913,
     "row": 11,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Plutonium",
     "group": null,
     "period": 7
   },
@@ -1230,7 +1136,6 @@
     "meltingPoint": 1267,
     "row": 11,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Americium",
     "group": null,
     "period": 7
   },
@@ -1243,7 +1148,6 @@
     "meltingPoint": 1340,
     "row": 11,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Curium",
     "group": null,
     "period": 7
   },
@@ -1256,7 +1160,6 @@
     "meltingPoint": 1323,
     "row": 11,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Berkelium",
     "group": null,
     "period": 7
   },
@@ -1269,7 +1172,6 @@
     "meltingPoint": 1173,
     "row": 11,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Californium",
     "group": null,
     "period": 7
   },
@@ -1282,7 +1184,6 @@
     "meltingPoint": 1133,
     "row": 11,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Einsteinium",
     "group": null,
     "period": 7
   },
@@ -1295,7 +1196,6 @@
     "meltingPoint": 1800,
     "row": 11,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Fermium",
     "group": null,
     "period": 7
   },
@@ -1308,7 +1208,6 @@
     "meltingPoint": 1100,
     "row": 11,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Mendelevium",
     "group": null,
     "period": 7
   },
@@ -1321,7 +1220,6 @@
     "meltingPoint": 1100,
     "row": 11,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Nobelium",
     "group": null,
     "period": 7
   },
@@ -1334,7 +1232,6 @@
     "meltingPoint": 1900,
     "row": 11,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Lawrencium",
     "group": null,
     "period": 7
   },
@@ -1347,7 +1244,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Rutherfordium",
     "group": 4,
     "period": 7
   },
@@ -1360,7 +1256,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 6,
-    "wiki": "https://en.wikipedia.org/wiki/Dubnium",
     "group": 5,
     "period": 7
   },
@@ -1373,7 +1268,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 7,
-    "wiki": "https://en.wikipedia.org/wiki/Seaborgium",
     "group": 6,
     "period": 7
   },
@@ -1386,7 +1280,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 8,
-    "wiki": "https://en.wikipedia.org/wiki/Bohrium",
     "group": 7,
     "period": 7
   },
@@ -1399,7 +1292,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 9,
-    "wiki": "https://en.wikipedia.org/wiki/Hassium",
     "group": 8,
     "period": 7
   },
@@ -1412,7 +1304,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 10,
-    "wiki": "https://en.wikipedia.org/wiki/Meitnerium",
     "group": 9,
     "period": 7
   },
@@ -1425,7 +1316,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 11,
-    "wiki": "https://en.wikipedia.org/wiki/Darmstadtium",
     "group": 10,
     "period": 7
   },
@@ -1438,7 +1328,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 12,
-    "wiki": "https://en.wikipedia.org/wiki/Roentgenium",
     "group": 11,
     "period": 7
   },
@@ -1451,7 +1340,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 13,
-    "wiki": "https://en.wikipedia.org/wiki/Copernicium",
     "group": 12,
     "period": 7
   },
@@ -1464,7 +1352,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 14,
-    "wiki": "https://en.wikipedia.org/wiki/Nihonium",
     "group": 13,
     "period": 7
   },
@@ -1477,7 +1364,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 15,
-    "wiki": "https://en.wikipedia.org/wiki/Flerovium",
     "group": 14,
     "period": 7
   },
@@ -1490,7 +1376,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 16,
-    "wiki": "https://en.wikipedia.org/wiki/Moscovium",
     "group": 15,
     "period": 7
   },
@@ -1503,7 +1388,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 17,
-    "wiki": "https://en.wikipedia.org/wiki/Livermorium",
     "group": 16,
     "period": 7
   },
@@ -1516,7 +1400,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 18,
-    "wiki": "https://en.wikipedia.org/wiki/Tennessine",
     "group": 17,
     "period": 7
   },
@@ -1529,7 +1412,6 @@
     "meltingPoint": "unknown",
     "row": 8,
     "column": 19,
-    "wiki": "https://en.wikipedia.org/wiki/Oganesson",
     "group": 18,
     "period": 7
   }

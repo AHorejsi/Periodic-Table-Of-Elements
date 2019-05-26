@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import $ from "jquery";
 
 class AtomicElement extends React.Component {
@@ -30,12 +31,11 @@ class AtomicElement extends React.Component {
 
         return (
             <div id={this.props.elementName}
-                 className={"bordered centered elemBox pointerCursor " + this.props.type +
+                    className={"bordered centered elemBox pointerCursor " + this.props.type +
                             " group" + this.props.group + " period" + this.props.period}
-                 onMouseOver={(event) => this._renderDetailedElement()}
-                 onMouseOut={(event) => this._resetDetailedElement()}
-                 onClick={(event) => window.open(this.props.link)}
-                 style={gridStyling}>
+                    onMouseOver={(event) => this._renderDetailedElement()}
+                    onMouseOut={(event) => this._resetDetailedElement()}
+                    style={gridStyling}>
 
                 <div>
 					{this.props.atomicNumber}
@@ -44,7 +44,7 @@ class AtomicElement extends React.Component {
                 <div className="bolded">
 					{this.props.symbol}
                 </div>
-			</div>
+            </div>
 		);
 	}
 }
