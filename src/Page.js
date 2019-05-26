@@ -11,9 +11,7 @@ class Page extends React.Component {
     render() {
         return (
             <div>
-                <div>
-                    <Title />
-                </div>
+                <Title />
 
                 <div class="flex" style={{ justifyContent: "center"}}>
                     <MainContent json={this.props.json} />
