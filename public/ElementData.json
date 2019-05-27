@@ -14,7 +14,7 @@
     "electronegativity": "2.20",
     "electronAffinity": "72.8",
     "valence": "1",
-    "ionization": "1312.0",
+    "1stIonization": "1312.0",
     "radius": "53",
     "hardness": "unknown",
     "modulus": "unknown",
@@ -34,7 +34,19 @@
     "row": 2,
     "column": 19,
     "group": 18,
-    "period": 1
+    "period": 1,
+    "electronegativity": "unknown",
+    "electronAffinity": "0",
+    "valence": "0",
+    "1stIonization": "2372.3",
+    "radius": "31",
+    "hardness": "unknown",
+    "modulus": "unknown",
+    "density": "0.1785",
+    "conductivity": "0.1513",
+    "heat": "5193.1",
+    "abundance": "23%",
+    "discovered": "1895"
   },
   "lithium": {
     "symbol": "Li",
@@ -46,7 +58,12 @@
     "row": 3,
     "column": 2,
     "group": 1,
-    "period": 2
+    "period": 2,
+    "series": "alkali",
+    "electronegativity": "0.98",
+    "electronAffinity": "59.6",
+    "valence": "1",
+    "1stIonization": "520.2"
   },
   "beryllium": {
     "symbol": "Be",

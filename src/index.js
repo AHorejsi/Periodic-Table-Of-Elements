@@ -6,7 +6,7 @@ import "./Stylesheet.css";
 
 
 $(document).ready(function() {
-    $.getJSON("./Elements.json", function(elementData) {
+    $.getJSON("./ElementData.json", function(elementData) {
         ReactDOM.render(<App json={elementData} />, document.getElementById("root"));
     });
 });
