@@ -1,5 +1,5 @@
 import React from "react";
-import AtomicElement from "./ElementRepresentation";
+import AtomicElement from "./AtomicElement";
 import RangeBox from "./RangeBox";
 import DetailedElement from "./DetailedElement";
 import CategoryLegend from "./CategoryLegend";
