@@ -14,7 +14,7 @@
     "electronegativity": "2.20",
     "electronAffinity": "72.8",
     "valence": "1",
-    "1stIonization": "1312.0",
+    "ionization": "1312.0",
     "radius": "53",
     "hardness": "unknown",
     "modulus": "unknown",
@@ -38,7 +38,7 @@
     "electronegativity": "unknown",
     "electronAffinity": "0",
     "valence": "0",
-    "1stIonization": "2372.3",
+    "ionization": "2372.3",
     "radius": "31",
     "hardness": "unknown",
     "modulus": "unknown",
@@ -63,7 +63,7 @@
     "electronegativity": "0.98",
     "electronAffinity": "59.6",
     "valence": "1",
-    "1stIonization": "520.2"
+    "ionization": "520.2"
   },
   "beryllium": {
     "symbol": "Be",

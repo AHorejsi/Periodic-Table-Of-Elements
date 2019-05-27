@@ -1,0 +1,12 @@
+{
+  "boilingPoint": "K",
+  "meltingPoint": "K",
+  "electronAffinity": "kJ/mol",
+  "ionization": "kJ/mol",
+  "radius": "pm",
+  "hardness": "MPa",
+  "modulus": "GPa",
+  "density": "kg/m<sup>3</sup>",
+  "conductivity": "W/mK",
+  "heat": "J/kgK"
+}
