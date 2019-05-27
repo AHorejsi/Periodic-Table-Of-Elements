@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <div>
                 <BrowserRouter>
-                    <Route exact path="/" component={() => <Page json={this.props.json} />} />
+                    <Route exact path="/" component={Page} />
                 </BrowserRouter>
             </div>
         );

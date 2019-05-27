@@ -14,7 +14,7 @@ class MainContent extends React.Component {
                 <div  className="grid">
                     <GroupNumbers />
                     <PeriodNumbers />
-                    <PeriodicTable json={this.props.json} />
+                    <PeriodicTable />
                 </div>
             </div>
         );

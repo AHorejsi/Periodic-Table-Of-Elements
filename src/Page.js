@@ -14,7 +14,7 @@ class Page extends React.Component {
                 <Title />
 
                 <div class="flex" style={{ justifyContent: "center" }}>
-                    <MainContent json={this.props.json} />
+                    <MainContent />
                 </div>
             </div>
         );

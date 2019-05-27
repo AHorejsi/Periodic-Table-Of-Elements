@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import getJsonData from "./JSONRetriever";
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
@@ -11,14 +12,18 @@ class TemperatureSlider extends React.Component {
         this._updateAtomicElementStatesFromSlider(this.props.json);
     }
 
-    _updateAtomicElementStatesFromSlider(elementData) {
+    _updateAtomicElementStatesFromSlider() {
+        let elementData = getJsonData("./ElementData.json");
+
         let temperature = $("#temperatureSlider").val();
         $("#temperatureInput").val(temperature);
 
         this._editStates(Number(temperature), elementData);
     }
 
-    _updateAtomicElementStatesFromTextBox(elementData) {
+    _updateAtomicElementStatesFromTextBox() {
+        let elementData = getJsonData("./ElementData.json");
+
         let temperature = $("#temperatureInput").val();
         $("#temperatureSlider").val(temperature);
         
@@ -61,12 +66,12 @@ class TemperatureSlider extends React.Component {
             <div id="temperatureDiv">
                 <span id="sliderSpan">
                     <input id="temperatureSlider" className="slider floatLeft" type="range" min="0" max="9999" step="1"
-                           onChange={(event) => this._updateAtomicElementStatesFromSlider(this.props.json)} />
+                           onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
                 </span>
                     
                 <span>
                     <input id="temperatureInput" className="sliderTextbox centered floatRight" type="number" minLength="1" maxLength="4"
-                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox(this.props.json)} />
+                           onKeyUp={(event) => this._updateAtomicElementStatesFromTextBox()} />
                 </span>
             </div>
         );        
