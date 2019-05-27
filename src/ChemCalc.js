@@ -1,4 +1,8 @@
-﻿function computePhaseState(element, temperature) {
+﻿const kelvinToCelsius = (temperatureInKelvin) => temperatureInKelvin - 273.15;
+const kelvinToFahrenheit = (temperatureInKelvin) => temperatureInKelvin * (9 / 5) - 459.67;
+
+
+function computePhaseState(element, temperature) {
     if (element.boilingPoint !== "unknown") {
         if (element.boilingPoint < temperature) {
             return "gas";
@@ -18,4 +22,4 @@
 }
 
 
-export { computePhaseState }
+export { computePhaseState, kelvinToCelsius, kelvinToFahrenheit }

@@ -15,7 +15,7 @@ $.ajax({
     async: false,
     dataType: "json",
     success: (response) => measurementData = response
-})
+});
 
 
 export { elementData, measurementData }

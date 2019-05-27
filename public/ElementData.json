@@ -1,7 +1,7 @@
 {
   "hydrogen": {
     "symbol": "H",
-    "atomicNumber": "1",
+    "atomicNumber": 1,
     "atomicWeight": "1.008",
     "type": "nonmetal",
     "boilingPoint": 20.271,
@@ -9,11 +9,12 @@
     "row": 2,
     "column": 2,
     "group": 1,
-    "period": 1
+    "period": 1,
+    "density": 0.00008988
   },
   "helium": {
     "symbol": "He",
-    "atomicNumber": "2",
+    "atomicNumber": 2,
     "atomicWeight": "4.003",
     "type": "nobleGas",
     "boilingPoint": 4.222,
@@ -21,23 +22,25 @@
     "row": 2,
     "column": 19,
     "group": 18,
-    "period": 1
+    "period": 1,
+    "density": 0.0001785
   },
   "lithium": {
     "symbol": "Li",
-    "atomicNumber": "3",
-    "atomicWeight": "6.940",
+    "atomicNumber": 3,
+    "atomicWeight": "6.941",
     "type": "alkali",
     "boilingPoint": 1603,
     "meltingPoint": 453.7,
     "row": 3,
     "column": 2,
     "group": 1,
-    "period": 2
+    "period": 2,
+    "desnity": 0.534
   },
   "beryllium": {
     "symbol": "Be",
-    "atomicNumber": "4",
+    "atomicNumber": 4,
     "atomicWeight": "9.012",
     "type": "alkaline",
     "boilingPoint": 2742,
@@ -45,23 +48,25 @@
     "row": 3,
     "column": 3,
     "group": 2,
-    "period": 2
+    "period": 2,
+    "density": 1.85
   },
   "boron": {
     "symbol": "B",
-    "atomicNumber": "5",
-    "atomicWeight": "10.810",
+    "atomicNumber": 5,
+    "atomicWeight": "10.811",
     "type": "metalloid",
     "boilingPoint": 4200,
     "meltingPoint": 2573,
     "row": 3,
     "column": 14,
     "group": 13,
-    "period": 2
+    "period": 2,
+    "density": 2.37
   },
   "carbon": {
     "symbol": "C",
-    "atomicNumber": "6",
+    "atomicNumber": 6,
     "atomicWeight": "12.011",
     "type": "nonmetal",
     "boilingPoint": 4300,
@@ -69,11 +74,12 @@
     "row": 3,
     "column": 15,
     "group": 14,
-    "period": 2
+    "period": 2,
+    "density": 2.267
   },
   "nitrogen": {
     "symbol": "N",
-    "atomicNumber": "7",
+    "atomicNumber": 7,
     "atomicWeight": "14.007",
     "type": "nonmetal",
     "boilingPoint": 77.355,
@@ -81,11 +87,12 @@
     "row": 3,
     "column": 16,
     "group": 15,
-    "period": 2
+    "period": 2,
+    "density": 0.0012506
   },
   "oxygen": {
     "symbol": "O",
-    "atomicNumber": "8",
+    "atomicNumber": 8,
     "atomicWeight": "15.999",
     "type": "nonmetal",
     "boilingPoint": 90.188,
@@ -93,11 +100,12 @@
     "row": 3,
     "column": 17,
     "group": 16,
-    "period": 2
+    "period": 2,
+    "density": 0.001429
   },
   "fluorine": {
     "symbol": "F",
-    "atomicNumber": "9",
+    "atomicNumber": 9,
     "atomicWeight": "18.998",
     "type": "nonmetal",
     "boilingPoint": 85.04,
@@ -105,35 +113,38 @@
     "row": 3,
     "column": 18,
     "group": 17,
-    "period": 2
+    "period": 2,
+    "density": 0.001696
   },
   "neon": {
     "symbol": "Ne",
-    "atomicNumber": "10",
-    "atomicWeight": "20.180",
+    "atomicNumber": 10,
+    "atomicWeight": "20.1797",
     "type": "nobleGas",
     "boilingPoint": 27.104,
     "meltingPoint": 24.553,
     "row": 3,
     "column": 19,
     "group": 18,
-    "period": 2
+    "period": 2,
+    "density": 0.0008999
   },
   "sodium": {
     "symbol": "Na",
-    "atomicNumber": "11",
-    "atomicWeight": "22.990",
+    "atomicNumber": 11,
+    "atomicWeight": "22.9897",
     "type": "alkali",
     "boilingPoint": 1156.09,
     "meltingPoint": 371,
     "row": 4,
     "column": 2,
     "group": 1,
-    "period": 3
+    "period": 3,
+    "density": 0.97
   },
   "magnesium": {
     "symbol": "Mg",
-    "atomicNumber": "12",
+    "atomicNumber": 12,
     "atomicWeight": "24.305",
     "type": "alkaline",
     "boilingPoint": 1363,
@@ -141,11 +152,12 @@
     "row": 4,
     "column": 3,
     "group": 2,
-    "period": 3
+    "period": 3,
+    "density": 1.74
   },
   "aluminum": {
     "symbol": "Al",
-    "atomicNumber": "13",
+    "atomicNumber": 13,
     "atomicWeight": "26.982",
     "type": "postTransitionMetal",
     "boilingPoint": 2743,
@@ -153,11 +165,12 @@
     "row": 4,
     "column": 14,
     "group": 13,
-    "period": 3
+    "period": 3,
+    "density": 2.7
   },
   "silicon": {
     "symbol": "Si",
-    "atomicNumber": "14",
+    "atomicNumber": 14,
     "atomicWeight": "28.085",
     "type": "metalloid",
     "boilingPoint": 3538,
@@ -165,11 +178,12 @@
     "row": 4,
     "column": 15,
     "group": 14,
-    "period": 3
+    "period": 3,
+    "desnity": 2.3296
   },
   "phosphorus": {
     "symbol": "P",
-    "atomicNumber": "15",
+    "atomicNumber": 15,
     "atomicWeight": "30.974",
     "type": "nonmetal",
     "boilingPoint": 550,
@@ -177,35 +191,38 @@
     "row": 4,
     "column": 16,
     "group": 15,
-    "period": 3
+    "period": 3,
+    "density": 1.82
   },
   "sulfur": {
     "symbol": "S",
-    "atomicNumber": "16",
-    "atomicWeight": "32.060",
+    "atomicNumber": 16,
+    "atomicWeight": "32.066",
     "type": "nonmetal",
     "boilingPoint": 717.87,
     "meltingPoint": 388.36,
     "row": 4,
     "column": 17,
     "group": 16,
-    "period": 3
+    "period": 3,
+    "density": 2.067
   },
   "chlorine": {
     "symbol": "Cl",
-    "atomicNumber": "17",
-    "atomicWeight": "35.450",
+    "atomicNumber": 17,
+    "atomicWeight": "35.452",
     "type": "nonmetal",
     "boilingPoint": 239.11,
     "meltingPoint": 172.16,
     "row": 4,
     "column": 18,
     "group": 17,
-    "period": 3
+    "period": 3,
+    "density": 0.003214
   },
   "argon": {
     "symbol": "Ar",
-    "atomicNumber": "18",
+    "atomicNumber": 18,
     "atomicWeight": "39.948",
     "type": "nobleGas",
     "boilingPoint": 87.302,
@@ -213,11 +230,12 @@
     "row": 4,
     "column": 19,
     "group": 18,
-    "period": 3
+    "period": 3,
+    "density": 0.0017837
   },
   "potassium": {
     "symbol": "K",
-    "atomicNumber": "19",
+    "atomicNumber": 19,
     "atomicWeight": "39.098",
     "type": "alkali",
     "boilingPoint": 1032,
@@ -225,11 +243,12 @@
     "row": 5,
     "column": 2,
     "group": 1,
-    "period": 4
+    "period": 4,
+    "density": 0.89
   },
   "calcium": {
     "symbol": "Ca",
-    "atomicNumber": "20",
+    "atomicNumber": 20,
     "atomicWeight": "40.078",
     "type": "alkaline",
     "boilingPoint": 1757,
@@ -237,11 +256,12 @@
     "row": 5,
     "column": 3,
     "group": 2,
-    "period": 4
+    "period": 4,
+    "density": 1.54
   },
   "scandium": {
     "symbol": "Sc",
-    "atomicNumber": "21",
+    "atomicNumber": 21,
     "atomicWeight": "44.956",
     "type": "transitionMetal",
     "boilingPoint": 3109,
@@ -249,11 +269,12 @@
     "row": 5,
     "column": 4,
     "group": 3,
-    "period": 4
+    "period": 4,
+    "density": 2.99
   },
   "titanium": {
     "symbol": "Ti",
-    "atomicNumber": "22",
+    "atomicNumber": 22,
     "atomicWeight": "47.867",
     "type": "transitionMetal",
     "boilingPoint": 3560,
@@ -261,11 +282,12 @@
     "row": 5,
     "column": 5,
     "group": 4,
-    "period": 4
+    "period": 4,
+    "density": 4.5
   },
   "vanadium": {
     "symbol": "V",
-    "atomicNumber": "23",
+    "atomicNumber": 23,
     "atomicWeight": "50.942",
     "type": "transitionMetal",
     "boilingPoint": 3680,
@@ -273,11 +295,12 @@
     "row": 5,
     "column": 6,
     "group": 5,
-    "period": 4
+    "period": 4,
+    "density": 5.8
   },
   "chromium": {
     "symbol": "Cr",
-    "atomicNumber": "24",
+    "atomicNumber": 24,
     "atomicWeight": "51.996",
     "type": "transitionMetal",
     "boilingPoint": 2755,
@@ -285,11 +308,12 @@
     "row": 5,
     "column": 7,
     "group": 6,
-    "period": 4
+    "period": 4,
+    "density": 7.15
   },
   "manganese": {
     "symbol": "Mn",
-    "atomicNumber": "25",
+    "atomicNumber": 25,
     "atomicWeight": "54.938",
     "type": "transitionMetal",
     "boilingPoint": 2334,
@@ -297,11 +321,12 @@
     "row": 5,
     "column": 8,
     "group": 7,
-    "period": 4
+    "period": 4,
+    "density": 7.3
   },
   "iron": {
     "symbol": "Fe",
-    "atomicNumber": "26",
+    "atomicNumber": 26,
     "atomicWeight": "55.845",
     "type": "transitionMetal",
     "boilingPoint": 3134,
@@ -309,11 +334,12 @@
     "row": 5,
     "column": 9,
     "group": 8,
-    "period": 4
+    "period": 4,
+    "density": 7.874
   },
   "cobalt": {
     "symbol": "Co",
-    "atomicNumber": "27",
+    "atomicNumber": 27,
     "atomicWeight": "58.933",
     "type": "transitionMetal",
     "boilingPoint": 3200,
@@ -321,11 +347,12 @@
     "row": 5,
     "column": 10,
     "group": 9,
-    "period": 4
+    "period": 4,
+    "density": 8.86
   },
   "nickel": {
     "symbol": "Ni",
-    "atomicNumber": "28",
+    "atomicNumber": 28,
     "atomicWeight": "58.693",
     "type": "transitionMetal",
     "boilingPoint": 3003,
@@ -333,11 +360,12 @@
     "row": 5,
     "column": 11,
     "group": 10,
-    "period": 4
+    "period": 4,
+    "density": 8.912
   },
   "copper": {
     "symbol": "Cu",
-    "atomicNumber": "29",
+    "atomicNumber": 29,
     "atomicWeight": "63.546",
     "type": "transitionMetal",
     "boilingPoint": 2835,
@@ -345,23 +373,25 @@
     "row": 5,
     "column": 12,
     "group": 11,
-    "period": 4
+    "period": 4,
+    "density": 8.933
   },
   "zinc": {
     "symbol": "Zn",
-    "atomicNumber": "30",
-    "atomicWeight": "65.380",
+    "atomicNumber": 30,
+    "atomicWeight": "65.38",
     "type": "transitionMetal",
     "boilingPoint": 1180,
     "meltingPoint": 692.73,
     "row": 5,
     "column": 13,
     "group": 12,
-    "period": 4
+    "period": 4,
+    "density": 7.134
   },
   "gallium": {
     "symbol": "Ga",
-    "atomicNumber": "31",
+    "atomicNumber": 31,
     "atomicWeight": "69.723",
     "type": "postTransitionMetal",
     "boilingPoint": 2673,
@@ -369,23 +399,25 @@
     "row": 5,
     "column": 14,
     "group": 13,
-    "period": 4
+    "period": 4,
+    "density": 5.91
   },
   "germanium": {
     "symbol": "Ge",
-    "atomicNumber": "32",
-    "atomicWeight": "72.630",
+    "atomicNumber": 32,
+    "atomicWeight": "72.63",
     "type": "metalloid",
     "boilingPoint": 3106,
     "meltingPoint": 1210.4,
     "row": 5,
     "column": 15,
     "group": 14,
-    "period": 4
+    "period": 4,
+    "density": 5.323
   },
   "arsenic": {
     "symbol": "As",
-    "atomicNumber": "33",
+    "atomicNumber": 33,
     "atomicWeight": "74.922",
     "type": "metalloid",
     "boilingPoint": 887,
@@ -393,11 +425,12 @@
     "row": 5,
     "column": 16,
     "group": 15,
-    "period": 4
+    "period": 4,
+    "density": 5.776
   },
   "selenium": {
     "symbol": "Se",
-    "atomicNumber": "34",
+    "atomicNumber": 34,
     "atomicWeight": "78.971",
     "type": "nonmetal",
     "boilingPoint": 958,
@@ -405,11 +438,12 @@
     "row": 5,
     "column": 17,
     "group": 16,
-    "period": 4
+    "period": 4,
+    "density": 4.809
   },
   "bromine": {
     "symbol": "Br",
-    "atomicNumber": "35",
+    "atomicNumber": 35,
     "atomicWeight": "79.904",
     "type": "nonmetal",
     "boilingPoint": 332,
@@ -417,11 +451,12 @@
     "row": 5,
     "column": 18,
     "group": 17,
-    "period": 4
+    "period": 4,
+    "density": 3.11
   },
   "krypton": {
     "symbol": "Kr",
-    "atomicNumber": "36",
+    "atomicNumber": 36,
     "atomicWeight": "83.798",
     "type": "nobleGas",
     "boilingPoint": 119.735,
@@ -429,11 +464,12 @@
     "row": 5,
     "column": 19,
     "group": 18,
-    "period": 4
+    "period": 4,
+    "density": 0.003733
   },
   "rubidium": {
     "symbol": "Rb",
-    "atomicNumber": "37",
+    "atomicNumber": 37,
     "atomicWeight": "85.468",
     "type": "alkali",
     "boilingPoint": 961,
@@ -441,23 +477,25 @@
     "row": 6,
     "column": 2,
     "group": 1,
-    "period": 5
+    "period": 5,
+    "density": 1.53
   },
   "strontium": {
     "symbol": "Sr",
-    "atomicNumber": "38",
-    "atomicWeight": "87.620",
+    "atomicNumber": 38,
+    "atomicWeight": "87.62",
     "type": "alkaline",
     "boilingPoint": 1650,
     "meltingPoint": 1042,
     "row": 6,
     "column": 3,
     "group": 2,
-    "period": 5
+    "period": 5,
+    "density": 2.64
   },
   "yttrium": {
     "symbol": "Y",
-    "atomicNumber": "39",
+    "atomicNumber": 39,
     "atomicWeight": "88.906",
     "type": "transitionMetal",
     "boilingPoint": 3203,
@@ -465,23 +503,25 @@
     "row": 6,
     "column": 4,
     "group": 3,
-    "period": 5
+    "period": 5,
+    "density": 4.47
   },
   "zirconium": {
     "symbol": "Zr",
-    "atomicNumber": "40",
-    "atomicWeight": "91.224",
+    "atomicNumber": 40,
+    "atomicWeight": 91.224,
     "type": "transitionMetal",
     "boilingPoint": 4650,
     "meltingPoint": 2125,
     "row": 6,
     "column": 5,
     "group": 4,
-    "period": 5
+    "period": 5,
+    "density": 6.52
   },
   "niobium": {
     "symbol": "Nb",
-    "atomicNumber": "41",
+    "atomicNumber": 41,
     "atomicWeight": "92.906",
     "type": "transitionMetal",
     "boilingPoint": 5017,
@@ -489,23 +529,25 @@
     "row": 6,
     "column": 6,
     "group": 5,
-    "period": 5
+    "period": 5,
+    "density": 8.57
   },
-  "molybdenur": {
+  "molybdenum": {
     "symbol": "Mo",
-    "atomicNumber": "42",
-    "atomicWeight": "95.950",
+    "atomicNumber": 42,
+    "atomicWeight": "95.95",
     "type": "transitionMetal",
     "boilingPoint": 4912,
     "meltingPoint": 2890,
     "row": 6,
     "column": 7,
     "group": 6,
-    "period": 5
+    "period": 5,
+    "density": 10.2
   },
   "technetium": {
     "symbol": "Tc",
-    "atomicNumber": "43",
+    "atomicNumber": 43,
     "atomicWeight": "[98]",
     "type": "transitionMetal",
     "boilingPoint": 4538,
@@ -513,215 +555,233 @@
     "row": 6,
     "column": 8,
     "group": 7,
-    "period": 5
+    "period": 5,
+    "density": 11
   },
   "ruthenium": {
     "symbol": "Ru",
-    "atomicNumber": "44",
-    "atomicWeight": "101.070",
+    "atomicNumber": 44,
+    "atomicWeight": "101.07",
     "type": "transitionMetal",
     "boilingPoint": 4423,
     "meltingPoint": 2523,
     "row": 6,
     "column": 9,
     "group": 8,
-    "period": 5
+    "period": 5,
+    "density": 12.1
   },
   "rhodium": {
     "symbol": "Rh",
-    "atomicNumber": "45",
-    "atomicWeight": "102.910",
+    "atomicNumber": 45,
+    "atomicWeight": "102.91",
     "type": "transitionMetal",
     "boilingPoint": 3968,
     "meltingPoint": 2239,
     "row": 6,
     "column": 10,
     "group": 9,
-    "period": 5
+    "period": 5,
+    "density": 12.4
   },
   "palladium": {
     "symbol": "Pd",
-    "atomicNumber": "46",
-    "atomicWeight": "106.420",
+    "atomicNumber": 46,
+    "atomicWeight": "106.42",
     "type": "transitionMetal",
     "boilingPoint": 3236,
     "meltingPoint": 1825,
     "row": 6,
     "column": 11,
     "group": 10,
-    "period": 5
+    "period": 5,
+    "density": 12
   },
   "silver": {
     "symbol": "Ag",
-    "atomicNumber": "47",
-    "atomicWeight": "107.870",
+    "atomicNumber": 47,
+    "atomicWeight": "107.868",
     "type": "transitionMetal",
     "boilingPoint": 2483,
     "meltingPoint": 1234,
     "row": 6,
     "column": 12,
     "group": 11,
-    "period": 5
+    "period": 5,
+    "density": 10.501
   },
   "cadmium": {
     "symbol": "Cd",
-    "atomicNumber": "48",
-    "atomicWeight": "112.410",
+    "atomicNumber": 48,
+    "atomicWeight": "112.414",
     "type": "transitionMetal",
     "boilingPoint": 1040,
     "meltingPoint": 594.18,
     "row": 6,
     "column": 13,
     "group": 12,
-    "period": 5
+    "period": 5,
+    "density": 8.69
   },
   "indium": {
     "symbol": "In",
-    "atomicNumber": "49",
-    "atomicWeight": "114.820",
+    "atomicNumber": 49,
+    "atomicWeight": "114.818",
     "type": "postTransitionMetal",
     "boilingPoint": 2345,
     "meltingPoint": 429.76,
     "row": 6,
     "column": 14,
     "group": 13,
-    "period": 5
+    "period": 5,
+    "density": 7.31
   },
   "tin": {
     "symbol": "Sn",
-    "atomicNumber": "50",
-    "atomicWeight": "118.710",
+    "atomicNumber": 50,
+    "atomicWeight": "118.71",
     "type": "postTransitionMetal",
     "boilingPoint": 2875,
     "meltingPoint": 505.06,
     "row": 6,
     "column": 15,
     "group": 14,
-    "period": 5
+    "period": 5,
+    "density": 7.287
   },
   "antimony": {
     "symbol": "Sb",
-    "atomicNumber": "51",
-    "atomicWeight": "121.760",
+    "atomicNumber": 51,
+    "atomicWeight": "121.76",
     "type": "metalloid",
     "boilingPoint": 1908,
     "meltingPoint": 903.9,
     "row": 6,
     "column": 16,
     "group": 15,
-    "period": 5
+    "period": 5,
+    "density": 6.685
   },
   "tellurium": {
     "symbol": "Te",
-    "atomicNumber": "52",
-    "atomicWeight": "127.600",
+    "atomicNumber": 52,
+    "atomicWeight": "127.6",
     "type": "metalloid",
     "boilingPoint": 1261,
     "meltingPoint": 722.65,
     "row": 6,
     "column": 17,
     "group": 16,
-    "period": 5
+    "period": 5,
+    "density": 6.232
   },
   "iodine": {
     "symbol": "I",
-    "atomicNumber": "53",
-    "atomicWeight": "126.900",
+    "atomicNumber": 53,
+    "atomicWeight": "126.9045",
     "type": "nonmetal",
     "boilingPoint": 457.4,
     "meltingPoint": 386.7,
     "row": 6,
     "column": 18,
     "group": 17,
-    "period": 5
+    "period": 5,
+    "density": 4.93
   },
   "xenon": {
     "symbol": "Xe",
-    "atomicNumber": "54",
-    "atomicWeight": "131.290",
+    "atomicNumber": 54,
+    "atomicWeight": "131.293",
     "type": "nobleGas",
     "boilingPoint": 165.051,
     "meltingPoint": 161.3,
     "row": 6,
     "column": 19,
     "group": 18,
-    "period": 5
+    "period": 5,
+    "density": 0.005887
   },
   "caesium": {
     "symbol": "Cs",
-    "atomicNumber": "55",
-    "atomicWeight": "132.910",
+    "atomicNumber": 55,
+    "atomicWeight": "132.905",
     "type": "alkali",
     "boilingPoint": 944,
     "meltingPoint": 301.55,
     "row": 7,
     "column": 2,
     "group": 1,
-    "period": 6
+    "period": 6,
+    "density": 1.93
   },
   "barium": {
     "symbol": "Ba",
-    "atomicNumber": "56",
-    "atomicWeight": "137.330",
+    "atomicNumber": 56,
+    "atomicWeight": "137.327",
     "type": "alkaline",
-    "boilingPoint": 1910,
-    "meltingPoint": 1002,
+    "boilingPoint": 2143,
+    "meltingPoint": 1000,
     "row": 7,
     "column": 3,
     "group": 2,
-    "period": 6
+    "period": 6,
+    "density": 3.62
   },
   "lanthanum": {
     "symbol": "La",
-    "atomicNumber": "57",
-    "atomicWeight": "138.910",
+    "atomicNumber": 57,
+    "atomicWeight": "138.9055",
     "type": "lanthanoid",
     "boilingPoint": 3737,
     "meltingPoint": 1193,
     "row": 10,
     "column": 5,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 6.15
   },
   "cerium": {
     "symbol": "Ce",
-    "atomicNumber": "58",
-    "atomicWeight": "140.120",
+    "atomicNumber": 58,
+    "atomicWeight": "140.116",
     "type": "lanthanoid",
     "boilingPoint": 3716,
     "meltingPoint": 1071,
     "row": 10,
     "column": 6,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 6.77
   },
   "praseodymium": {
     "symbol": "Pr",
-    "atomicNumber": "59",
-    "atomicWeight": "140.910",
+    "atomicNumber": 59,
+    "atomicWeight": "140.908",
     "type": "lanthanoid",
     "boilingPoint": 3403,
     "meltingPoint": 1204,
     "row": 10,
     "column": 7,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 6.77
   },
   "neodymium": {
     "symbol": "Nd",
-    "atomicNumber": "60",
-    "atomicWeight": "144.240",
+    "atomicNumber": 60,
+    "atomicWeight": "144.242",
     "type": "lanthanoid",
     "boilingPoint": 3347,
     "meltingPoint": 1289,
     "row": 10,
     "column": 8,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 7.01
   },
   "promethium": {
     "symbol": "Pm",
-    "atomicNumber": "61",
+    "atomicNumber": 61,
     "atomicWeight": "[145]",
     "type": "lanthanoid",
     "boilingPoint": 3273,
@@ -729,275 +789,298 @@
     "row": 10,
     "column": 9,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 7.26
   },
   "samarium": {
     "symbol": "Sm",
-    "atomicNumber": "62",
-    "atomicWeight": "150.360",
+    "atomicNumber": 62,
+    "atomicWeight": "150.36",
     "type": "lanthanoid",
     "boilingPoint": 2173,
     "meltingPoint": 1345,
     "row": 10,
     "column": 10,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 7.52
   },
   "europium": {
     "symbol": "Eu",
-    "atomicNumber": "63",
-    "atomicWeight": "151.960",
+    "atomicNumber": 63,
+    "atomicWeight": "151.964",
     "type": "lanthanoid",
     "boilingPoint": 1802,
     "meltingPoint": 1095,
     "row": 10,
     "column": 11,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 5.24
   },
   "gadolinium": {
     "symbol": "Gd",
-    "atomicNumber": "64",
-    "atomicWeight": "157.250",
+    "atomicNumber": 64,
+    "atomicWeight": "157.25",
     "type": "lanthanoid",
     "boilingPoint": 3273,
     "meltingPoint": 1585,
     "row": 10,
     "column": 12,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 7.9
   },
   "terbium": {
     "symbol": "Tb",
-    "atomicNumber": "65",
-    "atomicWeight": "158.930",
+    "atomicNumber": 65,
+    "atomicWeight": "158.925",
     "type": "lanthanoid",
     "boilingPoint": 3396,
     "meltingPoint": 1630,
     "row": 10,
     "column": 13,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 8.23
   },
   "dysprosium": {
     "symbol": "Dy",
-    "atomicNumber": "66",
-    "atomicWeight": "162.500",
+    "atomicNumber": 66,
+    "atomicWeight": "162.5",
     "type": "lanthanoid",
     "boilingPoint": 2840,
     "meltingPoint": 1685,
     "row": 10,
     "column": 14,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 8.55
   },
   "holmium": {
     "symbol": "Ho",
-    "atomicNumber": "67",
-    "atomicWeight": "164.930",
+    "atomicNumber": 67,
+    "atomicWeight": "164.9303",
     "type": "lanthanoid",
     "boilingPoint": 2873,
     "meltingPoint": 1743,
     "row": 10,
     "column": 15,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 8.8
   },
   "erbium": {
     "symbol": "Er",
-    "atomicNumber": "68",
-    "atomicWeight": "167.260",
+    "atomicNumber": 68,
+    "atomicWeight": "167.259",
     "type": "lanthanoid",
     "boilingPoint": 3141,
     "meltingPoint": 1795,
     "row": 10,
     "column": 16,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 9.07
   },
   "thulium": {
     "symbol": "Tm",
-    "atomicNumber": "69",
-    "atomicWeight": "168.930",
+    "atomicNumber": 69,
+    "atomicWeight": "168.934",
     "type": "lanthanoid",
     "boilingPoint": 2223,
     "meltingPoint": 1818,
     "row": 10,
     "column": 17,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 9.32
   },
   "ytterbium": {
     "symbol": "Yb",
-    "atomicNumber": "70",
-    "atomicWeight": "173.050",
+    "atomicNumber": 70,
+    "atomicWeight": "173.045",
     "type": "lanthanoid",
     "boilingPoint": 1703,
     "meltingPoint": 1097,
     "row": 10,
     "column": 18,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 6.9
   },
   "lutetium": {
     "symbol": "Lu",
-    "atomicNumber": "71",
-    "atomicWeight": "174.970",
+    "atomicNumber": 71,
+    "atomicWeight": "174.9668",
     "type": "lanthanoid",
     "boilingPoint": 3675,
     "meltingPoint": 1936,
     "row": 10,
     "column": 19,
     "group": null,
-    "period": 6
+    "period": 6,
+    "density": 9.84
   },
   "hafnium": {
     "symbol": "Hf",
-    "atomicNumber": "72",
-    "atomicWeight": "178.490",
+    "atomicNumber": 72,
+    "atomicWeight": "178.49",
     "type": "transitionMetal",
     "boilingPoint": 4876,
     "meltingPoint": 2506,
     "row": 7,
     "column": 5,
     "group": 4,
-    "period": 6
+    "period": 6,
+    "density": 13.3
   },
   "tantalum": {
     "symbol": "Ta",
-    "atomicNumber": "73",
-    "atomicWeight": "180.950",
+    "atomicNumber": 73,
+    "atomicWeight": "180.949",
     "type": "transitionMetal",
     "boilingPoint": 5731,
     "meltingPoint": 3269,
     "row": 7,
     "column": 6,
     "group": 5,
-    "period": 6
+    "period": 6,
+    "density": 16.4
   },
   "tungsten": {
     "symbol": "W",
-    "atomicNumber": "74",
-    "atomicWeight": "183.840",
+    "atomicNumber": 74,
+    "atomicWeight": "183.84",
     "type": "transitionMetal",
     "boilingPoint": 6203,
     "meltingPoint": 3680,
     "row": 7,
     "column": 7,
     "group": 6,
-    "period": 6
+    "period": 6,
+    "density": 19.3
   },
   "rhenium": {
     "symbol": "Re",
-    "atomicNumber": "75",
-    "atomicWeight": "186.210",
+    "atomicNumber": 75,
+    "atomicWeight": "186.2-7",
     "type": "transitionMetal",
     "boilingPoint": 5869,
     "meltingPoint": 3453,
     "row": 7,
     "column": 8,
     "group": 7,
-    "period": 6
+    "period": 6,
+    "density": 20.8
   },
   "osmium": {
     "symbol": "Os",
-    "atomicNumber": "76",
-    "atomicWeight": "190.230",
+    "atomicNumber": 76,
+    "atomicWeight": "190.23",
     "type": "transitionMetal",
     "boilingPoint": 5285,
     "meltingPoint": 3300,
     "row": 7,
     "column": 9,
     "group": 8,
-    "period": 6
+    "period": 6,
+    "density": 22.57
   },
   "iridium": {
     "symbol": "Ir",
-    "atomicNumber": "77",
-    "atomicWeight": "192.220",
+    "atomicNumber": 77,
+    "atomicWeight": "192.217",
     "type": "transitionMetal",
     "boilingPoint": 4403,
     "meltingPoint": 2716,
     "row": 7,
     "column": 10,
     "group": 9,
-    "period": 6
+    "period": 6,
+    "density": 22.42
   },
   "platinum": {
     "symbol": "Pt",
-    "atomicNumber": "78",
-    "atomicWeight": "195.080",
+    "atomicNumber": 78,
+    "atomicWeight": "195.084",
     "type": "transitionMetal",
     "boilingPoint": 4098,
     "meltingPoint": 2045,
     "row": 7,
     "column": 11,
     "group": 10,
-    "period": 6
+    "period": 6,
+    "density": 21.46
   },
   "gold": {
     "symbol": "Au",
-    "atomicNumber": "79",
-    "atomicWeight": "196.970",
+    "atomicNumber": 79,
+    "atomicWeight": "196.967",
     "type": "transitionMetal",
     "boilingPoint": 3243,
     "meltingPoint": 1337.58,
     "row": 7,
     "column": 12,
     "group": 11,
-    "period": 6
+    "period": 6,
+    "density": 19.282
   },
   "mercury": {
     "symbol": "Hg",
-    "atomicNumber": "80",
-    "atomicWeight": "200.590",
+    "atomicNumber": 80,
+    "atomicWeight": "200.592",
     "type": "transitionMetal",
     "boilingPoint": 629.88,
     "meltingPoint": 234.28,
     "row": 7,
     "column": 13,
     "group": 12,
-    "period": 6
+    "period": 6,
+    "density": 13.5336
   },
   "thallium": {
     "symbol": "Tl",
-    "atomicNumber": "81",
-    "atomicWeight": "204.380",
+    "atomicNumber": 81,
+    "atomicWeight": "204.3833",
     "type": "postTransitionMetal",
     "boilingPoint": 1746,
     "meltingPoint": 577,
     "row": 7,
     "column": 14,
     "group": 13,
-    "period": 6
+    "period": 6,
+    "density": 11.8
   },
   "lead": {
     "symbol": "Pb",
-    "atomicNumber": "82",
-    "atomicWeight": "207.200",
+    "atomicNumber": 82,
+    "atomicWeight": "207.2",
     "type": "postTransitionMetal",
     "boilingPoint": 2022,
     "meltingPoint": 600.6,
     "row": 7,
     "column": 15,
     "group": 14,
-    "period": 6
+    "period": 6,
+    "density": 11.342
   },
   "bismuth": {
     "symbol": "Bi",
-    "atomicNumber": "83",
-    "atomicWeight": "208.980",
+    "atomicNumber": 83,
+    "atomicWeight": "208.9804",
     "type": "postTransitionMetal",
     "boilingPoint": 1837,
     "meltingPoint": 544.52,
     "row": 7,
     "column": 16,
     "group": 15,
-    "period": 6
+    "period": 6,
+    "density": 9.807
   },
   "polonium": {
     "symbol": "Po",
-    "atomicNumber": "84",
+    "atomicNumber": 84,
     "atomicWeight": "[209]",
     "type": "postTransitionMetal",
     "boilingPoint": 1235,
@@ -1005,11 +1088,12 @@
     "row": 7,
     "column": 17,
     "group": 16,
-    "period": 6
+    "period": 6,
+    "density": 9.32
   },
   "astatine": {
     "symbol": "At",
-    "atomicNumber": "85",
+    "atomicNumber": 85,
     "atomicWeight": "[210]",
     "type": "metalloid",
     "boilingPoint": 638.3,
@@ -1017,11 +1101,12 @@
     "row": 7,
     "column": 18,
     "group": 17,
-    "period": 6
+    "period": 6,
+    "density": 7
   },
   "radon": {
     "symbol": "Rn",
-    "atomicNumber": "86",
+    "atomicNumber": 86,
     "atomicWeight": "[222]",
     "type": "nobleGas",
     "boilingPoint": 211.5,
@@ -1029,11 +1114,12 @@
     "row": 7,
     "column": 19,
     "group": 18,
-    "period": 6
+    "period": 6,
+    "density": 0.00973
   },
   "francium": {
     "symbol": "Fr",
-    "atomicNumber": "87",
+    "atomicNumber": 87,
     "atomicWeight": "[223]",
     "type": "alkali",
     "boilingPoint": 949.95,
@@ -1041,11 +1127,12 @@
     "row": 8,
     "column": 2,
     "group": 1,
-    "period": 7
+    "period": 7,
+    "density": 1.873
   },
   "radium": {
     "symbol": "Ra",
-    "atomicNumber": "88",
+    "atomicNumber": 88,
     "atomicWeight": "[226]",
     "type": "alkaline",
     "boilingPoint": 2010,
@@ -1053,7 +1140,8 @@
     "row": 8,
     "column": 3,
     "group": 2,
-    "period": 7
+    "period": 7,
+    "density": 5
   },
   "actinium": {
     "symbol": "Ac",
@@ -1065,47 +1153,51 @@
     "row": 11,
     "column": 5,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 10.07
   },
   "thorium": {
     "symbol": "Th",
-    "atomicNumber": "90",
-    "atomicWeight": "232.040",
+    "atomicNumber": 90,
+    "atomicWeight": "232.0377",
     "type": "actinoid",
     "boilingPoint": 5061,
     "meltingPoint": 2028,
     "row": 11,
     "column": 6,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 11.72
   },
   "protactinium": {
     "symbol": "Pa",
-    "atomicNumber": "91",
-    "atomicWeight": "231.040",
+    "atomicNumber": 91,
+    "atomicWeight": "231.03588",
     "type": "actinoid",
     "boilingPoint": 4300,
-    "meltingPoint": 2113,
+    "meltingPoint": 1845,
     "row": 11,
     "column": 7,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 15.37
   },
   "uranium": {
     "symbol": "U",
-    "atomicNumber": "92",
-    "atomicWeight": "238.030",
+    "atomicNumber": 92,
+    "atomicWeight": "238.02891",
     "type": "actinoid",
     "boilingPoint": 4404,
     "meltingPoint": 1405,
     "row": 11,
     "column": 8,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 18.95
   },
   "neptunium": {
     "symbol": "Np",
-    "atomicNumber": "93",
+    "atomicNumber": 93,
     "atomicWeight": "[237]",
     "type": "actinoid",
     "boilingPoint": 4273,
@@ -1113,7 +1205,8 @@
     "row": 11,
     "column": 9,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 20.25
   },
   "plutonium": {
     "symbol": "Pu",
@@ -1125,11 +1218,12 @@
     "row": 11,
     "column": 10,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 19.84
   },
   "americium": {
     "symbol": "Am",
-    "atomicNumber": "95",
+    "atomicNumber": 95,
     "atomicWeight": "[243]",
     "type": "actinoid",
     "boilingPoint": 2880,
@@ -1137,23 +1231,25 @@
     "row": 11,
     "column": 11,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 13.69
   },
   "curium": {
     "symbol": "Cm",
-    "atomicNumber": "96",
+    "atomicNumber": 96,
     "atomicWeight": "[247]",
     "type": "actinoid",
     "boilingPoint": 3383,
-    "meltingPoint": 1340,
+    "meltingPoint": 1618,
     "row": 11,
     "column": 12,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 13.51
   },
   "berkelium": {
     "symbol": "Bk",
-    "atomicNumber": "97",
+    "atomicNumber": 97,
     "atomicWeight": "[247]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1161,11 +1257,12 @@
     "row": 11,
     "column": 13,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 14
   },
   "californium": {
     "symbol": "Cf",
-    "atomicNumber": "98",
+    "atomicNumber": 98,
     "atomicWeight": "[251]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1173,11 +1270,12 @@
     "row": 11,
     "column": 14,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 15.1
   },
   "einsteinium": {
     "symbol": "Es",
-    "atomicNumber": "99",
+    "atomicNumber": 99,
     "atomicWeight": "[252]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1185,11 +1283,12 @@
     "row": 11,
     "column": 15,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 8.84
   },
   "fermium": {
     "symbol": "Fm",
-    "atomicNumber": "100",
+    "atomicNumber": 100,
     "atomicWeight": "[257]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1197,11 +1296,12 @@
     "row": 11,
     "column": 16,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": 8.84
   },
   "mendelevium": {
     "symbol": "Md",
-    "atomicNumber": "101",
+    "atomicNumber": 101,
     "atomicWeight": "[258]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1209,11 +1309,12 @@
     "row": 11,
     "column": 17,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "nobelium": {
     "symbol": "No",
-    "atomicNumber": "102",
+    "atomicNumber": 102,
     "atomicWeight": "[259]",
     "type": "actinoid",
     "boilingPoint": "unknown",
@@ -1221,7 +1322,8 @@
     "row": 11,
     "column": 18,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "lawrencium": {
     "symbol": "Lr",
@@ -1233,11 +1335,12 @@
     "row": 11,
     "column": 19,
     "group": null,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "rutherfordium": {
     "symbol": "Rf",
-    "atomicNumber": "104",
+    "atomicNumber": 104,
     "atomicWeight": "[267]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1245,11 +1348,12 @@
     "row": 8,
     "column": 5,
     "group": 4,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "dubnium": {
     "symbol": "Db",
-    "atomicNumber": "105",
+    "atomicNumber": 105,
     "atomicWeight": "[268]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1257,11 +1361,12 @@
     "row": 8,
     "column": 6,
     "group": 5,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "seaborgium": {
     "symbol": "Sg",
-    "atomicNumber": "106",
+    "atomicNumber": 106,
     "atomicWeight": "[269]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1269,11 +1374,12 @@
     "row": 8,
     "column": 7,
     "group": 6,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "bohrium": {
     "symbol": "Bh",
-    "atomicNumber": "107",
+    "atomicNumber": 107,
     "atomicWeight": "[270]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1281,11 +1387,12 @@
     "row": 8,
     "column": 8,
     "group": 7,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "hassium": {
     "symbol": "Hs",
-    "atomicNumber": "108",
+    "atomicNumber": 108,
     "atomicWeight": "[270]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1293,11 +1400,12 @@
     "row": 8,
     "column": 9,
     "group": 8,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "meitnerium": {
     "symbol": "Mt",
-    "atomicNumber": "109",
+    "atomicNumber": 109,
     "atomicWeight": "[278]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1305,11 +1413,12 @@
     "row": 8,
     "column": 10,
     "group": 9,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "darmstadtium": {
     "symbol": "Ds",
-    "atomicNumber": "110",
+    "atomicNumber": 110,
     "atomicWeight": "[281]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1317,11 +1426,12 @@
     "row": 8,
     "column": 11,
     "group": 10,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "roentgenium": {
     "symbol": "Rg",
-    "atomicNumber": "111",
+    "atomicNumber": 111,
     "atomicWeight": "[282]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1329,11 +1439,12 @@
     "row": 8,
     "column": 12,
     "group": 11,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "copernicium": {
     "symbol": "Cn",
-    "atomicNumber": "112",
+    "atomicNumber": 112,
     "atomicWeight": "[285]",
     "type": "transitionMetal",
     "boilingPoint": "unknown",
@@ -1341,11 +1452,12 @@
     "row": 8,
     "column": 13,
     "group": 12,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "nihonium": {
     "symbol": "Nh",
-    "atomicNumber": "113",
+    "atomicNumber": 113,
     "atomicWeight": "[286]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1353,11 +1465,12 @@
     "row": 8,
     "column": 14,
     "group": 13,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "flerovium": {
     "symbol": "Fl",
-    "atomicNumber": "114",
+    "atomicNumber": 114,
     "atomicWeight": "[289]",
     "type": "postTransitionMetal",
     "boilingPoint": "unknown",
@@ -1365,11 +1478,12 @@
     "row": 8,
     "column": 15,
     "group": 14,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "moscovium": {
     "symbol": "Mc",
-    "atomicNumber": "115",
+    "atomicNumber": 115,
     "atomicWeight": "[290]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1377,11 +1491,12 @@
     "row": 8,
     "column": 16,
     "group": 15,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "livermorium": {
     "symbol": "Lv",
-    "atomicNumber": "116",
+    "atomicNumber": 116,
     "atomicWeight": "[293]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1389,11 +1504,12 @@
     "row": 8,
     "column": 17,
     "group": 16,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "tennessine": {
     "symbol": "Ts",
-    "atomicNumber": "117",
+    "atomicNumber": 117,
     "atomicWeight": "[294]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1401,11 +1517,12 @@
     "row": 8,
     "column": 18,
     "group": 17,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   },
   "oganesson": {
     "symbol": "Og",
-    "atomicNumber": "118",
+    "atomicNumber": 118,
     "atomicWeight": "[294]",
     "type": "noType",
     "boilingPoint": "unknown",
@@ -1413,6 +1530,7 @@
     "row": 8,
     "column": 19,
     "group": 18,
-    "period": 7
+    "period": 7,
+    "density": "unknown"
   }
 }
