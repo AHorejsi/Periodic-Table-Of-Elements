@@ -21,8 +21,8 @@
     "density": "0.0899",
     "conductivity": "0.1805",
     "heat": "14300",
-    "abundance": "75%",
-    "discovered": "1766"
+    "abundance": "0.75",
+    "discovered": "1766 CE"
   },
   "helium": {
     "symbol": "He",
@@ -45,8 +45,8 @@
     "density": "0.1785",
     "conductivity": "0.1513",
     "heat": "5193.1",
-    "abundance": "23%",
-    "discovered": "1895"
+    "abundance": "0.23",
+    "discovered": "1895 CE"
   },
   "lithium": {
     "symbol": "Li",
@@ -63,7 +63,15 @@
     "electronegativity": "0.98",
     "electronAffinity": "59.6",
     "valence": "1",
-    "ionization": "520.2"
+    "ionization": "520.2",
+    "radius": "167",
+    "hardness": "unknown",
+    "modulus": "11",
+    "density": "535",
+    "conductivity": "85",
+    "heat": "3570",
+    "abundance": "0.000006",
+    "discovered": "1817 CE"
   },
   "beryllium": {
     "symbol": "Be",
@@ -75,7 +83,20 @@
     "row": 3,
     "column": 3,
     "group": 2,
-    "period": 2
+    "period": 2,
+    "series": "alkaline",
+    "electronegativity": "1.57",
+    "elecronAffinity": "0",
+    "valence": "2",
+    "ionization": "899.5",
+    "radius": "112",
+    "hardness": "600",
+    "modulus": "130",
+    "density": "1848",
+    "conductivity": "190",
+    "heat": "1820",
+    "abundance": "0.0000001",
+    "discovered": "1797 CE"
   },
   "boron": {
     "symbol": "B",
@@ -87,7 +108,20 @@
     "row": 3,
     "column": 14,
     "group": 13,
-    "period": 2
+    "period": 2,
+    "series": "boron",
+    "electronegativity": "2.04",
+    "electronAffinity": "26.7",
+    "valence": "3",
+    "ionization": "800.6",
+    "radius": "87",
+    "hardness": "unknown",
+    "modulus": "320",
+    "density": "2460",
+    "conductivity": "27",
+    "heat": "1030",
+    "abundance": "0.0000001",
+    "discovered": "1808 CE"
   },
   "carbon": {
     "symbol": "C",
@@ -99,7 +133,20 @@
     "row": 3,
     "column": 15,
     "group": 14,
-    "period": 2
+    "period": 2,
+    "series": "carbon",
+    "electronegativity": "2.55",
+    "electronAffinity": "153.9",
+    "valence": "4",
+    "ionization": "1086.5",
+    "radius": "67",
+    "hardness": "unknown",
+    "modulus": "33",
+    "density": "2260",
+    "conductivity": "140",
+    "heat": "710",
+    "abundance": "0.005",
+    "discovered": "3750 BCE"
   },
   "nitrogen": {
     "symbol": "N",
@@ -111,7 +158,20 @@
     "row": 3,
     "column": 16,
     "group": 15,
-    "period": 2
+    "period": 2,
+    "series": "pnictogen",
+    "electronegativity": "3.04",
+    "electronAffinity": "7",
+    "valence": "5",
+    "ionization": "1402.3",
+    "radius": "56",
+    "hardness": "unknown",
+    "modulus": "unknown",
+    "density": "1.251",
+    "conductivity": "0.02583",
+    "heat": "1040",
+    "abundance": "0.001",
+    "discovered": "1772 CE"
   },
   "oxygen": {
     "symbol": "O",
@@ -123,7 +183,20 @@
     "row": 3,
     "column": 17,
     "group": 16,
-    "period": 2
+    "period": 2,
+    "series": "chalcogen",
+    "electronegativity": "3.44",
+    "electronAffinity": "141",
+    "valence": "2",
+    "ionization": "1313.9",
+    "radius": "48",
+    "hardness": "unknown",
+    "modulus": "unknown",
+    "density": "1.429",
+    "conductivity": "0.02658",
+    "heat": "919",
+    "abundance": "0.01",
+    "discovered": "1774 CE"
   },
   "fluorine": {
     "symbol": "F",
@@ -135,7 +208,20 @@
     "row": 3,
     "column": 18,
     "group": 17,
-    "period": 2
+    "period": 2,
+    "series": "halogen",
+    "electronegativity": "3.98",
+    "electronAffinity": "328",
+    "valence": "1",
+    "ionization": "1681.0",
+    "radius": "42",
+    "hardness": "unknown",
+    "modulus": "unknown",
+    "density": "1.696",
+    "conductivity": "0.0277",
+    "heat": "824",
+    "abundance": "0.0000004",
+    "discovered": "1886 CE"
   },
   "neon": {
     "symbol": "Ne",
@@ -147,7 +233,20 @@
     "row": 3,
     "column": 19,
     "group": 18,
-    "period": 2
+    "period": 2,
+    "series": "noble",
+    "electronegativity": "unknown",
+    "electronAffinity": "0",
+    "valence": "0",
+    "ionization": "2080.7",
+    "radius": "38",
+    "hardness": "unknown",
+    "modulus": "unknown",
+    "density": "0.9",
+    "conductivity": "0.0491",
+    "heat": "1030.0",
+    "abundance": "0.0013",
+    "discovered": "1898 CE"
   },
   "sodium": {
     "symbol": "Na",

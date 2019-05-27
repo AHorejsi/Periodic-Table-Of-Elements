@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery";
 
 
-class ElementLegend extends React.Component {
+class CategoryLegend extends React.Component {
 	constructor(props) {
 		super(props);
     }
@@ -195,4 +195,4 @@ class ElementLegend extends React.Component {
 }
 
 
-export default ElementLegend
+export default CategoryLegend
