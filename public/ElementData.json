@@ -21,7 +21,7 @@
     "density": "0.0899",
     "conductivity": "0.1805",
     "heat": "14300",
-    "abundance": "0.75",
+    "abundance": "75.0%",
     "discovered": "1766 CE"
   },
   "helium": {
@@ -45,7 +45,7 @@
     "density": "0.1785",
     "conductivity": "0.1513",
     "heat": "5193.1",
-    "abundance": "0.23",
+    "abundance": "23.0%",
     "discovered": "1895 CE"
   },
   "lithium": {
@@ -70,7 +70,7 @@
     "density": "535",
     "conductivity": "85",
     "heat": "3570",
-    "abundance": "0.000006",
+    "abundance": "0.0006%",
     "discovered": "1817 CE"
   },
   "beryllium": {
@@ -95,7 +95,7 @@
     "density": "1848",
     "conductivity": "190",
     "heat": "1820",
-    "abundance": "0.0000001",
+    "abundance": "0.00001%",
     "discovered": "1797 CE"
   },
   "boron": {
@@ -120,7 +120,7 @@
     "density": "2460",
     "conductivity": "27",
     "heat": "1030",
-    "abundance": "0.0000001",
+    "abundance": "0.00001%",
     "discovered": "1808 CE"
   },
   "carbon": {
@@ -145,7 +145,7 @@
     "density": "2260",
     "conductivity": "140",
     "heat": "710",
-    "abundance": "0.005",
+    "abundance": "0.50%",
     "discovered": "3750 BCE"
   },
   "nitrogen": {
@@ -170,7 +170,7 @@
     "density": "1.251",
     "conductivity": "0.02583",
     "heat": "1040",
-    "abundance": "0.001",
+    "abundance": "0.10%",
     "discovered": "1772 CE"
   },
   "oxygen": {
@@ -195,7 +195,7 @@
     "density": "1.429",
     "conductivity": "0.02658",
     "heat": "919",
-    "abundance": "0.01",
+    "abundance": "1.00%",
     "discovered": "1774 CE"
   },
   "fluorine": {
@@ -220,7 +220,7 @@
     "density": "1.696",
     "conductivity": "0.0277",
     "heat": "824",
-    "abundance": "0.0000004",
+    "abundance": "0.00004%",
     "discovered": "1886 CE"
   },
   "neon": {
@@ -245,7 +245,7 @@
     "density": "0.9",
     "conductivity": "0.0491",
     "heat": "1030.0",
-    "abundance": "0.0013",
+    "abundance": "0.13%",
     "discovered": "1898 CE"
   },
   "sodium": {
@@ -258,7 +258,20 @@
     "row": 4,
     "column": 2,
     "group": 1,
-    "period": 3
+    "period": 3,
+    "series": "alkali",
+    "electronegativity": "0.93",
+    "electronAffinity": "52.8",
+    "valence": "1",
+    "ionization": "495.8",
+    "radius": "190",
+    "hardness": "0.69",
+    "modulus": "6.3",
+    "density": "968",
+    "conductivity": "140",
+    "heat": "1230",
+    "abundance": "0.002%",
+    "discovered": "1807 CE"
   },
   "magnesium": {
     "symbol": "Mg",
@@ -270,7 +283,20 @@
     "row": 4,
     "column": 3,
     "group": 2,
-    "period": 3
+    "period": 3,
+    "series": "alkaline",
+    "electronegativity": "1.31",
+    "electronAffinity": "0",
+    "valence": "2",
+    "ionization": "737.7",
+    "radius": "145",
+    "hardness": "260",
+    "modulus": "45",
+    "density": "1738",
+    "conductivity": "160",
+    "heat": "1020",
+    "abundance": "0.06%",
+    "discovered": "1755 CE"
   },
   "aluminum": {
     "symbol": "Al",
@@ -282,7 +308,20 @@
     "row": 4,
     "column": 14,
     "group": 13,
-    "period": 3
+    "period": 3,
+    "series": "boron",
+    "electronegativity": "1.61",
+    "electronAffinity": "42.5",
+    "valence": "3",
+    "ionization": "577.5",
+    "radius": "118",
+    "hardness": "245",
+    "modulus": "76",
+    "density": "2700",
+    "conductivity": "235",
+    "heat": "904",
+    "abundance": "0.005%",
+    "discovered": "1825 CE"
   },
   "silicon": {
     "symbol": "Si",
