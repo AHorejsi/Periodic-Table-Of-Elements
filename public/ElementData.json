@@ -736,7 +736,7 @@
     "meltingPoint": 1193,
     "row": 10,
     "column": 5,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 6.15
   },
@@ -749,7 +749,7 @@
     "meltingPoint": 1071,
     "row": 10,
     "column": 6,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 6.77
   },
@@ -762,7 +762,7 @@
     "meltingPoint": 1204,
     "row": 10,
     "column": 7,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 6.77
   },
@@ -775,7 +775,7 @@
     "meltingPoint": 1289,
     "row": 10,
     "column": 8,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 7.01
   },
@@ -788,7 +788,7 @@
     "meltingPoint": 1204,
     "row": 10,
     "column": 9,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 7.26
   },
@@ -801,7 +801,7 @@
     "meltingPoint": 1345,
     "row": 10,
     "column": 10,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 7.52
   },
@@ -814,7 +814,7 @@
     "meltingPoint": 1095,
     "row": 10,
     "column": 11,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 5.24
   },
@@ -827,7 +827,7 @@
     "meltingPoint": 1585,
     "row": 10,
     "column": 12,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 7.9
   },
@@ -840,7 +840,7 @@
     "meltingPoint": 1630,
     "row": 10,
     "column": 13,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 8.23
   },
@@ -853,7 +853,7 @@
     "meltingPoint": 1685,
     "row": 10,
     "column": 14,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 8.55
   },
@@ -866,7 +866,7 @@
     "meltingPoint": 1743,
     "row": 10,
     "column": 15,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 8.8
   },
@@ -879,7 +879,7 @@
     "meltingPoint": 1795,
     "row": 10,
     "column": 16,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 9.07
   },
@@ -892,7 +892,7 @@
     "meltingPoint": 1818,
     "row": 10,
     "column": 17,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 9.32
   },
@@ -905,7 +905,7 @@
     "meltingPoint": 1097,
     "row": 10,
     "column": 18,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 6.9
   },
@@ -918,7 +918,7 @@
     "meltingPoint": 1936,
     "row": 10,
     "column": 19,
-    "group": null,
+    "group": "none",
     "period": 6,
     "density": 9.84
   },
@@ -1152,7 +1152,7 @@
     "meltingPoint": 1323,
     "row": 11,
     "column": 5,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 10.07
   },
@@ -1165,7 +1165,7 @@
     "meltingPoint": 2028,
     "row": 11,
     "column": 6,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 11.72
   },
@@ -1178,7 +1178,7 @@
     "meltingPoint": 1845,
     "row": 11,
     "column": 7,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 15.37
   },
@@ -1191,7 +1191,7 @@
     "meltingPoint": 1405,
     "row": 11,
     "column": 8,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 18.95
   },
@@ -1204,7 +1204,7 @@
     "meltingPoint": 913,
     "row": 11,
     "column": 9,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 20.25
   },
@@ -1217,7 +1217,7 @@
     "meltingPoint": 913,
     "row": 11,
     "column": 10,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 19.84
   },
@@ -1230,7 +1230,7 @@
     "meltingPoint": 1267,
     "row": 11,
     "column": 11,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 13.69
   },
@@ -1243,7 +1243,7 @@
     "meltingPoint": 1618,
     "row": 11,
     "column": 12,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 13.51
   },
@@ -1256,7 +1256,7 @@
     "meltingPoint": 1323,
     "row": 11,
     "column": 13,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 14
   },
@@ -1269,7 +1269,7 @@
     "meltingPoint": 1173,
     "row": 11,
     "column": 14,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 15.1
   },
@@ -1282,7 +1282,7 @@
     "meltingPoint": 1133,
     "row": 11,
     "column": 15,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 8.84
   },
@@ -1295,7 +1295,7 @@
     "meltingPoint": 1800,
     "row": 11,
     "column": 16,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": 8.84
   },
@@ -1308,7 +1308,7 @@
     "meltingPoint": 1100,
     "row": 11,
     "column": 17,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": "unknown"
   },
@@ -1321,7 +1321,7 @@
     "meltingPoint": 1100,
     "row": 11,
     "column": 18,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": "unknown"
   },
@@ -1334,7 +1334,7 @@
     "meltingPoint": 1900,
     "row": 11,
     "column": 19,
-    "group": null,
+    "group": "none",
     "period": 7,
     "density": "unknown"
   },
