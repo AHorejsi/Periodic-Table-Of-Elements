@@ -5,7 +5,7 @@ import DetailedElement from "./DetailedElement";
 import CategoryLegend from "./CategoryLegend";
 import TemperatureSlider from "./TemperatureSlider";
 import PhaseStateLegend from "./PhaseStateLegend";
-import getJsonData from "./JSONRetriever";
+import { elementData } from "./JSONRetriever";
 
 
 class PeriodicTable extends React.Component {
@@ -15,7 +15,6 @@ class PeriodicTable extends React.Component {
 
     _getInnerHTML() {
         let html = [];
-        let elementData = getJsonData("./ElementData.json");
 
         for (let elem in elementData) {
             html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}

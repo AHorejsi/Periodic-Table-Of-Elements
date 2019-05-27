@@ -1,22 +1,21 @@
-"use strict";
-
 import $ from "jquery";
 
 
-function getJsonData(fileURL) {
-    let jsonData;
+var elementData;
+var measurementData;
 
-    $.ajax({
-        url: fileURL,
-        async: false,
-        dataType: "json",
-        success: function(response) {
-            jsonData = response;
-        }
-    });
+$.ajax({
+    url: "./ElementData.json",
+    async: false,
+    dataType: "json",
+    success: (response) => elementData = response
+});
+$.ajax({
+    url: "./MeasurementUnits.json",
+    async: false,
+    dataType: "json",
+    success: (response) => measurementData = response
+})
 
-    return jsonData;
-}
 
-
-export default getJsonData
+export { elementData, measurementData }

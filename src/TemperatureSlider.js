@@ -1,6 +1,6 @@
 import React from "react";
 import $ from "jquery";
-import getJsonData from "./JSONRetriever";
+import { elementData } from "./JSONRetriever";
 
 class TemperatureSlider extends React.Component {
     constructor(props) {
@@ -13,8 +13,6 @@ class TemperatureSlider extends React.Component {
     }
 
     _updateAtomicElementStatesFromSlider() {
-        let elementData = getJsonData("./ElementData.json");
-
         let temperature = $("#temperatureSlider").val();
         $("#temperatureInput").val(temperature);
 
@@ -22,8 +20,6 @@ class TemperatureSlider extends React.Component {
     }
 
     _updateAtomicElementStatesFromTextBox() {
-        let elementData = getJsonData("./ElementData.json");
-
         let temperature = $("#temperatureInput").val();
         $("#temperatureSlider").val(temperature);
         
