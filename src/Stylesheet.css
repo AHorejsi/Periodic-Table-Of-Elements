@@ -72,19 +72,19 @@
     background-image: linear-gradient(to bottom, #CC99FF, #E699FF);
 }
 
-.transition-metal {
+.transitionMetal {
     background-color: rgb(238, 204, 204);
 }
 
-.transition-metalDetailed {
+.transitionMetalDetailed {
     background-image: linear-gradient(to bottom, #E5B1B1, #E6C9C9);
 }
 
-.post-transition-metal {
+.postTransitionMetal {
     background-color: rgb(136, 238, 221);
 }
 
-.post-transition-metalDetailed {
+.postTransitionMetalDetailed {
     background-image: linear-gradient(to bottom, #3AD2B9, #43E2C8);
 }
 
@@ -104,19 +104,19 @@
     background-image: linear-gradient(to bottom, limegreen, lightgreen);
 }
 
-.noble-gas {
+.nobleGas {
     background-color: rgb(195, 212, 255);
 }
 
-.noble-gasDetailed {
+.nobleGasDetailed {
     background-image: linear-gradient(to bottom, #8CA2DF, #CAD8FF);
 }
 
-.no-type {
+.noType {
 	background-color: rgb(220, 220, 220);
 }
 
-.no-typeDetailed {
+.noTypeDetailed {
     background-image: linear-gradient(to bottom, #BFBFC4, #E4E4EE);
 }
 /* End of classes for colors of different kinds of elements */
@@ -322,7 +322,7 @@
     padding-left: 4.1em;
 }
 
-#transition-metal-gap {
+#transitionMetalGap {
     grid-row: 2 / 4;
     grid-column: 4 / 14;
     padding-left: 3em;
@@ -330,12 +330,12 @@
     height: 4em;
 }
 
-#nonmetal-gap {
+#nonmetalGap {
     grid-row: 2 / 3;
     grid-column: 14 / 18;
 }
 
-#left-corner {
+#leftCorner {
     grid-row: 9 / 12;
     grid-column: 2 / 4;
     padding-top: 0.5em;

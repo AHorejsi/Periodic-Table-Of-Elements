@@ -24,7 +24,7 @@ class AtomicElement extends React.Component {
     }
 	
     render() {
-        let gridStyling = {
+        let styling = {
             gridRow: this.props.row + " / " + (this.props.row + 1),
             gridColumn: this.props.column + " / " + (this.props.column + 1)
         };
@@ -35,14 +35,14 @@ class AtomicElement extends React.Component {
                             " group" + this.props.group + " period" + this.props.period}
                     onMouseOver={(event) => this._renderDetailedElement()}
                     onMouseOut={(event) => this._resetDetailedElement()}
-                    style={gridStyling}>
+                    style={styling}>
 
                 <div>
-					{this.props.atomicNumber}
-				</div>
+                    {this.props.atomicNumber}
+                </div>
 
                 <div className="bolded">
-					{this.props.symbol}
+                    {this.props.symbol}
                 </div>
             </div>
 		);
