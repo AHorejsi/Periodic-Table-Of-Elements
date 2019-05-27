@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import $ from "jquery";
+
 
 class AtomicElement extends React.Component {
 	constructor(props) {
@@ -22,10 +22,10 @@ class AtomicElement extends React.Component {
 
     _highlightGroupAndPeriodNumbers() {
         $("#group" + this.props.group + "ElementSet").css({
-            "background-color": "yellow"
+            "background-color": "lightblue"
         });
         $("#period" + this.props.period + "ElementSet").css({
-            "background-color": "yellow"
+            "background-color": "lightblue"
         });
     }
 

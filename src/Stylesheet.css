@@ -181,8 +181,8 @@
 }
 
 .doubleDigitNumberRow {
-    padding-left: 1.17em;
-    padding-right: 1.17em;
+    padding-left: 1.16em;
+    padding-right: 1.16em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
@@ -195,13 +195,13 @@
 }
 
 .numberColumn {
-    padding: 0.31em 0.03em 0.31em 0.03em;
+    padding: 0.3em 0.03em 0.3em 0.03em;
     border-width: 0.02em;
     border-color: white white rgb(203, 236, 230) white;
 }
 
 .firstColumnNumber {
-    padding: 0.31em 0.03em 0.31em 0.03em;
+    padding: 0.3em 0.03em 0.3em 0.03em;
     border-width: 0.02em;
     border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
@@ -224,16 +224,30 @@
 }
 /* End of classes for detailed element representation */
 
-/* Begin of classes for slider */
+/* Begin of classes for sliders */
+#temperatureDiv {
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+}
+
 #temperatureSlider {
     background-image: linear-gradient(to right, blue, yellow, red);
+}
+
+#pressureDiv {
+    padding-top: 0.01em;
+    padding-left: 13.5em;
+}
+
+#pressureSlider {
+    background-image: linear-gradient(to right, green, purple, black);
 }
 
 .slider {
     -webkit-appearance: none;
     appearance: none;
     height: 0.7em;
-    width: 12.5em !important;
+    width: 8em !important;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -263,16 +277,16 @@
 .sliderTextbox {
     width: 4.2%;
     position: absolute;
-    margin-left: 15%;
+    margin-left: 9.2%;
 }
 
-#sliderSpan {
+.sliderSpan {
     position: absolute;
     padding: 0.1em 0.3em 0.1em 0.3em;
     background-color: lightgray;
     margin-top: 0.5em;
 }
-/* End of classes for slider */
+/* End of classes for sliders */
 
 /* Begin of classes for element phase state representation */
 .gas {
@@ -315,11 +329,6 @@
 /* Begin of classes for layout of periodic table */
 .grid {
     display: grid;
-}
-
-#temperatureDiv {
-    padding-top: 0.5em;
-    padding-left: 4.1em;
 }
 
 #transitionMetalGap {
