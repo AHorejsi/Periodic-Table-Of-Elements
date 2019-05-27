@@ -7,6 +7,11 @@ class AtomicElement extends React.Component {
         super(props);
     }
 
+    _makeEditsToPage() {
+        this._renderDetailedElement();
+        this._highlightGroupAndPeriodNumbers();
+    }
+
     _renderDetailedElement() {
         $("#detailedElement").addClass(this.props.type + "Detailed");
         $("#detailedAtomicNumber").text(this.props.atomicNumber);
@@ -15,12 +20,35 @@ class AtomicElement extends React.Component {
         $("#detailedAtomicWeight").text(this.props.atomicWeight);
     }
 
+    _highlightGroupAndPeriodNumbers() {
+        $("#group" + this.props.group + "ElementSet").css({
+            "background-color": "yellow"
+        });
+        $("#period" + this.props.period + "ElementSet").css({
+            "background-color": "yellow"
+        });
+    }
+
+    _undoEditsToPage() {
+        this._resetDetailedElement();
+        this._unhighlightGroupAndPeriodNumbers();
+    }
+
     _resetDetailedElement() {
         $("#detailedElement").removeClass(this.props.type + "Detailed");
         $("#detailedAtomicNumber").text("");
         $("#detailedSymbol").text("");
         $("#detailedElementName").text("");
         $("#detailedAtomicWeight").text("");
+    }
+
+    _unhighlightGroupAndPeriodNumbers() {
+        $("#group" + this.props.group + "ElementSet").css({
+            "background-color": "white"
+        });
+        $("#period" + this.props.period + "ElementSet").css({
+            "background-color": "white"
+        });
     }
 	
     render() {
@@ -33,8 +61,8 @@ class AtomicElement extends React.Component {
             <div id={this.props.elementName}
                     className={"bordered centered elemBox pointerCursor " + this.props.type +
                             " group" + this.props.group + " period" + this.props.period}
-                    onMouseOver={(event) => this._renderDetailedElement()}
-                    onMouseOut={(event) => this._resetDetailedElement()}
+                    onMouseOver={(event) => this._makeEditsToPage()}
+                    onMouseOut={(event) => this._undoEditsToPage()}
                     style={styling}>
 
                 <div>

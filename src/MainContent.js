@@ -1,6 +1,6 @@
 import React from "react";
 import PeriodicTable from "./PeriodicTable";
-import {GroupNumbers, PeriodNumbers} from "./NumberPositions";
+import { GroupNumbers, PeriodNumbers } from "./NumberPositions";
 
 
 class MainContent extends React.Component {
