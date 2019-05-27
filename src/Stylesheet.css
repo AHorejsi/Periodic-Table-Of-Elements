@@ -181,8 +181,8 @@
 }
 
 .doubleDigitNumberRow {
-    padding-left: 1.16em;
-    padding-right: 1.16em;
+    padding-left: 1.17em;
+    padding-right: 1.17em;
     border-width: 0.05em;
     border-color: white rgb(203, 236, 230) white white;
 }
@@ -195,13 +195,13 @@
 }
 
 .numberColumn {
-    padding: 0.3em 0.03em 0.3em 0.03em;
+    padding: 0.31em 0.03em 0.31em 0.03em;
     border-width: 0.02em;
     border-color: white white rgb(203, 236, 230) white;
 }
 
 .firstColumnNumber {
-    padding: 0.3em 0.03em 0.3em 0.03em;
+    padding: 0.31em 0.03em 0.31em 0.03em;
     border-width: 0.02em;
     border-color: rgb(203, 236, 230) white rgb(203, 236, 230) white;
 }
