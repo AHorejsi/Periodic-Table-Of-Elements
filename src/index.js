@@ -6,5 +6,5 @@ import "./Stylesheet.css";
 
 
 $(document).ready(function() {
-        ReactDOM.render(<App />, document.getElementById("root"));
+    ReactDOM.render(<App />, document.getElementById("root"));
 });
