@@ -1,9 +1,10 @@
 import React from "react";
 import $ from "jquery";
-import Slider from "./Slider";
+import { elementData } from "./JSONRetriever";
+import { computePhaseState } from "./ChemCalc";
 
 
-class TemperatureSlider extends Slider {
+class TemperatureSlider extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -25,6 +26,18 @@ class TemperatureSlider extends Slider {
         $("#temperatureSlider").val(temperature);
 
         this.editStates(temperature, $("#pressureInput").val());
+    }
+	
+	editStates(temperature, pressure) {
+        for (let elem in elementData) {
+            let elemDiv = $("#" + elem);
+            let phaseState = computePhaseState(elementData[elem], temperature, pressure);
+
+            if (!elemDiv.hasClass(phaseState)) {
+                elemDiv.removeClass("gas liquid solid unknown");
+                elemDiv.addClass(phaseState);
+            }
+        }
     }
 
     render() {

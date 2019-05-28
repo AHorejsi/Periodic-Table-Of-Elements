@@ -5,7 +5,6 @@ import DetailedElement from "./DetailedElement";
 import CategoryLegend from "./CategoryLegend";
 import PhaseStateLegend from "./PhaseStateLegend";
 import TemperatureSlider from "./TemperatureSlider";
-import PressureSlider from "./PressureSlider";
 import { elementData } from "./JSONRetriever";
 
 
@@ -67,7 +66,6 @@ class PeriodicTable extends React.Component {
 
                     <div id="nonmetalGap">
                         <TemperatureSlider />
-                        <PressureSlider />
                     </div>
 
                     <div id="leftCorner">
