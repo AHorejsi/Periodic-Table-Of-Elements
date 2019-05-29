@@ -1,4 +1,5 @@
 import React from "react";
+import $ from "jquery";
 import AtomicElement from "./AtomicElement";
 import RangeBox from "./RangeBox";
 import DetailedElement from "./DetailedElement";
@@ -16,12 +17,16 @@ class PeriodicTable extends React.Component {
     _getInnerHTML() {
         let html = [];
 
-        for (let elem in elementData) {
-            html.push(<AtomicElement elementName={elem} atomicNumber={elementData[elem].atomicNumber}
-                atomicWeight={elementData[elem].atomicWeight} symbol={elementData[elem].symbol}
-                type={elementData[elem].type} row={elementData[elem].row} column={elementData[elem].column}
-                group={elementData[elem].group} period={elementData[elem].period} />);
-        }
+        $.each(elementData, function(elementName, elementProperties) {
+            let component = (
+                <AtomicElement elementName={elementName} atomicNumber={elementProperties.atomicNumber}
+                    atomicWeight={elementProperties.atomicWeight} symbol={elementProperties.symbol}
+                    type={elementProperties.type} row={elementProperties.row} column={elementProperties.column}
+                    group={elementProperties.group} period={elementProperties.period} />    
+            );
+
+            html.push(component);
+        });
 
         this._addGap(html);
         this._addInfoBox(html);

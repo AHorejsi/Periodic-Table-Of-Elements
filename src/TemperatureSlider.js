@@ -18,33 +18,33 @@ class TemperatureSlider extends React.Component {
         let temperature = $("#temperatureSlider").val();
         $("#temperatureInput").val(temperature);
 
-        this.editStates(temperature, $("#pressureInput").val());
+        this._editStates(temperature);
     }
 
     _updateAtomicElementStatesFromTextBox() {
         let temperature = $("#temperatureInput").val();
         $("#temperatureSlider").val(temperature);
 
-        this.editStates(temperature, $("#pressureInput").val());
+        this._editStates(temperature);
     }
 	
-	editStates(temperature, pressure) {
-        for (let elem in elementData) {
-            let elemDiv = $("#" + elem);
-            let phaseState = computePhaseState(elementData[elem], temperature, pressure);
+    _editStates(temperature) {
+        $.each(elementData, function(element, properties) {
+            let elemDiv = $("#" + element);
+            let phaseState = computePhaseState(properties, temperature);
 
             if (!elemDiv.hasClass(phaseState)) {
                 elemDiv.removeClass("gas liquid solid unknown");
                 elemDiv.addClass(phaseState);
             }
-        }
+        });
     }
 
     render() {
         return (
             <div id="temperatureDiv">
                 <span className="sliderSpan">
-                    <input id="temperatureSlider" className="slider floatLeft" type="range" min="0" max="6000" step="0.01"
+                    <input id="temperatureSlider" className="slider floatLeft" type="range" min="0" max="9999" step="0.01"
                            onChange={(event) => this._updateAtomicElementStatesFromSlider()} />
                 </span>
                     
