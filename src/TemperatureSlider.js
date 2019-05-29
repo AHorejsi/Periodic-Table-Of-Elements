@@ -1,6 +1,6 @@
 import React from "react";
 import $ from "jquery";
-import { elementData } from "./JSONRetriever";
+import getJsonData from "./JSONRetriever";
 import { computePhaseState } from "./ChemCalc";
 
 
@@ -29,6 +29,8 @@ class TemperatureSlider extends React.Component {
     }
 	
     _editStates(temperature) {
+        let elementData = getJsonData("./ElementData.json");
+
         $.each(elementData, function(element, properties) {
             let elemDiv = $("#" + element);
             let phaseState = computePhaseState(properties, temperature);
