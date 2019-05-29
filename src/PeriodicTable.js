@@ -18,11 +18,11 @@ class PeriodicTable extends React.Component {
         let elementData = getJsonData("./ElementData.json");
         let html = [];
 
-        $.each(elementData, function(elementName, elementProperties) {
-            html.push(<AtomicElement elementName={elementName} atomicNumber={elementProperties.atomicNumber}
-                atomicWeight={elementProperties.atomicWeight} symbol={elementProperties.symbol}
-                type={elementProperties.type} row={elementProperties.row} column={elementProperties.column}
-                group={elementProperties.group} period={elementProperties.period} />
+        $.each(elementData, (element, properties) => {
+            html.push(<AtomicElement elementName={element} atomicNumber={properties.atomicNumber}
+                atomicWeight={properties.atomicWeight} symbol={properties.symbol}
+                type={properties.type} row={properties.row} column={properties.column}
+                group={properties.group} period={properties.period} />
             );
         });
 

@@ -1,17 +1,18 @@
 import $ from "jquery";
 
 
-function getJsonData(filename) {
+function getJsonData(url) {
     let data;
 
     $.ajax({
-        url: filename,
+        url,
         async: false,
         dataType: "json",
-        success: (response) => data = response
+        success: (response) => { data = response }
     })
 
     return data;
 }
+
 
 export default getJsonData

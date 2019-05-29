@@ -21,4 +21,8 @@ function computePhaseState(element, temperature) {
 }
 
 
-export { computePhaseState, kelvinToCelsius, kelvinToFahrenheit }
+export {
+    computePhaseState,
+    kelvinToCelsius,
+    kelvinToFahrenheit
+}

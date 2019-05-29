@@ -31,7 +31,7 @@ class TemperatureSlider extends React.Component {
     _editStates(temperature) {
         let elementData = getJsonData("./ElementData.json");
 
-        $.each(elementData, function(element, properties) {
+        $.each(elementData, (element, properties) => {
             let elemDiv = $("#" + element);
             let phaseState = computePhaseState(properties, temperature);
 
