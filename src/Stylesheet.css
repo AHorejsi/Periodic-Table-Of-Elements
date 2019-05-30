@@ -1,13 +1,13 @@
 .bordered {
-	border: 0.05em solid black;
+    border: 0.05em solid black;
 }
 
 .centered {
-	text-align: center;
+    text-align: center;
 }
 
 .bolded {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .floatLeft {
@@ -32,6 +32,8 @@
 }
 
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -41,10 +43,13 @@
 
 /* Begin of classes for colors of different kinds of elements */
 .alkali {
-    background-color: rgb(255, 212, 127); 
+    background-color: rgb(255, 212, 127);
 }
 
 .alkaliDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF9933), to(#FFCC66));
+    background-image: -webkit-linear-gradient(top, #FF9933, #FFCC66);
+    background-image: -o-linear-gradient(top, #FF9933, #FFCC66);
     background-image: linear-gradient(to bottom, #FF9933, #FFCC66);
 }
 
@@ -53,6 +58,9 @@
 }
 
 .alkalineDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#FFFF99));
+    background-image: -webkit-linear-gradient(top, #FFFF00, #FFFF99);
+    background-image: -o-linear-gradient(top, #FFFF00, #FFFF99);
     background-image: linear-gradient(to bottom, #FFFF00, #FFFF99);
 }
 
@@ -61,6 +69,9 @@
 }
 
 .lanthanoidDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFCCFF), to(#FFCCCC));
+    background-image: -webkit-linear-gradient(top, #FFCCFF, #FFCCCC);
+    background-image: -o-linear-gradient(top, #FFCCFF, #FFCCCC);
     background-image: linear-gradient(to bottom, #FFCCFF, #FFCCCC)
 }
 
@@ -69,6 +80,9 @@
 }
 
 .actinoidDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC99FF), to(#E699FF));
+    background-image: -webkit-linear-gradient(top, #CC99FF, #E699FF);
+    background-image: -o-linear-gradient(top, #CC99FF, #E699FF);
     background-image: linear-gradient(to bottom, #CC99FF, #E699FF);
 }
 
@@ -77,6 +91,9 @@
 }
 
 .transitionMetalDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E5B1B1), to(#E6C9C9));
+    background-image: -webkit-linear-gradient(top, #E5B1B1, #E6C9C9);
+    background-image: -o-linear-gradient(top, #E5B1B1, #E6C9C9);
     background-image: linear-gradient(to bottom, #E5B1B1, #E6C9C9);
 }
 
@@ -85,6 +102,9 @@
 }
 
 .postTransitionMetalDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3AD2B9), to(#43E2C8));
+    background-image: -webkit-linear-gradient(top, #3AD2B9, #43E2C8);
+    background-image: -o-linear-gradient(top, #3AD2B9, #43E2C8);
     background-image: linear-gradient(to bottom, #3AD2B9, #43E2C8);
 }
 
@@ -93,6 +113,9 @@
 }
 
 .metalloidDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6FC17F), to(#B6F6C3));
+    background-image: -webkit-linear-gradient(top, #6FC17F, #B6F6C3);
+    background-image: -o-linear-gradient(top, #6FC17F, #B6F6C3);
     background-image: linear-gradient(to bottom, #6FC17F, #B6F6C3);
 }
 
@@ -101,6 +124,9 @@
 }
 
 .nonmetalDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(limegreen), to(lightgreen));
+    background-image: -webkit-linear-gradient(top, limegreen, lightgreen);
+    background-image: -o-linear-gradient(top, limegreen, lightgreen);
     background-image: linear-gradient(to bottom, limegreen, lightgreen);
 }
 
@@ -109,14 +135,20 @@
 }
 
 .nobleGasDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8CA2DF), to(#CAD8FF));
+    background-image: -webkit-linear-gradient(top, #8CA2DF, #CAD8FF);
+    background-image: -o-linear-gradient(top, #8CA2DF, #CAD8FF);
     background-image: linear-gradient(to bottom, #8CA2DF, #CAD8FF);
 }
 
 .noType {
-	background-color: rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);
 }
 
 .noTypeDetailed {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BFBFC4), to(#E4E4EE));
+    background-image: -webkit-linear-gradient(top, #BFBFC4, #E4E4EE);
+    background-image: -o-linear-gradient(top, #BFBFC4, #E4E4EE);
     background-image: linear-gradient(to bottom, #BFBFC4, #E4E4EE);
 }
 /* End of classes for colors of different kinds of elements */
@@ -132,7 +164,7 @@
 }
 
 .doubleLineboxSpace {
-	width: 8em;
+    width: 8em;
     height: 3em;
 }
 
@@ -157,20 +189,34 @@
 
 /* Begin of classes for number positions */
 .rowOfNumbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
 }
 
 .columnOfNumbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
 }
 
 .number {
-	border-style: solid;
-	font-size: 1.5em;
+    border-style: solid;
+    font-size: 1.5em;
 }
 
 .numberRow {
@@ -231,17 +277,23 @@
 }
 
 #temperatureSlider {
+    background-image: -webkit-gradient(linear, left top, right top, from(blue), color-stop(yellow), to(red));
+    background-image: -webkit-linear-gradient(left, blue, yellow, red);
+    background-image: -o-linear-gradient(left, blue, yellow, red);
     background-image: linear-gradient(to right, blue, yellow, red);
 }
 
 .slider {
     -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     height: 0.7em;
     width: 15em !important;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
     transition: opacity .2s;
 }
 
@@ -319,11 +371,16 @@
 
 /* Begin of classes for layout of periodic table */
 .grid {
+    display: -ms-grid;
     display: grid;
 }
 
 #transitionMetalGap {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
     grid-row: 2 / 4;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 10;
     grid-column: 4 / 14;
     padding-left: 3em;
     padding-right: 3em;
@@ -331,12 +388,20 @@
 }
 
 #nonmetalGap {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
     grid-row: 2 / 3;
+    -ms-grid-column: 14;
+    -ms-grid-column-span: 4;
     grid-column: 14 / 18;
 }
 
 #leftCorner {
+    -ms-grid-row: 9;
+    -ms-grid-row-span: 3;
     grid-row: 9 / 12;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
     grid-column: 2 / 4;
     padding-top: 0.5em;
     padding-left: 1.5em;
@@ -395,17 +460,27 @@
 
 /* Begin of classes for page */
 #columnNumbers {
+    -ms-grid-row: 1;
     grid-row: 1 / 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 23;
     grid-column: 2 / 25;
 }
 
 #rowNumbers {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 7;
     grid-row: 2 / 9;
+    -ms-grid-column: 1;
     grid-column: 1 / 1;
 }
 
 #periodicTable {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 16;
     grid-row: 2 / 18;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
     grid-column: 2 / 10;
 }
 
@@ -432,8 +507,15 @@
 #titleDiv {
     height: 5em;
     width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 1em;
 }
