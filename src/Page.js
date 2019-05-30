@@ -13,7 +13,7 @@ class Page extends React.Component {
             <div>
                 <Title />
 
-                <div class="flex" style={{ justifyContent: "center" }}>
+                <div className="flex" style={{ justifyContent: "center" }}>
                     <MainContent />
                 </div>
             </div>
