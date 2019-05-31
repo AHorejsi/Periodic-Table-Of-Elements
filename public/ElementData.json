@@ -9,8 +9,7 @@
     "row": 2,
     "column": 2,
     "group": 1,
-    "period": 1,
-    "density": 0.00008988
+    "period": 1
   },
   "helium": {
     "symbol": "He",
@@ -22,8 +21,7 @@
     "row": 2,
     "column": 19,
     "group": 18,
-    "period": 1,
-    "density": 0.0001785
+    "period": 1
   },
   "lithium": {
     "symbol": "Li",
@@ -35,8 +33,7 @@
     "row": 3,
     "column": 2,
     "group": 1,
-    "period": 2,
-    "desnity": 0.534
+    "period": 2
   },
   "beryllium": {
     "symbol": "Be",
@@ -48,8 +45,7 @@
     "row": 3,
     "column": 3,
     "group": 2,
-    "period": 2,
-    "density": 1.85
+    "period": 2
   },
   "boron": {
     "symbol": "B",
@@ -61,8 +57,7 @@
     "row": 3,
     "column": 14,
     "group": 13,
-    "period": 2,
-    "density": 2.37
+    "period": 2
   },
   "carbon": {
     "symbol": "C",
@@ -74,8 +69,7 @@
     "row": 3,
     "column": 15,
     "group": 14,
-    "period": 2,
-    "density": 2.267
+    "period": 2
   },
   "nitrogen": {
     "symbol": "N",
@@ -87,8 +81,7 @@
     "row": 3,
     "column": 16,
     "group": 15,
-    "period": 2,
-    "density": 0.0012506
+    "period": 2
   },
   "oxygen": {
     "symbol": "O",
@@ -100,8 +93,7 @@
     "row": 3,
     "column": 17,
     "group": 16,
-    "period": 2,
-    "density": 0.001429
+    "period": 2
   },
   "fluorine": {
     "symbol": "F",
@@ -113,8 +105,7 @@
     "row": 3,
     "column": 18,
     "group": 17,
-    "period": 2,
-    "density": 0.001696
+    "period": 2
   },
   "neon": {
     "symbol": "Ne",
@@ -126,8 +117,7 @@
     "row": 3,
     "column": 19,
     "group": 18,
-    "period": 2,
-    "density": 0.0008999
+    "period": 2
   },
   "sodium": {
     "symbol": "Na",
@@ -139,8 +129,7 @@
     "row": 4,
     "column": 2,
     "group": 1,
-    "period": 3,
-    "density": 0.97
+    "period": 3
   },
   "magnesium": {
     "symbol": "Mg",
@@ -152,8 +141,7 @@
     "row": 4,
     "column": 3,
     "group": 2,
-    "period": 3,
-    "density": 1.74
+    "period": 3
   },
   "aluminum": {
     "symbol": "Al",
@@ -165,8 +153,7 @@
     "row": 4,
     "column": 14,
     "group": 13,
-    "period": 3,
-    "density": 2.7
+    "period": 3
   },
   "silicon": {
     "symbol": "Si",
@@ -178,8 +165,7 @@
     "row": 4,
     "column": 15,
     "group": 14,
-    "period": 3,
-    "desnity": 2.3296
+    "period": 3
   },
   "phosphorus": {
     "symbol": "P",
@@ -191,8 +177,7 @@
     "row": 4,
     "column": 16,
     "group": 15,
-    "period": 3,
-    "density": 1.82
+    "period": 3
   },
   "sulfur": {
     "symbol": "S",
@@ -204,8 +189,7 @@
     "row": 4,
     "column": 17,
     "group": 16,
-    "period": 3,
-    "density": 2.067
+    "period": 3
   },
   "chlorine": {
     "symbol": "Cl",
@@ -217,8 +201,7 @@
     "row": 4,
     "column": 18,
     "group": 17,
-    "period": 3,
-    "density": 0.003214
+    "period": 3
   },
   "argon": {
     "symbol": "Ar",
@@ -230,8 +213,7 @@
     "row": 4,
     "column": 19,
     "group": 18,
-    "period": 3,
-    "density": 0.0017837
+    "period": 3
   },
   "potassium": {
     "symbol": "K",
@@ -243,8 +225,7 @@
     "row": 5,
     "column": 2,
     "group": 1,
-    "period": 4,
-    "density": 0.89
+    "period": 4
   },
   "calcium": {
     "symbol": "Ca",
@@ -256,8 +237,7 @@
     "row": 5,
     "column": 3,
     "group": 2,
-    "period": 4,
-    "density": 1.54
+    "period": 4
   },
   "scandium": {
     "symbol": "Sc",
@@ -269,8 +249,7 @@
     "row": 5,
     "column": 4,
     "group": 3,
-    "period": 4,
-    "density": 2.99
+    "period": 4
   },
   "titanium": {
     "symbol": "Ti",
@@ -282,8 +261,7 @@
     "row": 5,
     "column": 5,
     "group": 4,
-    "period": 4,
-    "density": 4.5
+    "period": 4
   },
   "vanadium": {
     "symbol": "V",
@@ -295,8 +273,7 @@
     "row": 5,
     "column": 6,
     "group": 5,
-    "period": 4,
-    "density": 5.8
+    "period": 4
   },
   "chromium": {
     "symbol": "Cr",
@@ -308,8 +285,7 @@
     "row": 5,
     "column": 7,
     "group": 6,
-    "period": 4,
-    "density": 7.15
+    "period": 4
   },
   "manganese": {
     "symbol": "Mn",
@@ -321,8 +297,7 @@
     "row": 5,
     "column": 8,
     "group": 7,
-    "period": 4,
-    "density": 7.3
+    "period": 4
   },
   "iron": {
     "symbol": "Fe",
@@ -334,8 +309,7 @@
     "row": 5,
     "column": 9,
     "group": 8,
-    "period": 4,
-    "density": 7.874
+    "period": 4
   },
   "cobalt": {
     "symbol": "Co",
@@ -347,8 +321,7 @@
     "row": 5,
     "column": 10,
     "group": 9,
-    "period": 4,
-    "density": 8.86
+    "period": 4
   },
   "nickel": {
     "symbol": "Ni",
@@ -360,8 +333,7 @@
     "row": 5,
     "column": 11,
     "group": 10,
-    "period": 4,
-    "density": 8.912
+    "period": 4
   },
   "copper": {
     "symbol": "Cu",
@@ -373,8 +345,7 @@
     "row": 5,
     "column": 12,
     "group": 11,
-    "period": 4,
-    "density": 8.933
+    "period": 4
   },
   "zinc": {
     "symbol": "Zn",
@@ -386,8 +357,7 @@
     "row": 5,
     "column": 13,
     "group": 12,
-    "period": 4,
-    "density": 7.134
+    "period": 4
   },
   "gallium": {
     "symbol": "Ga",
@@ -399,8 +369,7 @@
     "row": 5,
     "column": 14,
     "group": 13,
-    "period": 4,
-    "density": 5.91
+    "period": 4
   },
   "germanium": {
     "symbol": "Ge",
@@ -412,8 +381,7 @@
     "row": 5,
     "column": 15,
     "group": 14,
-    "period": 4,
-    "density": 5.323
+    "period": 4
   },
   "arsenic": {
     "symbol": "As",
@@ -425,8 +393,7 @@
     "row": 5,
     "column": 16,
     "group": 15,
-    "period": 4,
-    "density": 5.776
+    "period": 4
   },
   "selenium": {
     "symbol": "Se",
@@ -438,8 +405,7 @@
     "row": 5,
     "column": 17,
     "group": 16,
-    "period": 4,
-    "density": 4.809
+    "period": 4
   },
   "bromine": {
     "symbol": "Br",
@@ -451,8 +417,7 @@
     "row": 5,
     "column": 18,
     "group": 17,
-    "period": 4,
-    "density": 3.11
+    "period": 4
   },
   "krypton": {
     "symbol": "Kr",
@@ -464,8 +429,7 @@
     "row": 5,
     "column": 19,
     "group": 18,
-    "period": 4,
-    "density": 0.003733
+    "period": 4
   },
   "rubidium": {
     "symbol": "Rb",
@@ -477,8 +441,7 @@
     "row": 6,
     "column": 2,
     "group": 1,
-    "period": 5,
-    "density": 1.53
+    "period": 5
   },
   "strontium": {
     "symbol": "Sr",
@@ -490,8 +453,7 @@
     "row": 6,
     "column": 3,
     "group": 2,
-    "period": 5,
-    "density": 2.64
+    "period": 5
   },
   "yttrium": {
     "symbol": "Y",
@@ -503,8 +465,7 @@
     "row": 6,
     "column": 4,
     "group": 3,
-    "period": 5,
-    "density": 4.47
+    "period": 5
   },
   "zirconium": {
     "symbol": "Zr",
@@ -516,8 +477,7 @@
     "row": 6,
     "column": 5,
     "group": 4,
-    "period": 5,
-    "density": 6.52
+    "period": 5
   },
   "niobium": {
     "symbol": "Nb",
@@ -529,8 +489,7 @@
     "row": 6,
     "column": 6,
     "group": 5,
-    "period": 5,
-    "density": 8.57
+    "period": 5
   },
   "molybdenum": {
     "symbol": "Mo",
@@ -542,8 +501,7 @@
     "row": 6,
     "column": 7,
     "group": 6,
-    "period": 5,
-    "density": 10.2
+    "period": 5
   },
   "technetium": {
     "symbol": "Tc",
@@ -555,8 +513,7 @@
     "row": 6,
     "column": 8,
     "group": 7,
-    "period": 5,
-    "density": 11
+    "period": 5
   },
   "ruthenium": {
     "symbol": "Ru",
@@ -568,8 +525,7 @@
     "row": 6,
     "column": 9,
     "group": 8,
-    "period": 5,
-    "density": 12.1
+    "period": 5
   },
   "rhodium": {
     "symbol": "Rh",
@@ -581,8 +537,7 @@
     "row": 6,
     "column": 10,
     "group": 9,
-    "period": 5,
-    "density": 12.4
+    "period": 5
   },
   "palladium": {
     "symbol": "Pd",
@@ -594,8 +549,7 @@
     "row": 6,
     "column": 11,
     "group": 10,
-    "period": 5,
-    "density": 12
+    "period": 5
   },
   "silver": {
     "symbol": "Ag",
@@ -607,8 +561,7 @@
     "row": 6,
     "column": 12,
     "group": 11,
-    "period": 5,
-    "density": 10.501
+    "period": 5
   },
   "cadmium": {
     "symbol": "Cd",
@@ -620,8 +573,7 @@
     "row": 6,
     "column": 13,
     "group": 12,
-    "period": 5,
-    "density": 8.69
+    "period": 5
   },
   "indium": {
     "symbol": "In",
@@ -633,8 +585,7 @@
     "row": 6,
     "column": 14,
     "group": 13,
-    "period": 5,
-    "density": 7.31
+    "period": 5
   },
   "tin": {
     "symbol": "Sn",
@@ -646,8 +597,7 @@
     "row": 6,
     "column": 15,
     "group": 14,
-    "period": 5,
-    "density": 7.287
+    "period": 5
   },
   "antimony": {
     "symbol": "Sb",
@@ -659,8 +609,7 @@
     "row": 6,
     "column": 16,
     "group": 15,
-    "period": 5,
-    "density": 6.685
+    "period": 5
   },
   "tellurium": {
     "symbol": "Te",
@@ -672,8 +621,7 @@
     "row": 6,
     "column": 17,
     "group": 16,
-    "period": 5,
-    "density": 6.232
+    "period": 5
   },
   "iodine": {
     "symbol": "I",
@@ -685,8 +633,7 @@
     "row": 6,
     "column": 18,
     "group": 17,
-    "period": 5,
-    "density": 4.93
+    "period": 5
   },
   "xenon": {
     "symbol": "Xe",
@@ -698,8 +645,7 @@
     "row": 6,
     "column": 19,
     "group": 18,
-    "period": 5,
-    "density": 0.005887
+    "period": 5
   },
   "caesium": {
     "symbol": "Cs",
@@ -711,8 +657,7 @@
     "row": 7,
     "column": 2,
     "group": 1,
-    "period": 6,
-    "density": 1.93
+    "period": 6
   },
   "barium": {
     "symbol": "Ba",
@@ -724,8 +669,7 @@
     "row": 7,
     "column": 3,
     "group": 2,
-    "period": 6,
-    "density": 3.62
+    "period": 6
   },
   "lanthanum": {
     "symbol": "La",
@@ -737,8 +681,7 @@
     "row": 10,
     "column": 5,
     "group": "none",
-    "period": 6,
-    "density": 6.15
+    "period": 6
   },
   "cerium": {
     "symbol": "Ce",
@@ -750,8 +693,7 @@
     "row": 10,
     "column": 6,
     "group": "none",
-    "period": 6,
-    "density": 6.77
+    "period": 6
   },
   "praseodymium": {
     "symbol": "Pr",
@@ -763,8 +705,7 @@
     "row": 10,
     "column": 7,
     "group": "none",
-    "period": 6,
-    "density": 6.77
+    "period": 6
   },
   "neodymium": {
     "symbol": "Nd",
@@ -776,8 +717,7 @@
     "row": 10,
     "column": 8,
     "group": "none",
-    "period": 6,
-    "density": 7.01
+    "period": 6
   },
   "promethium": {
     "symbol": "Pm",
@@ -789,8 +729,7 @@
     "row": 10,
     "column": 9,
     "group": "none",
-    "period": 6,
-    "density": 7.26
+    "period": 6
   },
   "samarium": {
     "symbol": "Sm",
@@ -802,8 +741,7 @@
     "row": 10,
     "column": 10,
     "group": "none",
-    "period": 6,
-    "density": 7.52
+    "period": 6
   },
   "europium": {
     "symbol": "Eu",
@@ -815,8 +753,7 @@
     "row": 10,
     "column": 11,
     "group": "none",
-    "period": 6,
-    "density": 5.24
+    "period": 6
   },
   "gadolinium": {
     "symbol": "Gd",
@@ -828,8 +765,7 @@
     "row": 10,
     "column": 12,
     "group": "none",
-    "period": 6,
-    "density": 7.9
+    "period": 6
   },
   "terbium": {
     "symbol": "Tb",
@@ -841,8 +777,7 @@
     "row": 10,
     "column": 13,
     "group": "none",
-    "period": 6,
-    "density": 8.23
+    "period": 6
   },
   "dysprosium": {
     "symbol": "Dy",
@@ -854,8 +789,7 @@
     "row": 10,
     "column": 14,
     "group": "none",
-    "period": 6,
-    "density": 8.55
+    "period": 6
   },
   "holmium": {
     "symbol": "Ho",
@@ -867,8 +801,7 @@
     "row": 10,
     "column": 15,
     "group": "none",
-    "period": 6,
-    "density": 8.8
+    "period": 6
   },
   "erbium": {
     "symbol": "Er",
@@ -880,8 +813,7 @@
     "row": 10,
     "column": 16,
     "group": "none",
-    "period": 6,
-    "density": 9.07
+    "period": 6
   },
   "thulium": {
     "symbol": "Tm",
@@ -893,8 +825,7 @@
     "row": 10,
     "column": 17,
     "group": "none",
-    "period": 6,
-    "density": 9.32
+    "period": 6
   },
   "ytterbium": {
     "symbol": "Yb",
@@ -906,8 +837,7 @@
     "row": 10,
     "column": 18,
     "group": "none",
-    "period": 6,
-    "density": 6.9
+    "period": 6
   },
   "lutetium": {
     "symbol": "Lu",
@@ -919,8 +849,7 @@
     "row": 10,
     "column": 19,
     "group": "none",
-    "period": 6,
-    "density": 9.84
+    "period": 6
   },
   "hafnium": {
     "symbol": "Hf",
@@ -932,8 +861,7 @@
     "row": 7,
     "column": 5,
     "group": 4,
-    "period": 6,
-    "density": 13.3
+    "period": 6
   },
   "tantalum": {
     "symbol": "Ta",
@@ -945,8 +873,7 @@
     "row": 7,
     "column": 6,
     "group": 5,
-    "period": 6,
-    "density": 16.4
+    "period": 6
   },
   "tungsten": {
     "symbol": "W",
@@ -958,8 +885,7 @@
     "row": 7,
     "column": 7,
     "group": 6,
-    "period": 6,
-    "density": 19.3
+    "period": 6
   },
   "rhenium": {
     "symbol": "Re",
@@ -971,8 +897,7 @@
     "row": 7,
     "column": 8,
     "group": 7,
-    "period": 6,
-    "density": 20.8
+    "period": 6
   },
   "osmium": {
     "symbol": "Os",
@@ -984,8 +909,7 @@
     "row": 7,
     "column": 9,
     "group": 8,
-    "period": 6,
-    "density": 22.57
+    "period": 6
   },
   "iridium": {
     "symbol": "Ir",
@@ -997,8 +921,7 @@
     "row": 7,
     "column": 10,
     "group": 9,
-    "period": 6,
-    "density": 22.42
+    "period": 6
   },
   "platinum": {
     "symbol": "Pt",
@@ -1010,8 +933,7 @@
     "row": 7,
     "column": 11,
     "group": 10,
-    "period": 6,
-    "density": 21.46
+    "period": 6
   },
   "gold": {
     "symbol": "Au",
@@ -1023,8 +945,7 @@
     "row": 7,
     "column": 12,
     "group": 11,
-    "period": 6,
-    "density": 19.282
+    "period": 6
   },
   "mercury": {
     "symbol": "Hg",
@@ -1036,8 +957,7 @@
     "row": 7,
     "column": 13,
     "group": 12,
-    "period": 6,
-    "density": 13.5336
+    "period": 6
   },
   "thallium": {
     "symbol": "Tl",
@@ -1049,8 +969,7 @@
     "row": 7,
     "column": 14,
     "group": 13,
-    "period": 6,
-    "density": 11.8
+    "period": 6
   },
   "lead": {
     "symbol": "Pb",
@@ -1062,8 +981,7 @@
     "row": 7,
     "column": 15,
     "group": 14,
-    "period": 6,
-    "density": 11.342
+    "period": 6
   },
   "bismuth": {
     "symbol": "Bi",
@@ -1075,8 +993,7 @@
     "row": 7,
     "column": 16,
     "group": 15,
-    "period": 6,
-    "density": 9.807
+    "period": 6
   },
   "polonium": {
     "symbol": "Po",
@@ -1088,8 +1005,7 @@
     "row": 7,
     "column": 17,
     "group": 16,
-    "period": 6,
-    "density": 9.32
+    "period": 6
   },
   "astatine": {
     "symbol": "At",
@@ -1101,8 +1017,7 @@
     "row": 7,
     "column": 18,
     "group": 17,
-    "period": 6,
-    "density": 7
+    "period": 6
   },
   "radon": {
     "symbol": "Rn",
@@ -1114,8 +1029,7 @@
     "row": 7,
     "column": 19,
     "group": 18,
-    "period": 6,
-    "density": 0.00973
+    "period": 6
   },
   "francium": {
     "symbol": "Fr",
@@ -1127,8 +1041,7 @@
     "row": 8,
     "column": 2,
     "group": 1,
-    "period": 7,
-    "density": 1.873
+    "period": 7
   },
   "radium": {
     "symbol": "Ra",
@@ -1140,8 +1053,7 @@
     "row": 8,
     "column": 3,
     "group": 2,
-    "period": 7,
-    "density": 5
+    "period": 7
   },
   "actinium": {
     "symbol": "Ac",
@@ -1153,8 +1065,7 @@
     "row": 11,
     "column": 5,
     "group": "none",
-    "period": 7,
-    "density": 10.07
+    "period": 7
   },
   "thorium": {
     "symbol": "Th",
@@ -1166,8 +1077,7 @@
     "row": 11,
     "column": 6,
     "group": "none",
-    "period": 7,
-    "density": 11.72
+    "period": 7
   },
   "protactinium": {
     "symbol": "Pa",
@@ -1179,8 +1089,7 @@
     "row": 11,
     "column": 7,
     "group": "none",
-    "period": 7,
-    "density": 15.37
+    "period": 7
   },
   "uranium": {
     "symbol": "U",
@@ -1192,8 +1101,7 @@
     "row": 11,
     "column": 8,
     "group": "none",
-    "period": 7,
-    "density": 18.95
+    "period": 7
   },
   "neptunium": {
     "symbol": "Np",
@@ -1205,8 +1113,7 @@
     "row": 11,
     "column": 9,
     "group": "none",
-    "period": 7,
-    "density": 20.25
+    "period": 7
   },
   "plutonium": {
     "symbol": "Pu",
@@ -1218,8 +1125,7 @@
     "row": 11,
     "column": 10,
     "group": "none",
-    "period": 7,
-    "density": 19.84
+    "period": 7
   },
   "americium": {
     "symbol": "Am",
@@ -1231,8 +1137,7 @@
     "row": 11,
     "column": 11,
     "group": "none",
-    "period": 7,
-    "density": 13.69
+    "period": 7
   },
   "curium": {
     "symbol": "Cm",
@@ -1244,8 +1149,7 @@
     "row": 11,
     "column": 12,
     "group": "none",
-    "period": 7,
-    "density": 13.51
+    "period": 7
   },
   "berkelium": {
     "symbol": "Bk",
@@ -1257,8 +1161,7 @@
     "row": 11,
     "column": 13,
     "group": "none",
-    "period": 7,
-    "density": 14
+    "period": 7
   },
   "californium": {
     "symbol": "Cf",
@@ -1270,8 +1173,7 @@
     "row": 11,
     "column": 14,
     "group": "none",
-    "period": 7,
-    "density": 15.1
+    "period": 7
   },
   "einsteinium": {
     "symbol": "Es",
@@ -1283,8 +1185,7 @@
     "row": 11,
     "column": 15,
     "group": "none",
-    "period": 7,
-    "density": 8.84
+    "period": 7
   },
   "fermium": {
     "symbol": "Fm",
@@ -1296,8 +1197,7 @@
     "row": 11,
     "column": 16,
     "group": "none",
-    "period": 7,
-    "density": 8.84
+    "period": 7
   },
   "mendelevium": {
     "symbol": "Md",
@@ -1309,8 +1209,7 @@
     "row": 11,
     "column": 17,
     "group": "none",
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "nobelium": {
     "symbol": "No",
@@ -1322,8 +1221,7 @@
     "row": 11,
     "column": 18,
     "group": "none",
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "lawrencium": {
     "symbol": "Lr",
@@ -1335,8 +1233,7 @@
     "row": 11,
     "column": 19,
     "group": "none",
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "rutherfordium": {
     "symbol": "Rf",
@@ -1348,8 +1245,7 @@
     "row": 8,
     "column": 5,
     "group": 4,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "dubnium": {
     "symbol": "Db",
@@ -1361,8 +1257,7 @@
     "row": 8,
     "column": 6,
     "group": 5,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "seaborgium": {
     "symbol": "Sg",
@@ -1374,8 +1269,7 @@
     "row": 8,
     "column": 7,
     "group": 6,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "bohrium": {
     "symbol": "Bh",
@@ -1387,8 +1281,7 @@
     "row": 8,
     "column": 8,
     "group": 7,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "hassium": {
     "symbol": "Hs",
@@ -1400,8 +1293,7 @@
     "row": 8,
     "column": 9,
     "group": 8,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "meitnerium": {
     "symbol": "Mt",
@@ -1413,8 +1305,7 @@
     "row": 8,
     "column": 10,
     "group": 9,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "darmstadtium": {
     "symbol": "Ds",
@@ -1426,8 +1317,7 @@
     "row": 8,
     "column": 11,
     "group": 10,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "roentgenium": {
     "symbol": "Rg",
@@ -1439,8 +1329,7 @@
     "row": 8,
     "column": 12,
     "group": 11,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "copernicium": {
     "symbol": "Cn",
@@ -1452,8 +1341,7 @@
     "row": 8,
     "column": 13,
     "group": 12,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "nihonium": {
     "symbol": "Nh",
@@ -1465,8 +1353,7 @@
     "row": 8,
     "column": 14,
     "group": 13,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "flerovium": {
     "symbol": "Fl",
@@ -1478,8 +1365,7 @@
     "row": 8,
     "column": 15,
     "group": 14,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "moscovium": {
     "symbol": "Mc",
@@ -1491,8 +1377,7 @@
     "row": 8,
     "column": 16,
     "group": 15,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "livermorium": {
     "symbol": "Lv",
@@ -1504,8 +1389,7 @@
     "row": 8,
     "column": 17,
     "group": 16,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "tennessine": {
     "symbol": "Ts",
@@ -1517,8 +1401,7 @@
     "row": 8,
     "column": 18,
     "group": 17,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   },
   "oganesson": {
     "symbol": "Og",
@@ -1530,7 +1413,6 @@
     "row": 8,
     "column": 19,
     "group": 18,
-    "period": 7,
-    "density": "unknown"
+    "period": 7
   }
 }
