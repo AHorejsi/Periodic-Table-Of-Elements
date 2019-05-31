@@ -9,7 +9,7 @@ function getJsonData(url) {
         async: false,
         dataType: "json",
         success: (response) => { data = response }
-    })
+    });
 
     return data;
 }
