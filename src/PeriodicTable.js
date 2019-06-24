@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import $ from "jquery";
 import AtomicElement from "./AtomicElement";
 import RangeBox from "./RangeBox";
@@ -30,7 +29,7 @@ class PeriodicTable extends React.Component {
         this._addGap(html);
         this._addInfoBox(html);
 
-        return <BrowserRouter>{html}</BrowserRouter>;
+        return html;
     }
 
     _addGap(html) {
